@@ -1,0 +1,36 @@
+{
+  "game": {
+    "difficulty": 2,
+    "autosave_interval": 300,
+    "enable_tutorial": true,
+    "language": "ru"
+  },
+  "graphics": {
+    "enable_effects": true,
+    "glitch_effects": true,
+    "window_width": 1920,
+    "window_height": 1080,
+    "display_mode": "fullscreen",
+    "vsync": true,
+    "effect_intensity": 100
+  },
+  "audio": {
+    "enabled": true,
+    "volume": 64,
+    "typing_sounds": true,
+    "background_music": true,
+    "effects_volume": 80,
+    "music_volume": 60,
+    "master_volume": 67,
+    "voice_effects": true,
+    "environment_sounds": true,
+    "dynamic_range": "night"
+  },
+  "game_time": {
+    "time_speed": 1.0,
+    "real_time_seconds_per_game_minute": 10,
+    "auto_pause_in_menus": true,
+    "show_time_widget": true
+  },
+  "intro_shown": true
+}
