@@ -1,0 +1,556 @@
+{
+    "app": {
+        "name": "Hacker de Oficina",
+        "title": "HACKER DE OFICINA - SIMULADOR DE CIBERSEGURIDAD",
+        "office_hacker": "Hacker de Oficina",
+        "startup_complete": "🚀 Ventana principal inicializada",
+        "language_set": "Idioma establecido: {language}",
+        "widgets_initialized": "Widgets inicializados",
+        "timers_setup": "Temporizadores configurados",
+        "shortcuts_setup": "Atajos de teclado configurados",
+        "language_changed_to": "Idioma cambiado a: {language}",
+        "icon_loaded": "Icono de aplicación cargado",
+        "icon_error": "Error al cargar icono",
+        "closed": "Aplicación finalizada."
+    },
+    
+    "menu": {
+        "title": "MENÚ PRINCIPAL",
+        "new_game": "🚀 COMENZAR NUEVO TURNO",
+        "load_game": "📂 CARGAR GUARDADO",
+        "settings": "⚙️ AJUSTES",
+        "help": "❓ AYUDA",
+        "about": "ℹ️ ACERCA DEL PROGRAMA",
+        "exit": "🚪 SALIR",
+        "office": "HACKER DE OFICINA",
+        "connecting": "Conectando al sistema...",
+        "opican": "Eres un nuevo empleado de la empresa 'SIBERIA-SOFT'.\nTu tarea: analizar la seguridad de la red, realizar tareas\ny desarrollar tus habilidades de ciberseguridad.\n\nCaracterísticas:\n• Desarrollo de habilidades de hacking\n• Sistema dinámico de tareas\n• Entorno interactivo\n• Sistema de reputación y carrera",
+        "screen_shown": "Pantalla de menú mostrada"
+    },
+    
+    "game": {
+        "employee": "Empleado",
+        "employee_status": "👤 ESTADO DEL EMPLEADO",
+        "skills": "🎯 HABILIDADES",
+        "mail": "📧 Correo",
+        "main_menu": "Menú principal",
+        "progress": "Progreso: {progress}%",
+        "balance": "💰 Saldo: {money}",
+        "reputation": "⭐ Reputación: {reputation}",
+        "day": "📅 Día: {day}",
+        "current_task": "📝 Tarea actual",
+        "system": "Sistema",
+        "data_updated_for": "Datos actualizados para",
+        "access_mail_system": "Acceso al sistema de correo",
+        "mvd_email_read": "Correo del MVD leído",
+        "security_system_title": "SISTEMA DE SEGURIDAD",
+        "surveillance_system": "SISTEMA DE VIGILANCIA",
+        "security_log": "Registro de seguridad",
+        "mail_client": "CLIENTE DE CORREO",
+        "camera1": "Cámara #1: Hall del 3er piso",
+        "camera2": "Cámara #2: Departamento de TI",
+        "camera3": "Cámara #3: Servidor secreto",
+        "microphones": "Micrófonos activos",
+        "motion_sensors": "Sensores de movimiento activos",
+        "status_all_operational": "Todos los sistemas operativos",
+        "recent_events": "Eventos recientes",
+        "shift_started": "Turno iniciado",
+        "security_check": "Verificación de seguridad",
+        "daily_meeting": "Reunión diaria",
+        "network_activity": "Actividad de red",
+        "shift": "Turno",
+        "welcome": "¡Bienvenido, {name}!",
+        "welcome_back": "¡Bienvenido de nuevo, {name}!",
+        "new_shift_started": "¡Nuevo turno comenzado!",
+        "new_game_started_for": "Nuevo juego comenzado para",
+        "user_canceled_new_game": "Usuario canceló la creación de nuevo juego",
+        "loaded_for": "Juego cargado para",
+        "loaded_successfully": "¡Juego cargado exitosamente!",
+        "saved_successfully": "¡Juego guardado exitosamente!",
+        "autosave_performed": "Autoguardado realizado",
+        "screen_shown": "Pantalla de juego mostrada",
+        "time_paused": "Tiempo pausado",
+        "time_resumed": "Tiempo reanudado",
+        "audio_disabled": "Sonido desactivado",
+        "audio_enabled": "Sonido activado",
+        "exit_confirm_title": "Confirmar salida",
+        "exit_confirm": "¿Realmente quieres salir del juego?",
+        "exit_to_menu_confirm": "¿Realmente quieres volver al menú principal?",
+        "new_game_confirm_title": "Nuevo juego",
+        "new_game_confirm": "¿Realmente quieres comenzar un nuevo juego? El progreso actual se perderá.",
+        "new_game_error": "Error al crear un nuevo juego",
+        "save_error": "Error al guardar el juego",
+        "load_error": "Error al cargar el juego",
+        "no_save_title": "No se encontraron guardados",
+        "no_save_found": "No se encontraron guardados. Comienza un nuevo juego.",
+        "input_name_title": "Registro de empleado",
+        "input_name_instruction": "Ingresa tu nombre y apellido para registrarte en el sistema del MVD",
+        "input_first_name": "Nombre:",
+        "input_last_name": "Apellido:",
+        "input_name_hint": "Usa solo letras y guiones. Ambos campos son obligatorios.",
+        "input_error_title": "Error de entrada",
+        "input_name_required": "Debes completar ambos campos: nombre y apellido",
+        "input_name_invalid": "Caracteres no válidos en el nombre. Usa solo letras.",
+        
+        "security_event": {
+            "user_activity": "Actividad del usuario #{id}",
+            "loyalty_check": "Verificación de lealtad",
+            "network_scan": "Escaneo de red",
+            "data_integrity": "Verificación de integridad de datos",
+            "traffic_analysis": "Análisis de tráfico",
+            "monitoring_active": "Monitoreo activo",
+            "access_logs": "Verificación de registros de acceso",
+            "motion_test": "Prueba de sensor de movimiento"
+        },
+        
+        "error": {
+            "game_widget_update": "Error de actualización de GameWidget"
+        },
+        
+        "statistics": {
+            "name": "Nombre",
+            "day": "Día",
+            "tasks_completed": "Tareas completadas",
+            "reputation": "Reputación",
+            "balance": "Saldo",
+            "shift_time": "Tiempo de turno",
+            "energy": "Energía",
+            "stress": "Estrés",
+            "unread_emails": "Correos no leídos",
+            "game_date": "Fecha del juego",
+            "shift_progress": "Progreso del turno",
+            "skills": "Habilidades"
+        }
+    },
+
+    "email": {
+        "spam": {
+            "advertisement": {
+                "megamarket": {
+                    "sender": "MegaMercado",
+                    "subject": "¡Descuentos del 50% en todo!",
+                    "template": "De: MegaMercado\nPara: Estimado cliente\nAsunto: ¡Descuentos del 50% en todo!\n\n¡Estimado cliente!\n\n¡Solo hoy y solo para usted descuentos del 50% en todos los productos de nuestra tienda!\nNo pierda la oportunidad de comprar todo lo que ha querido a mitad de precio.\n\nLa promoción es válida hasta el final del día. ¡Date prisa!\n\nEste es un mensaje publicitario."
+                },
+                "technomir": {
+                    "sender": "TecnoMundo",
+                    "subject": "¡Nuevo smartphone por 9.999 ₽!",
+                    "template": "De: TecnoMundo\nPara: Cliente potencial\nAsunto: ¡Nuevo smartphone por 9.999 ₽!\n\n¡Hemos lanzado la precompra del nuevo smartphone XPhone ZX!\nCaracterísticas de gama alta a un precio increíble.\n\nPantalla OLED de 6.7 pulgadas\n12 GB de RAM\nCámara de 108 MP\nBatería de 5000 mAh\n\n¡Todo por solo 9.999 ₽ en lugar de 39.999 ₽!\nCompre antes de que termine la semana.\n\nEste es un mensaje publicitario."
+                },
+                "online_cinema": {
+                    "sender": "Cine Online",
+                    "subject": "¡Suscripción anual por 1 rublo!",
+                    "template": "De: Cine Online\nPara: Amante del cine\nAsunto: ¡Suscripción anual por 1 rublo!\n\n¿Quieres ver todas las películas y series sin límites?\n¡Obtén una suscripción anual a nuestro cine por solo 1 rublo!\n\nMás de 50,000 películas y series\nNovedades de estreno\nContenido exclusivo\n\nLa oferta es limitada. Actívala en el enlace: http://fake-cinema.ru/1ruble\n\nEste es un mensaje publicitario."
+                },
+                "fitness_center": {
+                    "sender": "Centro de Fitness",
+                    "subject": "¡Mes gratis de entrenamientos!",
+                    "template": "De: Fitness Pro\nPara: Persona que cuida su salud\nAsunto: ¡Mes gratis de entrenamientos!\n\n¡Descubre un nuevo mundo de fitness! \nEl primer mes de entrenamientos en nuestro centro premium es completamente gratis.\n\nEquipamiento moderno\nEntrenadores profesionales\nPiscina y sauna\n\nRegístrate para una visita guiada gratuita: 8-800-XXX-XX-XX\n\nEste es un mensaje publicitario."
+                }
+            },
+            "scam": {
+                "fast_loan": {
+                    "sender": "Banco de Préstamos Rápidos",
+                    "subject": "¡Préstamo al 0%!",
+                    "template": "De: Banco de Préstamos Rápidos\nPara: Estimado cliente\nAsunto: ¡Préstamo al 0%!\n\n¿Sueñas con un coche nuevo o un apartamento? \nNuestro banco ofrece condiciones únicas: ¡préstamo al 0% de interés anual!\n\nSin certificados de ingresos, sin garantía. Decisión en 5 minutos.\nCantidad máxima: 5,000,000 ₽.\n\nLlama ahora mismo: 8-800-XXX-XX-XX\n\nEste es un mensaje publicitario."
+                },
+                "cybersecurity": {
+                    "sender": "Ciberseguridad Pro",
+                    "subject": "¡Tu computadora está infectada!",
+                    "template": "De: Ciberseguridad Pro\nPara: Dueño de la computadora\nAsunto: ¡Tu computadora está infectada!\n\nNuestros sistemas han detectado que tu computadora está infectada con un virus.\nEl virus puede robar tus contraseñas, datos bancarios e información personal.\n\n¡Instala urgentemente nuestro programa para limpiar el sistema!\nDescárgalo en el enlace: http://fake-antivirus.ru/download\n\nEste es un mensaje publicitario."
+                },
+                "lottery": {
+                    "sender": "Lotería Estatal",
+                    "subject": "¡Has ganado 1,000,000 ₽!",
+                    "template": "De: Lotería Estatal\nPara: Afortunado ganador\nAsunto: ¡Has ganado 1,000,000 ₽!\n\n¡Felicidades! Tu boleto №{ticket_number} ha sido el ganador en nuestro sorteo.\n¡Has ganado 1,000,000 ₽!\n\nPara recibir el premio envía tus datos de pasaporte y número de tarjeta bancaria al email: lottery@scam.ru\n\n¡Recoge tu premio en las próximas 24 horas!\n\nEste es un mensaje publicitario."
+                },
+                "investments": {
+                    "sender": "Inversiones 300%",
+                    "subject": "¡Gana 300% en un mes!",
+                    "template": "De: Inversiones Cripto\nPara: Inversor\nAsunto: ¡Gana 300% en un mes!\n\n¡Oportunidad única de invertir en un nuevo proyecto cripto!\nNuestra plataforma garantiza un 300% de ganancias en el primer mes.\n\nInversión mínima: 10,000 ₽\nGanancia máxima: ilimitada\n\nRegístrate en el enlace: http://fake-investments.com\n\nEste es un mensaje publicitario."
+                }
+            },
+            "notification": {
+                "social_network": {
+                    "sender": "Red Social",
+                    "subject": "Nuevos mensajes de amigos",
+                    "template": "De: ConnectSocial\nPara: {player_name}\nAsunto: Nuevos mensajes de amigos\n\n¡Hola, {player_name}!\n\nTienes 5 nuevos mensajes y 3 solicitudes de amistad.\nEntra en la red social para no perderte eventos importantes.\n\nIr a la red social: http://fake-social.com\n\nEste es un mensaje publicitario."
+                },
+                "postal_service": {
+                    "sender": "Servicio Postal",
+                    "subject": "Tienes un paquete",
+                    "template": "De: Correos de Rusia\nPara: Destinatario\nAsunto: Tienes un paquete\n\nHas recibido un paquete del extranjero.\nPara recibirlo necesitas pagar la tasa aduanera: 1500 ₽.\n\nPaga en el enlace: http://fake-post.ru/pay\nO el paquete será devuelto al remitente.\n\nEste es un mensaje publicitario."
+                },
+                "payment_system": {
+                    "sender": "Sistema de Pago",
+                    "subject": "Actividad sospechosa",
+                    "template": "De: Seguridad de Pagos\nPara: Usuario\nAsunto: Actividad sospechosa\n\nSe ha detectado actividad sospechosa en tu cuenta.\nEs posible que alguien haya intentado acceder a tus fondos.\n\nPara proteger tu cuenta confirma tus datos:\n- Número de tarjeta\n- Fecha de caducidad\n- Código CVV\n- Código del SMS\n\nVe al enlace: http://fake-security.com/verify\n\nEste es un mensaje publicitario."
+                }
+            },
+            "personal": {
+                "dating": {
+                    "sender": "Citas Cercanas",
+                    "subject": "Nuevos mensajes de chicas",
+                    "template": "De: Citas Cercanas\nPara: {player_name}\nAsunto: Nuevos mensajes de chicas\n\n¡Hola, {player_name}!\n\nEn las últimas 24 horas 5 chicas te han dejado mensajes en el sitio de citas.\nPara leerlos necesitas pagar el acceso premium: 999 ₽/mes.\n\nVe al enlace para pagar: http://dating-scam.com/pay\n\nEste es un mensaje publicitario."
+                },
+                "astrology": {
+                    "sender": "Portal Astrológico",
+                    "subject": "Tu horóscopo para hoy",
+                    "template": "De: Astrología del siglo 21\nPara: {player_name}\nAsunto: Tu horóscopo para hoy\n\n{player_name}, ¡hoy es un día importante para ti!\n\nLas estrellas predicen un encuentro inesperado que cambiará tu vida.\nPero ten cuidado: pueden haber pérdidas financieras.\n\nObtén el horóscopo completo con predicciones detalladas:\nhttp://fake-astrology.ru/horoscope?name={player_name}\n\nEste es un mensaje publicitario."
+                },
+                "career": {
+                    "sender": "Consultor de Carrera",
+                    "subject": "Nueva vacante para ti",
+                    "template": "De: Carrera Pro\nPara: {player_name}\nAsunto: Nueva vacante para ti\n\nEstimado {player_name}, ¡hemos encontrado la vacante perfecta para ti!\n\nPosición: Ciberseguridad en una empresa internacional\nSalario: desde 300,000 ₽\nTrabajo remoto\n\nRequisitos:\n- Experiencia laboral desde 1 año\n- Conocimiento de tecnologías de red\n- Disponibilidad para horario no regulado\n\nPostularse: http://fake-career.ru/vacancy123\n\nEste es un mensaje publicitario."
+                }
+            },
+            "generator": {
+                "template_not_found": "[SPAM] Plantilla no encontrada",
+                "custom_template_added": "[SPAM] Se agregó nueva plantilla tipo '{template_type}': {template_subject}",
+                "history_cleared": "[SPAM] Historial de correos spam limpiado",
+                "probability_warning": "[SPAM] Atención: la suma de probabilidades {total} no es igual a 1.0",
+                "probabilities_updated": "[SPAM] Probabilidades de spam actualizadas: {probabilities}",
+                "testing": "Probando el generador de spam:",
+                "total_templates": "Total de plantillas: {count}",
+                "spam_generated": "\nSpam #{number}:",
+                "from": "De: {sender}",
+                "subject": "Asunto: {subject}",
+                "type": "Tipo: {spam_type}",
+                "content_preview": "Contenido:\n{content}...",
+                "statistics": "\nEstadísticas: {stats}"
+            }
+        },
+        "errors": {
+            "template_not_found": "Plantilla '{template}' no encontrada",
+            "unknown_folder": "Carpeta desconocida: {folder}",
+            "email_type_not_found": "[ERROR] Tipo de correo '{email_type}' no encontrado en plantillas",
+            "already_sent": "[INFO] Correo '{email_type}' ya enviado hoy"
+        },
+        "templates": {
+            "system_welcome": {
+                "sender": "MVD",
+                "subject": "¡Bienvenido!",
+                "template": "De: MVD-CUK\nPara: {player_name}\nAsunto: ¡Bienvenido!\n\n¡Estimado {player_name}!\n\n¡Te damos la bienvenida al honorable puesto de la Dirección Operativa de Búsqueda!\n\nTus éxitos en los estudios nos han impresionado y nos gustaría ofrecerte esta posición. \nEsperamos tu responsabilidad y trabajo de calidad.\n\nEstos son tus indicadores:\nDía actual de trabajo: {day}\nTu reputación actual: {reputation}\nTu saldo: {money:,.2f} ₽\n\nSe espera de ti una actitud responsable con los deberes para el éxito en el trabajo.\nEstamos seguros de que lo lograrás y cumplirás nuestras expectativas.\n\nEn breve recibirás la lista de tareas actuales. \nEn la primera etapa te sugerimos familiarizarte con el lugar de trabajo y el equipo.\n\nLa observación es nuestra función. Tu conciencia es tu deber.\nPROYECTO 'PANÓPTICO'. LO VEMOS TODO.\n\nAtentamente,\nCentro de Gestión de Personal del MVD"
+            },
+            "error_message": {
+                "sender": "ERROR",
+                "subject": "ERROR",
+                "template": "De: ERROR\nPara: ERROR\nAsunto: ERROR\n\nERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERROR\nERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERROR\nERRORERRORERRORERROR\n\n"
+            },
+            "system_notification": {
+                "sender": "Sistema",
+                "subject": "Notificación",
+                "template": "De: {sender}\nPara: {player_name}\nAsunto: {subject}\n\n{message}\n\n[Este es un mensaje automático del sistema]"
+            },
+            "mvd_mission": {
+                "sender": "MVD",
+                "subject": "URGENTE: Tarea del MVD",
+                "template": "De: MVD-OPU\nPara: {player_name}\nAsunto: URGENTE: Tarea del MVD\n\n¡Empleado {player_name}!\n\nSe te ha asignado una tarea urgente. \nDebes completarla lo antes posible.\n\nTarea: {mission_name}\nDificultad: {difficulty}\nPlazo: {deadline}\n\nDescripción: {description}\n\nEn caso de completarla con éxito, se espera un aumento de reputación y recompensa monetaria.\n\nLa observación es nuestra función. Tu conciencia es tu deber.\n\nAtentamente,\nDepartamento de Tareas Especiales del MVD"
+            },
+            "mvd_mission_1_intro": {
+                "sender": "MVD",
+                "subject": "Primera tarea",
+                "template": "De: MVD-OPU\nPara: {player_name}\nAsunto: Primera tarea\n\n¡Empleado {player_name}!\n\nComienza tu período de prueba. La primera tarea es simple pero importante.\nNecesitas familiarizarte con el lugar de trabajo y el sistema de monitoreo.\n\nEstudia todos los elementos de la interfaz, especialmente la terminal y el sistema de observación.\nIngresa el comando 'help' en la terminal para obtener una lista de comandos disponibles.\n\nEsta tarea no requiere ejecución urgente, pero su finalización es obligatoria\npara obtener acceso a los sistemas del MVD.\n\nLa observación es nuestra función. Tu conciencia es tu deber.\n\nAtentamente,\nDepartamento de Tareas Especiales del MVD"
+            },
+            "mvd_mission_2_security_audit": {
+                "sender": "MVD",
+                "subject": "Auditoría de seguridad",
+                "template": "De: MVD-OPU\nPara: {player_name}\nAsunto: Auditoría de seguridad\n\n¡Empleado {player_name}!\n\nFelicitaciones por completar exitosamente la etapa de familiarización.\nAhora debes realizar tu primera tarea real.\n\nSe requiere realizar una verificación de seguridad de la red interna del MVD.\nUsa la terminal para escanear la red (comando 'scan').\n\nAtención: algunos nodos pueden estar protegidos. No intentes\nhackear sistemas sin el permiso correspondiente.\n\nPlazo de ejecución: hasta el final del turno actual.\n\nLa observación es nuestra función. Tu conciencia es tu deber.\n\nAtentamente,\nDepartamento de Tareas Especiales del MVD"
+            }
+        },
+        "system_notification": {
+            "subject": "Notificación del sistema",
+            "content": "Bienvenido al sistema de monitoreo del MVD.\nTodas tus acciones se registran y analizan.\nCumple las normas de seguridad y mantén la lealtad.\n¡No olvides marcar los correos con el botón «LEÍDO»!\n(Después de leer puedes borrar este correo)",
+            "automated": "[Este es un mensaje automático del sistema]"
+        },
+        "difficulties": {
+            "easy": "Fácil",
+            "medium": "Media",
+            "hard": "Difícil",
+            "expert": "Experto"
+        },
+        "deadlines": {
+            "until_shift_end": "Hasta el final del turno",
+            "two_hours": "2 horas",
+            "one_hour": "1 hora",
+            "thirty_minutes": "30 minutos"
+        },
+        "special_email_sent": "[CORREO] Correo especial enviado: {email_type}",
+        "template_added": "[CORREO] Nueva plantilla agregada: {template_name}",
+        
+        "back_to_surveillance": "← Volver a vigilancia",
+        "inbox_messages": "Mensajes recibidos",
+        "view_message": "Ver mensaje",
+        "mark_as_read": "Marcar como leído",
+        "delete": "Eliminar",
+        "stats": "📧 Mensajes: {total} | ✉ No leídos: {unread}",
+        "mvd": "MVD"
+    },
+    
+    "settings": {
+        "title": "⚙️ AJUSTES DEL SISTEMA",
+        "screen_shown": "Pantalla de ajustes mostrada",
+    
+        "language_group": "Idioma e interfaz",
+        "language": "Idioma de la interfaz:",
+    
+        "graphics": "Gráficos",
+        "audio": "Audio",
+        "game_time": "Tiempo de juego",
+    
+        "display_mode": "Modo de visualización:",
+        "visual_effects": "Efectos visuales",
+        "glitch_effects": "Efectos de glitch",
+        "vsync": "VSync (sincronización vertical)",
+        "effect_intensity": "Intensidad de efectos:",
+        "resolution": "Resolución de ventana:",
+    
+        "display_modes": {
+            "fullscreen": "Pantalla completa",
+            "windowed": "En ventana",
+            "borderless": "Sin bordes"
+        },
+    
+        "enable_audio": "Activar sonido",
+        "master_volume": "Volumen principal:",
+        "effects_volume": "Volumen de efectos:",
+        "music_volume": "Volumen de música:",
+        "typing_sounds": "Sonidos de tipeo",
+        "background_music": "Música de fondo",
+        "voice_effects": "Efectos de voz",
+        "environment_sounds": "Sonidos ambientales",
+        "dynamic_range": "Rango dinámico:",
+    
+        "time_speed": "Velocidad del tiempo:",
+        "auto_pause": "Pausa automática en menú",
+        "show_time_widget": "Mostrar widget de tiempo",
+    
+        "apply": "APLICAR AJUSTES",
+        "reset": "RESTABLECER PREDETERMINADOS",
+        "test_sound": "PROBAR SONIDO",
+        "back": "← VOLVER AL MENÚ"
+    },
+
+    "help": {
+        "helping": "AYUDA",
+        "tab_basics": "Básicos",
+        "tab_terminal": "Terminal",
+        "tab_controls": "Controles",
+        "tab_skills": "Habilidades",
+        "back_button": "🔙 VOLVER AL MENÚ",
+        "screen_shown": "Pantalla de ayuda mostrada",
+        
+        "basics_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #00bfff;\">🎮 BASES DEL JUEGO</h2><p><b>«Hacker de Oficina»</b> es un simulador de trabajo en el área de ciberseguridad de la empresa <b>«SIBERIA-SOFT»</b>.</p><h3 style=\"color: #00ff88;\">OBJETIVO DEL JUEGO:</h3><ul><li>Completa tareas diarias para avanzar en la carrera</li><li>Desarrolla habilidades de ciberseguridad</li><li>Gana dinero (rublos) y aumenta tu reputación</li><li>Evita ser detectado por el sistema de seguridad</li></ul><h3 style=\"color: #00ff88;\">INTERFAZ:</h3><p>La interfaz del juego consta de tres paneles principales:</p><ul><li><span style=\"color: #00bfff;\">Panel izquierdo</span> - información del empleado, saldo, reputación, tarea actual y habilidades</li><li><span style=\"color: #00bfff;\">Panel central</span> - terminal para ejecutar comandos</li><li><span style=\"color: #00bfff;\">Panel derecho</span> - cámara de vigilancia y registro del sistema de seguridad</li></ul><h3 style=\"color: #00ff88;\">COMIENZO DEL JUEGO:</h3><ol><li>Comienza un nuevo turno desde el menú principal</li><li>Ingresa tu nombre y apellido al registrarte</li><li>Completa la primera tarea \"Mira en el \"CORREO\"\"</li><li>Usa el terminal para completar tareas</li></ol></div>",
+
+        "terminal_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #00ff00;\">⌨️ COMANDOS DE TERMINAL</h2><h3 style=\"color: #00ff88;\">COMANDOS BÁSICOS:</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #002200;\"><th style=\"color: #00ff00; text-align: left;\">Comando</th><th style=\"color: #00ff00; text-align: left;\">Descripción</th><th style=\"color: #00ff00; text-align: left;\">Ejemplo</th></tr><tr><td><code style=\"color: #00ffff;\">help</code></td><td>Mostrar lista de todos los comandos</td><td><code>help</code></td></tr><tr><td><code style=\"color: #00ffff;\">scan</code></td><td>Escanear la red en busca de dispositivos</td><td><code>scan</code></td></tr><tr><td><code style=\"color: #00ffff;\">connect [IP]</code></td><td>Conectarse a un dispositivo por dirección IP</td><td><code>connect 192.168.1.1</code></td></tr><tr><td><code style=\"color: #00ffff;\">hack [objetivo]</code></td><td>Hackear el objetivo especificado</td><td><code>hack server1</code></td></tr><tr><td><code style=\"color: #00ffff;\">tasks</code></td><td>Mostrar tareas actuales</td><td><code>tasks</code></td></tr><tr><td><code style=\"color: #00ffff;\">clear</code></td><td>Limpiar pantalla del terminal</td><td><code>clear</code></td></tr><tr><td><code style=\"color: #00ffff;\">dir</code></td><td>Mostrar archivos en el directorio actual</td><td><code>dir</code></td></tr><tr><td><code style=\"color: #00ffff;\">ipconfig</code></td><td>Mostrar configuraciones de red</td><td><code>ipconfig</code></td></tr><tr><td><code style=\"color: #00ffff;\">whoami</code></td><td>Información del usuario actual</td><td><code>whoami</code></td></tr></table><h3 style=\"color: #00ff88;\">CONSEJOS DE USO:</h3><ul><li>Usa <span style=\"color: #00ffff;\">Tab</span> para autocompletar comandos</li><li>Flechas <span style=\"color: #00ffff;\">↑</span> y <span style=\"color: #00ffff;\">↓</span> para navegar por el historial de comandos</li><li>Todos los comandos distinguen mayúsculas y minúsculas</li><li>Para obtener ayuda sobre un comando específico ingresa <code>comando --help</code></li></ul></div>",
+    
+        "controls_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #ffff00;\">🎮 CONTROLES Y TECLAS RÁPIDAS</h2><h3 style=\"color: #ffaa00;\">TECLAS RÁPIDAS:</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #332200;\"><th style=\"color: #ffff00; text-align: left;\">Tecla</th><th style=\"color: #ffff00; text-align: left;\">Acción</th><th style=\"color: #ffff00; text-align: left;\">Descripción</th></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">F1</kbd></td><td>Ayuda</td><td>Abrir esta ventana de ayuda</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">ESC</kbd></td><td>Menú</td><td>Volver al menú principal</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Ctrl + S</kbd></td><td>Guardar</td><td>Guardado rápido del juego</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Ctrl + L</kbd></td><td>Cargar</td><td>Carga rápida del juego</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Ctrl + Q</kbd></td><td>Salir</td><td>Salir del juego</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Tab</kbd></td><td>Autocompletar</td><td>Autocompletar comandos en el terminal</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">↑ / ↓</kbd></td><td>Historial</td><td>Navegación por el historial de comandos</td></tr></table><h3 style=\"color: #ffaa00;\">INTERFAZ:</h3><ul><li><b>Botón izquierdo del ratón</b> - seleccionar elementos de interfaz</li><li><b>Botón derecho del ratón</b> - menú contextual (donde esté disponible)</li><li><b>Rueda del ratón</b> - desplazar listas y texto</li><li><b>Enter</b> - confirmar entrada en el terminal</li></ul><h3 style=\"color: #ffaa00;\">AJUSTES DE CONTROLES:</h3><p>Todas las teclas rápidas se pueden reasignar en los ajustes del juego.</p></div>",
+    
+        "skills_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #ff55ff;\">🎯 SISTEMA DE HABILIDADES</h2><p>Las habilidades determinan tu efectividad en varios aspectos del trabajo. Nivel de habilidad del 1 al 10.</p><h3 style=\"color: #ff88ff;\">DESCRIPCIÓN DE HABILIDADES:</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #330033;\"><th style=\"color: #ff55ff; text-align: left;\">Habilidad</th><th style=\"color: #ff55ff; text-align: left;\">Descripción</th><th style=\"color: #ff55ff; text-align: left;\">Cómo mejorar</th></tr><tr><td><span style=\"color: #ff5555; font-weight: bold;\">Hacking</span></td><td>Capacidad de hackear sistemas, eludir protección</td><td>Completar tareas de hacking, usar el terminal</td></tr><tr><td><span style=\"color: #55ff55; font-weight: bold;\">Ingeniería social</span></td><td>Habilidad para manipular empleados para obtener acceso</td><td>Interactuar con NPCs, completar tareas sociales</td></tr><tr><td><span style=\"color: #5555ff; font-weight: bold;\">Programación</span></td><td>Crear scripts, utilidades y exploits</td><td>Escribir código en el terminal, resolver problemas de programación</td></tr><tr><td><span style=\"color: #ffff55; font-weight: bold;\">Sigilo</span></td><td>Habilidad para evitar la detección por el sistema de seguridad</td><td>Completar tareas sin ser detectado, usar comandos ocultos</td></tr><tr><td><span style=\"color: #55ffff; font-weight: bold;\">Análisis</span></td><td>Capacidad de analizar datos y encontrar vulnerabilidades</td><td>Analizar registros, investigar paquetes de red</td></tr><tr><td><span style=\"color: #ffaa55; font-weight: bold;\">Seguridad de red</span></td><td>Conocimiento de protocolos de red y tecnologías de protección</td><td>Configurar equipos de red, proteger sistemas</td></tr></table><h3 style=\"color: #ff88ff;\">NIVELES DE HABILIDAD:</h3><ul><li><span style=\"color: #ff5555;\">1-3: Principiante</span> - Conocimientos básicos</li><li><span style=\"color: #ffff55;\">4-6: Experimentado</span> - Buena comprensión</li><li><span style=\"color: #55ff55;\">7-8: Experto</span> - Nivel profesional</li><li><span style=\"color: #55ffff;\">9-10: Maestro</span> - Nivel superior de maestría</li></ul><h3 style=\"color: #ff88ff;\">CONSEJOS:</h3><ul><li>Desarrolla todas las habilidades de manera equilibrada</li><li>Las tareas difíciles dan más experiencia</li><li>Algunas tareas requieren nivel mínimo de habilidades</li><li>Alto nivel de habilidades abre nuevas oportunidades</li></ul></div>"
+    },
+
+    "about": {
+        "title": "HACKER DE OFICINA - Simulador de ciberseguridad",
+        "version": "Versión: <b>0.3.a</b> | Fecha de compilación: <b>Diciembre 2025</b>",
+        "back_button": "🔙 VOLVER AL MENÚ",
+        "screen_shown": "Pantalla 'Acerca del programa' mostrada",
+        
+        "html_content": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6;\">\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(0, 191, 255, 0.1); border-left: 4px solid #00bfff; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">🎮</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #00bfff; margin-bottom: 5px;\">DESCRIPCIÓN</div>\n        <div style=\"color: #cccccc;\">\n            <b>«Hacker de Oficina»</b> es un simulador de trabajo en el área de ciberseguridad. \n            Juegas como un nuevo empleado de la empresa <b>«SIBERIA-SOFT»</b>, que debe completar \n            tareas diarias, desarrollar habilidades y avanzar en la carrera.\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 215, 0, 0.1); border-left: 4px solid #ffd700; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">🌟</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ffd700; margin-bottom: 5px;\">CARACTERÍSTICAS</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00ff00;\">Desarrollo de habilidades de ciberseguridad</span><br>\n            • <span style=\"color: #00ff00;\">Sistema dinámico de tareas</span><br>\n            • <span style=\"color: #00ff00;\">Entorno interactivo</span><br>\n            • <span style=\"color: #00ff00;\">Sistema de características del personaje</span><br>\n            • <span style=\"color: #00ff00;\">Posibilidad de guardar progreso</span>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(0, 255, 0, 0.1); border-left: 4px solid #00ff00; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">👥</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #00ff00; margin-bottom: 5px;\">DESARROLLADORES</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00bfff;\">Programación:</span> Sad_Smile<br>\n            • <span style=\"color: #00bfff;\">Diseño:</span> Sad_Smile<br>\n            • <span style=\"color: #00bfff;\">Pruebas:</span> Sad_Smile\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 0, 0, 0.1); border-left: 4px solid #ff5555; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">📞</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ff5555; margin-bottom: 5px;\">CONTACTOS</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00ffff;\">Email:</span> \n              <a href=\"mailto:sapportsadsmile@gmail.com\" \n                 style=\"color: #00bfff; text-decoration: none;\">\n                 sapportsadsmile@gmail.com</a><br>\n            • <span style=\"color: #00ffff;\">Sitio web:</span> \n              <a href=\"https://sikorsky-support-center.netlify.app/\" \n                 style=\"color: #00bfff; text-decoration: none;\">\n                 https://sikorsky-support-center.netlify.app/</a><br>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 255, 0, 0.1); border-left: 4px solid #ffff00; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">📄</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ffff00; margin-bottom: 5px;\">LICENCIA</div>\n        <div style=\"color: #cccccc;\">\n            Este programa se distribuye bajo los términos de la licencia \n            <span style=\"color: #ff8800; font-weight: bold;\">MIT</span>.<br><br>\n            \n            <span style=\"font-size: 12px; color: #888888;\">\n            Permitido: uso comercial, modificación, distribución, uso privado.<br>\n            Requerido: atribución de autoría y licencia.<br>\n            Prohibido: responsabilidad y garantías.\n            </span>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin-top: 30px; padding: 15px; background: rgba(0, 0, 0, 0.3); border: 1px solid #333; border-radius: 5px; text-align: center;\">\n    <div style=\"color: #00bfff; font-size: 18px; font-weight: bold; margin-bottom: 5px;\">\n        SIKORSKY'S INCORPORATED\n    </div>\n    <div style=\"color: #888888; font-size: 12px;\">\n        © 2025 Sikorsky's Incorporated. Todos los derechos reservados.<br>\n        <span style=\"color: #666666;\">Siberia-Soft Division</span>\n    </div>\n</div>\n\n</div>"
+    },
+
+    "common": {
+        "error": "Error",
+        "confirm_exit": "Confirmar salida",
+        "cancel": "Cancelar",
+        "ok": "Aceptar"
+    },
+    
+    "config": {
+        "loaded": "Configuración cargada",
+        "created": "Configuración creada",
+        "updated": "Configuración actualizada",
+        "read_error": "Error al leer configuración"
+    },
+    
+    "error": {
+        "language_setup": "Error de configuración de idioma",
+        "config_load": "Error de carga de configuración",
+        "new_game_start": "Error de inicio de nuevo juego",
+        "game_load": "Error de carga de juego",
+        "game_save": "Error de guardado de juego",
+        "config_save": "Error de guardado de configuración",
+        "audio_apply": "Error al aplicar ajustes de audio"
+    },
+    
+    "graphics": {
+        "applied": "Ajustes de gráficos aplicados"
+    },
+    
+    "audio": {
+        "applied": "Ajustes de audio aplicados"
+    },
+
+    "test": {
+        "first_name": "Iván",
+        "last_name": "Ivánov",
+        "player_name": "Iván Ivánov",
+        "player": "Jugador",
+        "day": "Día",
+        "starting_shift": "Comenzando turno...",
+        "current_task": "Tarea actual",
+        "task_progress": "Progreso de tarea",
+        "email_count": "Cantidad de correos",
+        "unread_emails": "Correos no leídos",
+        "email_from": "Correo de",
+        "read": "Leído",
+        "important": "Importante",
+        "mvd_found": "Encontrado correo del MVD con",
+        "opening_email": "Abriendo correo...",
+        "progress_after": "Progreso después de abrir correo",
+        "reading_mvd": "Leyendo correo del MVD...",
+        "email_read": "Correo leído",
+        "unread_after": "Correos no leídos después de leer",
+        "tasks_completed": "Tareas completadas",
+        "adding_email": "Agregando correo de prueba...",
+        "test_system": "Sistema de prueba",
+        "test_message": "Mensaje de prueba",
+        "test_content": "Este es un mensaje de prueba para verificar el sistema.",
+        "email_added": "Agregado correo con",
+        "total_emails": "Total de correos",
+        "unread": "No leídos",
+        "saving_game": "Guardando juego...",
+        "loading_game": "Cargando juego...",
+        "loaded_player": "Jugador cargado",
+        "loaded_emails": "Correos cargados",
+        "file_deleted": "Archivo de prueba eliminado",
+        "completed": "Prueba completada"
+    },
+    
+    "styles": {
+        "loaded_success": "Estilos cargados exitosamente desde styles.py",
+        "load_error": "Error al cargar estilos",
+        "loaded_from_file": "Estilos cargados desde archivo styles.qss",
+        "file_error": "Error al cargar estilos desde archivo"
+    },
+    
+    "fonts": {
+        "loaded": "Fuente cargada",
+        "load_error": "Error al cargar fuente",
+        "not_found": "Fuente Source Code Pro no encontrada. Se usa fuente monoespaciada estándar."
+    },
+    
+    "dirs": {
+        "created": "Directorio creado/verificado"
+    },
+    
+    "intro": {
+        "completed": "Intro completado, mostrando ventana principal...",
+        "already_shown": "El intro ya se mostró, omitiendo..."
+    },
+
+    "game_state": {
+        "skill_hacking": "Hacking",
+        "skill_social_engineering": "Ingeniería social",
+        "skill_programming": "Programación",
+        "skill_stealth": "Sigilo",
+        "skill_analysis": "Análisis",
+        "skill_network_security": "Seguridad de red",
+        "initial_task": "Revisa tu correo y lee el mensaje urgente del MVD",
+        "task_check_email": "Revisa tu correo y lee el mensaje urgente del MVD",
+        "task_scan_network": "Escanear la red en busca de vulnerabilidades",
+        "task_update_antivirus": "Actualizar bases de datos de antivirus",
+        "task_check_security_logs": "Revisar registros de seguridad",
+        "task_configure_firewall": "Configurar el firewall",
+        "task_analyze_traffic": "Analizar tráfico sospechoso",
+        "task_install_updates": "Instalar actualizaciones de seguridad",
+        "task_check_backups": "Revisar copias de seguridad",
+        "task_setup_vpn": "Configurar conexión VPN",
+        "task_audit_users": "Realizar auditoría de usuarios",
+        "task_test_recovery": "Probar sistema de recuperación",
+        "task_familiarize": "Familiarízate con la interfaz mientras esperas tu primera tarea",
+        "difficulty_easy": "fácil",
+        "difficulty_medium": "estándar",
+        "difficulty_hard": "difícil",
+        "difficulty_expert": "experto",
+        "task_template": "Completa la tarea {modifier}: {task}",
+        "special_email_config": "Correo ERROR - se envía después de completar la primera tarea en 60 minutos",
+        "skill_level_novice": "Novato",
+        "skill_level_apprentice": "Aprendiz",
+        "skill_level_experienced": "Experimentado",
+        "skill_level_expert": "Experto",
+        "skill_level_master": "Maestro",
+        "stress_low": "Bajo",
+        "stress_medium": "Medio",
+        "stress_high": "Alto",
+        "stress_critical": "Crítico",
+        "energy_low": "Bajo",
+        "energy_medium": "Medio",
+        "energy_high": "Alto",
+        "energy_full": "Lleno",
+        "task_completed_notification": "Tarea '{task}' completada con éxito. Recompensa: {money:.2f} ₽",
+        "save_success": "[GUARDAR] Juego guardado en {filename}",
+        "load_error": "[ERROR] Error al cargar el guardado: {error}",
+        "save_not_found": "[INFO] Guardado no encontrado: {filename}",
+        "special_email_sent": "[JUEGO] Correo especial enviado: {type}",
+        "special_email_config_added": "[JUEGO] Configuración de correo agregada: {type}",
+        "special_email_toggled": "[JUEGO] Correo '{type}' {status}",
+        "enabled": "activado",
+        "disabled": "desactivado",
+        "statistics": {
+            "name": "Nombre",
+            "day": "Día",
+            "tasks_completed": "Tareas completadas",
+            "reputation": "Reputación",
+            "balance": "Saldo",
+            "shift_time": "Tiempo de turno",
+            "energy": "Energía",
+            "stress": "Estrés",
+            "unread_emails": "Correos no leídos",
+            "game_date": "Fecha del juego",
+            "shift_progress": "Progreso del turno",
+            "skills": "Habilidades"
+        }
+    },
+
+    "status": {
+        "encrypting_channel": "Cifrando canal...",
+        "checking_access": "Verificando permisos de acceso...",
+        "sync_with_hq": "Sincronizando con HQ...",
+        "loading_missions": "Cargando misiones...",
+        "connecting_to_global_network": "Conectando a la red global...",
+        "checking_security_system": "Verificando sistema de seguridad...",
+        "loading_configuration": "Cargando configuración...",
+        "initializing_terminal": "Inicializando terminal...",
+        "call_forwarding": "Reenviando llamadas...",
+        "sending_admin": "Enviando administrador por correo...",
+        "remembering_name": "Recordando mi nombre...",
+        "loading_junk": "Cargando basura inútil...",
+        "updating_software": "Actualizando software...",
+        "leaving_feedback": "¿Escribirás una reseña?...",
+        "menu_idle": "¿Vas a estar mucho tiempo en el menú?...",
+        "virus_scan": "Escaneando virus...",
+        "updating_database": "Actualizando bases de datos...",
+        "backup": "Copia de seguridad...",
+        "memory_optimization": "Optimizando memoria...",
+        "calibrating_sensors": "Calibrando sensores...",
+        "visit_website": "Por favor visita mi sitio web..."
+    },
+
+    "office": {
+        "ivan": "Iván Petrov",
+        "maria": "María Sidorova",
+        "alexey": "Alexéi Ivanov",
+        "olga": "Olga Nikolaeva",
+        "status_working": "Trabajando",
+        "status_meeting": "En reunión",
+        "status_report": "Escribiendo informe",
+        "status_break": "En descanso",
+        "surveillance_camera": "CÁMARA DE VIGILANCIA #4",
+        "active": "ACTIVA",
+        "glitch": "FALLO"
+    },
+    
+    "tasks": {
+        "check_mvd_email": "Revisa tu correo y lee el mensaje urgente del MVD",
+        "scan_network": "Escanear la red en busca de vulnerabilidades"
+    }
+}

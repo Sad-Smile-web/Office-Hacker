@@ -1,0 +1,556 @@
+{
+    "app": {
+        "name": "Office Hacker",
+        "title": "OFFICE HACKER - CYBERSECURITY SIMULATOR",
+        "office_hacker": "Office Hacker",
+        "startup_complete": "🚀 Main window initialized",
+        "language_set": "Language set: {language}",
+        "widgets_initialized": "Widgets initialized",
+        "timers_setup": "Timers set up",
+        "shortcuts_setup": "Shortcuts set up",
+        "language_changed_to": "Language changed to: {language}",
+        "icon_loaded": "Application icon loaded",
+        "icon_error": "Error loading icon",
+        "closed": "Application closed."
+    },
+    
+    "menu": {
+        "title": "MAIN MENU",
+        "new_game": "🚀 START NEW SHIFT",
+        "load_game": "📂 LOAD GAME",
+        "settings": "⚙️ SETTINGS",
+        "help": "❓ HELP",
+        "about": "ℹ️ ABOUT",
+        "exit": "🚪 EXIT",
+        "office": "OFFICE HACKER",
+        "connecting": "Connecting to system...",
+        "opican": "You are a new employee of 'SIBERIA-SOFT' company.\nYour task: analyze network security, complete assignments\nand develop your cybersecurity skills.\n\nFeatures:\n• Hacking skills development\n• Dynamic task system\n• Interactive environment\n• Reputation and career system",
+        "screen_shown": "Menu screen shown"
+    },
+    
+    "game": {
+        "employee": "Employee",
+        "employee_status": "👤 EMPLOYEE STATUS",
+        "skills": "🎯 SKILLS",
+        "mail": "📧 Mail",
+        "main_menu": "Main menu",
+        "progress": "Progress: {progress}%",
+        "balance": "💰 Balance: {money}",
+        "reputation": "⭐ Reputation: {reputation}",
+        "day": "📅 Day: {day}",
+        "current_task": "📝 Current task",
+        "system": "System",
+        "data_updated_for": "Data updated for",
+        "access_mail_system": "Access to mail system",
+        "mvd_email_read": "MVD email read",
+        "security_system_title": "SECURITY SYSTEM",
+        "surveillance_system": "SURVEILLANCE SYSTEM",
+        "security_log": "Security log",
+        "mail_client": "MAIL CLIENT",
+        "camera1": "Camera #1: 3rd Floor Hall",
+        "camera2": "Camera #2: IT Department",
+        "camera3": "Camera #3: Secret Server",
+        "microphones": "Microphones active",
+        "motion_sensors": "Motion sensors active",
+        "status_all_operational": "All systems operational",
+        "recent_events": "Recent events",
+        "shift_started": "Shift started",
+        "security_check": "Security check",
+        "daily_meeting": "Daily meeting",
+        "network_activity": "Network activity",
+        "shift": "Shift",
+        "welcome": "Welcome, {name}!",
+        "welcome_back": "Welcome back, {name}!",
+        "new_shift_started": "New shift started!",
+        "new_game_started_for": "New game started for",
+        "user_canceled_new_game": "User canceled new game creation",
+        "loaded_for": "Game loaded for",
+        "loaded_successfully": "Game loaded successfully!",
+        "saved_successfully": "Game saved successfully!",
+        "autosave_performed": "Autosave performed",
+        "screen_shown": "Game screen shown",
+        "time_paused": "Time paused",
+        "time_resumed": "Time resumed",
+        "audio_disabled": "Audio disabled",
+        "audio_enabled": "Audio enabled",
+        "exit_confirm_title": "Exit Confirmation",
+        "exit_confirm": "Are you sure you want to exit the game?",
+        "exit_to_menu_confirm": "Are you sure you want to return to the main menu?",
+        "new_game_confirm_title": "New Game",
+        "new_game_confirm": "Are you sure you want to start a new game? Current progress will be lost.",
+        "new_game_error": "Error creating new game",
+        "save_error": "Error saving game",
+        "load_error": "Error loading game",
+        "no_save_title": "No Save Found",
+        "no_save_found": "No save files found. Start a new game.",
+        "input_name_title": "Employee Registration",
+        "input_name_instruction": "Enter your first and last name for registration in the MVD system",
+        "input_first_name": "First Name:",
+        "input_last_name": "Last Name:",
+        "input_name_hint": "Use only letters and hyphens. Both fields are required.",
+        "input_error_title": "Input Error",
+        "input_name_required": "Both fields are required: first name and last name",
+        "input_name_invalid": "Invalid characters in name. Use only letters.",
+        
+        "security_event": {
+            "user_activity": "User activity #{id}",
+            "loyalty_check": "Loyalty check",
+            "network_scan": "Network scan",
+            "data_integrity": "Data integrity check",
+            "traffic_analysis": "Traffic analysis",
+            "monitoring_active": "Monitoring active",
+            "access_logs": "Access logs check",
+            "motion_test": "Motion sensor test"
+        },
+        
+        "error": {
+            "game_widget_update": "GameWidget update error"
+        },
+        
+        "statistics": {
+            "name": "Name",
+            "day": "Day",
+            "tasks_completed": "Tasks completed",
+            "reputation": "Reputation",
+            "balance": "Balance",
+            "shift_time": "Shift time",
+            "energy": "Energy",
+            "stress": "Stress",
+            "unread_emails": "Unread emails",
+            "game_date": "Game date",
+            "shift_progress": "Shift progress",
+            "skills": "Skills"
+        }
+    },
+
+    "email": {
+        "spam": {
+            "advertisement": {
+                "megamarket": {
+                    "sender": "MegaMarket",
+                    "subject": "50% discount on everything!",
+                    "template": "From: MegaMarket\nTo: Dear Customer\nSubject: 50% discount on everything!\n\nDear customer!\n\nOnly today and only for you 50% discount on all items in our store!\nDon't miss the opportunity to buy everything you've wanted for half price.\n\nThe promotion is valid until the end of the day. Hurry up!\n\nThis is an advertising message."
+                },
+                "technomir": {
+                    "sender": "TechnoWorld",
+                    "subject": "New smartphone for 9,999 ₽!",
+                    "template": "From: TechnoWorld\nTo: Potential Client\nSubject: New smartphone for 9,999 ₽!\n\nWe have launched pre-order for the new XPhone ZX smartphone!\nFlagship features at an incredible price.\n\n6.7-inch OLED display\n12 GB RAM\n108 MP camera\n5000 mAh battery\n\nOnly 9,999 ₽ instead of 39,999 ₽!\nHurry to buy before the end of the week.\n\nThis is an advertising message."
+                },
+                "online_cinema": {
+                    "sender": "Online Cinema",
+                    "subject": "Annual subscription for 1 ruble!",
+                    "template": "From: Cinema Online\nTo: Movie Lover\nSubject: Annual subscription for 1 ruble!\n\nWant to watch all movies and series without limits?\nGet an annual subscription to our cinema for just 1 ruble!\n\nOver 50,000 movies and series\nNew releases\nExclusive content\n\nOffer is limited. Activate via link: http://fake-cinema.ru/1ruble\n\nThis is an advertising message."
+                },
+                "fitness_center": {
+                    "sender": "Fitness Center",
+                    "subject": "Free month of training!",
+                    "template": "From: Fitness Pro\nTo: Health Conscious Person\nSubject: Free month of training!\n\nDiscover a new world of fitness! \nThe first month of training in our premium center is absolutely free.\n\nModern equipment\nProfessional trainers\nPool and sauna\n\nSign up for a free tour: 8-800-XXX-XX-XX\n\nThis is an advertising message."
+                }
+            },
+            "scam": {
+                "fast_loan": {
+                    "sender": "Fast Loan Bank",
+                    "subject": "Loan at 0%!",
+                    "template": "From: Fast Loan Bank\nTo: Dear Client\nSubject: Loan at 0%!\n\nDreaming of a new car or apartment? \nOur bank offers unique conditions - loan at 0% per annum!\n\nNo income certificates, no collateral. Decision in 5 minutes.\nMaximum amount: 5,000,000 ₽.\n\nCall right now: 8-800-XXX-XX-XX\n\nThis is an advertising message."
+                },
+                "cybersecurity": {
+                    "sender": "CyberSecurity Pro",
+                    "subject": "Your computer is infected!",
+                    "template": "From: CyberSecurity Pro\nTo: Computer Owner\nSubject: Your computer is infected!\n\nOur systems have detected that your computer is infected with a virus.\nThe virus can steal your passwords, bank details and personal information.\n\nImmediately install our program to clean the system!\nDownload via link: http://fake-antivirus.ru/download\n\nThis is an advertising message."
+                },
+                "lottery": {
+                    "sender": "State Lottery",
+                    "subject": "You won 1,000,000 ₽!",
+                    "template": "From: State Lottery\nTo: Lucky Winner\nSubject: You won 1,000,000 ₽!\n\nCongratulations! Your ticket No. {ticket_number} has won in our draw!\nYou have won 1,000,000 ₽!\n\nTo receive the prize, send your passport details and bank card number to email: lottery@scam.ru\n\nClaim your prize within 24 hours!\n\nThis is an advertising message."
+                },
+                "investments": {
+                    "sender": "Investments 300%",
+                    "subject": "Earn 300% in a month!",
+                    "template": "From: Crypto-Investments\nTo: Investor\nSubject: Earn 300% in a month!\n\nUnique opportunity to invest in a new crypto project!\nOur platform guarantees 300% profit in the first month.\n\nMinimum deposit: 10,000 ₽\nMaximum profit: unlimited\n\nRegister via link: http://fake-investments.com\n\nThis is an advertising message."
+                }
+            },
+            "notification": {
+                "social_network": {
+                    "sender": "Social Network",
+                    "subject": "New messages from friends",
+                    "template": "From: ConnectSocial\nTo: {player_name}\nSubject: New messages from friends\n\nHello, {player_name}!\n\nYou have 5 new messages and 3 friend requests.\nLog into the social network so you don't miss important events.\n\nGo to social network: http://fake-social.com\n\nThis is an advertising message."
+                },
+                "postal_service": {
+                    "sender": "Postal Service",
+                    "subject": "You have a parcel",
+                    "template": "From: Russian Post\nTo: Recipient\nSubject: You have a parcel\n\nYou have received a parcel from abroad.\nTo receive it, you need to pay a customs fee: 1500 ₽.\n\nPay via link: http://fake-post.ru/pay\nOr the parcel will be returned to the sender.\n\nThis is an advertising message."
+                },
+                "payment_system": {
+                    "sender": "Payment System",
+                    "subject": "Suspicious activity",
+                    "template": "From: Payment Security\nTo: User\nSubject: Suspicious activity\n\nSuspicious activity has been detected in your account.\nSomeone may have tried to access your funds.\n\nTo protect your account, confirm your details:\n- Card number\n- Expiration date\n- CVV code\n- SMS code\n\nFollow the link: http://fake-security.com/verify\n\nThis is an advertising message."
+                }
+            },
+            "personal": {
+                "dating": {
+                    "sender": "Dating Nearby",
+                    "subject": "New messages from girls",
+                    "template": "From: Dating Nearby\nTo: {player_name}\nSubject: New messages from girls\n\nHello, {player_name}!\n\nIn the last 24 hours, 5 girls have left you messages on the dating site.\nTo read them, you need to pay for premium access: 999 ₽/month.\n\nFollow the link to pay: http://dating-scam.com/pay\n\nThis is an advertising message."
+                },
+                "astrology": {
+                    "sender": "Astrology Portal",
+                    "subject": "Your horoscope for today",
+                    "template": "From: Astrology 21st Century\nTo: {player_name}\nSubject: Your horoscope for today\n\n{player_name}, today is an important day for you!\n\nThe stars predict an unexpected meeting that will change your life.\nBut be careful - financial losses are possible.\n\nGet a full horoscope with detailed predictions:\nhttp://fake-astrology.ru/horoscope?name={player_name}\n\nThis is an advertising message."
+                },
+                "career": {
+                    "sender": "Career Consultant",
+                    "subject": "New vacancy for you",
+                    "template": "From: Career Pro\nTo: {player_name}\nSubject: New vacancy for you\n\nDear {player_name}, we have found the perfect vacancy for you!\n\nPosition: Cybersecurity in an international company\nSalary: from 300,000 ₽\nRemote work\n\nRequirements:\n- Work experience from 1 year\n- Knowledge of network technologies\n- Willingness to work irregular hours\n\nApply: http://fake-career.ru/vacancy123\n\nThis is an advertising message."
+                }
+            },
+            "generator": {
+                "template_not_found": "[SPAM] Template not found",
+                "custom_template_added": "[SPAM] New template added of type '{template_type}': {template_subject}",
+                "history_cleared": "[SPAM] Spam email history cleared",
+                "probability_warning": "[SPAM] Warning: probability sum {total} is not equal to 1.0",
+                "probabilities_updated": "[SPAM] Spam probabilities updated: {probabilities}",
+                "testing": "Testing spam generator:",
+                "total_templates": "Total templates: {count}",
+                "spam_generated": "\nSpam #{number}:",
+                "from": "From: {sender}",
+                "subject": "Subject: {subject}",
+                "type": "Type: {spam_type}",
+                "content_preview": "Content:\n{content}...",
+                "statistics": "\nStatistics: {stats}"
+            }
+        },
+        "errors": {
+            "template_not_found": "Template '{template}' not found",
+            "unknown_folder": "Unknown folder: {folder}",
+            "email_type_not_found": "[ERROR] Email type '{email_type}' not found in templates",
+            "already_sent": "[INFO] Email '{email_type}' already sent today"
+        },
+        "templates": {
+            "system_welcome": {
+                "sender": "MVD",
+                "subject": "Welcome!",
+                "template": "From: MVD-CUK\nTo: {player_name}\nSubject: Welcome!\n\nDear {player_name}!\n\nWe welcome you to the honorable position of the Operative-Search Department!\n\nYour academic achievements impressed us, and we would like to offer you this position. \nWe hope for your responsibility and quality work.\n\nThese are your indicators:\nCurrent work day: {day}\nYour current reputation: {reputation}\nYour balance: {money:,.2f} ₽\n\nYou are expected to have a responsible attitude to duties for successful work.\nWe are confident that you will cope and meet our expectations.\n\nIn the near future you will receive a list of current tasks. \nAt the first stage, we suggest getting acquainted with the workplace and the team.\n\nObservation is our function. Your awareness is your duty.\nPROJECT «PANOPTICON». WE SEE EVERYTHING.\n\nSincerely,\nMVD Personnel Management Center"
+            },
+            "error_message": {
+                "sender": "ERROR",
+                "subject": "ERROR",
+                "template": "From: ERROR\nTo: ERROR\nSubject: ERROR\n\nERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERROR\nERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERROR\nERRORERRORERRORERROR\n\n"
+            },
+            "system_notification": {
+                "sender": "System",
+                "subject": "Notification",
+                "template": "From: {sender}\nTo: {player_name}\nSubject: {subject}\n\n{message}\n\n[This is an automated system message]"
+            },
+            "mvd_mission": {
+                "sender": "MVD",
+                "subject": "URGENT: Mission from MVD",
+                "template": "From: MVD-OSD\nTo: {player_name}\nSubject: URGENT: Mission from MVD\n\nEmployee {player_name}!\n\nYou have been assigned an urgent mission. \nIt must be completed as soon as possible.\n\nMission: {mission_name}\nDifficulty: {difficulty}\nDeadline: {deadline}\n\nDescription: {description}\n\nSuccessful completion will result in reputation increase and monetary reward.\n\nObservation is our function. Your awareness is your duty.\n\nSincerely,\nMVD Special Assignments Department"
+            },
+            "mvd_mission_1_intro": {
+                "sender": "MVD",
+                "subject": "First Mission",
+                "template": "From: MVD-OSD\nTo: {player_name}\nSubject: First Mission\n\nEmployee {player_name}!\n\nYour probationary period begins. The first task is simple but important.\nYou need to get familiar with the workplace and monitoring system.\n\nStudy all interface elements, especially the terminal and surveillance system.\nEnter the command 'help' in the terminal to get a list of available commands.\n\nThis task does not require urgent completion, but its completion is mandatory\nfor gaining access to MVD systems.\n\nObservation is our function. Your awareness is your duty.\n\nSincerely,\nMVD Special Assignments Department"
+            },
+            "mvd_mission_2_security_audit": {
+                "sender": "MVD",
+                "subject": "Security Audit",
+                "template": "From: MVD-OSD\nTo: {player_name}\nSubject: Security Audit\n\nEmployee {player_name}!\n\nCongratulations on successfully completing the introductory stage.\nNow you have to complete your first real task.\n\nIt is required to conduct a security audit of the MVD internal network.\nUse the terminal to scan the network (command 'scan').\n\nAttention: some nodes may be protected. Do not attempt to\nhack systems without appropriate permission.\n\nDeadline: until the end of the current shift.\n\nObservation is our function. Your awareness is your duty.\n\nSincerely,\nMVD Special Assignments Department"
+            }
+        },
+        "system_notification": {
+            "subject": "System Notification",
+            "content": "Welcome to the MVD monitoring system.\nAll your actions are recorded and analyzed.\nFollow security rules and maintain loyalty.\nDon't forget to mark emails with the 'READ' button!\n(After reading, you can delete this email)",
+            "automated": "[This is an automated system message]"
+        },
+        "difficulties": {
+            "easy": "Easy",
+            "medium": "Medium",
+            "hard": "Hard",
+            "expert": "Expert"
+        },
+        "deadlines": {
+            "until_shift_end": "Until shift end",
+            "two_hours": "2 hours",
+            "one_hour": "1 hour",
+            "thirty_minutes": "30 minutes"
+        },
+        "special_email_sent": "[MAIL] Special email sent: {email_type}",
+        "template_added": "[MAIL] New template added: {template_name}",
+        
+        "back_to_surveillance": "← Back to surveillance",
+        "inbox_messages": "Inbox messages",
+        "view_message": "View message",
+        "mark_as_read": "Mark as read",
+        "delete": "Delete",
+        "stats": "📧 Messages: {total} | ✉ Unread: {unread}",
+        "mvd": "MVD"
+    },
+    
+    "settings": {
+        "title": "⚙️ SYSTEM SETTINGS",
+        "screen_shown": "Settings screen shown",
+    
+        "language_group": "Language and Interface",
+        "language": "Interface language:",
+    
+        "graphics": "Graphics",
+        "audio": "Audio",
+        "game_time": "Game time",
+    
+        "display_mode": "Display mode:",
+        "visual_effects": "Visual effects",
+        "glitch_effects": "Glitch effects",
+        "vsync": "VSync (vertical synchronization)",
+        "effect_intensity": "Effect intensity:",
+        "resolution": "Window resolution:",
+    
+        "display_modes": {
+            "fullscreen": "Fullscreen",
+            "windowed": "Windowed",
+            "borderless": "Borderless"
+        },
+    
+        "enable_audio": "Enable sound",
+        "master_volume": "Master volume:",
+        "effects_volume": "Effects volume:",
+        "music_volume": "Music volume:",
+        "typing_sounds": "Typing sounds",
+        "background_music": "Background music",
+        "voice_effects": "Voice effects",
+        "environment_sounds": "Environment sounds",
+        "dynamic_range": "Dynamic range:",
+    
+        "time_speed": "Time speed:",
+        "auto_pause": "Auto-pause in menus",
+        "show_time_widget": "Show time widget",
+    
+        "apply": "APPLY SETTINGS",
+        "reset": "RESET TO DEFAULT",
+        "test_sound": "TEST SOUND",
+        "back": "← BACK TO MENU"
+    },
+
+    "help": {
+        "helping": "HELP",
+        "tab_basics": "Basics",
+        "tab_terminal": "Terminal",
+        "tab_controls": "Controls",
+        "tab_skills": "Skills",
+        "back_button": "🔙 BACK TO MENU",
+        "screen_shown": "Help screen shown",
+        
+        "basics_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #00bfff;\">🎮 GAME BASICS</h2><p><b>«Office Hacker»</b> is a simulator of working in the cybersecurity field of the company <b>«SIBERIA-SOFT»</b>.</p><h3 style=\"color: #00ff88;\">GAME GOAL:</h3><ul><li>Complete daily tasks to advance your career</li><li>Develop cybersecurity skills</li><li>Earn money (rubles) and increase reputation</li><li>Avoid detection by the security system</li></ul><h3 style=\"color: #00ff88;\">INTERFACE:</h3><p>The game interface consists of three main panels:</p><ul><li><span style=\"color: #00bfff;\">Left panel</span> - employee information, balance, reputation, current task and skills</li><li><span style=\"color: #00bfff;\">Central panel</span> - terminal for executing commands</li><li><span style=\"color: #00bfff;\">Right panel</span> - surveillance camera and security system log</li></ul><h3 style=\"color: #00ff88;\">STARTING THE GAME:</h3><ol><li>Start a new shift through the main menu</li><li>Enter your first and last name when registering</li><li>Complete the first task \"Check the 'MAIL'\"</li><li>Use the terminal to complete tasks</li></ol></div>",
+
+        "terminal_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #00ff00;\">⌨️ TERMINAL COMMANDS</h2><h3 style=\"color: #00ff88;\">BASIC COMMANDS:</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #002200;\"><th style=\"color: #00ff00; text-align: left;\">Command</th><th style=\"color: #00ff00; text-align: left;\">Description</th><th style=\"color: #00ff00; text-align: left;\">Example</th></tr><tr><td><code style=\"color: #00ffff;\">help</code></td><td>Show list of all commands</td><td><code>help</code></td></tr><tr><td><code style=\"color: #00ffff;\">scan</code></td><td>Scan network for devices</td><td><code>scan</code></td></tr><tr><td><code style=\"color: #00ffff;\">connect [IP]</code></td><td>Connect to device by IP address</td><td><code>connect 192.168.1.1</code></td></tr><tr><td><code style=\"color: #00ffff;\">hack [target]</code></td><td>Hack the specified target</td><td><code>hack server1</code></td></tr><tr><td><code style=\"color: #00ffff;\">tasks</code></td><td>Show current tasks</td><td><code>tasks</code></td></tr><tr><td><code style=\"color: #00ffff;\">clear</code></td><td>Clear terminal screen</td><td><code>clear</code></td></tr><tr><td><code style=\"color: #00ffff;\">dir</code></td><td>Show files in current directory</td><td><code>dir</code></td></tr><tr><td><code style=\"color: #00ffff;\">ipconfig</code></td><td>Show network settings</td><td><code>ipconfig</code></td></tr><tr><td><code style=\"color: #00ffff;\">whoami</code></td><td>Current user information</td><td><code>whoami</code></td></tr></table><h3 style=\"color: #00ff88;\">USAGE TIPS:</h3><ul><li>Use <span style=\"color: #00ffff;\">Tab</span> for command autocompletion</li><li>Use <span style=\"color: #00ffff;\">↑</span> and <span style=\"color: #00ffff;\">↓</span> arrows for command history navigation</li><li>All commands are case sensitive</li><li>For help on a specific command type <code>command --help</code></li></ul></div>",
+    
+        "controls_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #ffff00;\">🎮 CONTROLS AND HOTKEYS</h2><h3 style=\"color: #ffaa00;\">HOTKEYS:</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #332200;\"><th style=\"color: #ffff00; text-align: left;\">Key</th><th style=\"color: #ffff00; text-align: left;\">Action</th><th style=\"color: #ffff00; text-align: left;\">Description</th></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">F1</kbd></td><td>Help</td><td>Open this help window</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">ESC</kbd></td><td>Menu</td><td>Return to main menu</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Ctrl + S</kbd></td><td>Save</td><td>Quick game save</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Ctrl + L</kbd></td><td>Load</td><td>Quick game load</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Ctrl + Q</kbd></td><td>Exit</td><td>Exit the game</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Tab</kbd></td><td>Autocomplete</td><td>Command autocompletion in terminal</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">↑ / ↓</kbd></td><td>History</td><td>Command history navigation</td></tr></table><h3 style=\"color: #ffaa00;\">INTERFACE:</h3><ul><li><b>Left mouse button</b> - select interface elements</li><li><b>Right mouse button</b> - context menu (where available)</li><li><b>Mouse wheel</b> - scroll lists and text</li><li><b>Enter</b> - confirm input in terminal</li></ul><h3 style=\"color: #ffaa00;\">CONTROL SETTINGS:</h3><p>All hotkeys can be reassigned in game settings.</p></div>",
+    
+        "skills_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #ff55ff;\">🎯 SKILLS SYSTEM</h2><p>Skills determine your effectiveness in various work aspects. Skill level from 1 to 10.</p><h3 style=\"color: #ff88ff;\">SKILL DESCRIPTION:</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #330033;\"><th style=\"color: #ff55ff; text-align: left;\">Skill</th><th style=\"color: #ff55ff; text-align: left;\">Description</th><th style=\"color: #ff55ff; text-align: left;\">How to improve</th></tr><tr><td><span style=\"color: #ff5555; font-weight: bold;\">Hacking</span></td><td>Ability to hack systems, bypass protection</td><td>Completing hacking tasks, using terminal</td></tr><tr><td><span style=\"color: #55ff55; font-weight: bold;\">Social Engineering</span></td><td>Ability to manipulate employees to gain access</td><td>Interacting with NPCs, completing social tasks</td></tr><tr><td><span style=\"color: #5555ff; font-weight: bold;\">Programming</span></td><td>Creating scripts, utilities and exploits</td><td>Writing code in terminal, solving programming tasks</td></tr><tr><td><span style=\"color: #ffff55; font-weight: bold;\">Stealth</span></td><td>Ability to avoid detection by security system</td><td>Completing tasks undetected, using hidden commands</td></tr><tr><td><span style=\"color: #55ffff; font-weight: bold;\">Analysis</span></td><td>Ability to analyze data and find vulnerabilities</td><td>Analyzing logs, researching network packets</td></tr><tr><td><span style=\"color: #ffaa55; font-weight: bold;\">Network Security</span></td><td>Knowledge of network protocols and protection technologies</td><td>Configuring network equipment, protecting systems</td></tr></table><h3 style=\"color: #ff88ff;\">SKILL LEVELS:</h3><ul><li><span style=\"color: #ff5555;\">1-3: Beginner</span> - Basic knowledge</li><li><span style=\"color: #ffff55;\">4-6: Experienced</span> - Good understanding</li><li><span style=\"color: #55ff55;\">7-8: Expert</span> - Professional level</li><li><span style=\"color: #55ffff;\">9-10: Master</span> - Highest level of mastery</li></ul><h3 style=\"color: #ff88ff;\">TIPS:</h3><ul><li>Balance all skills development</li><li>Complex tasks give more experience</li><li>Some tasks require minimum skill levels</li><li>High skill levels unlock new opportunities</li></ul></div>"
+    },
+
+    "about": {
+        "title": "OFFICE HACKER - Cybersecurity Simulator",
+        "version": "Version: <b>0.3.a</b> | Build date: <b>December 2025</b>",
+        "back_button": "🔙 BACK TO MENU",
+        "screen_shown": "About screen shown",
+        
+        "html_content": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6;\">\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(0, 191, 255, 0.1); border-left: 4px solid #00bfff; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">🎮</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #00bfff; margin-bottom: 5px;\">DESCRIPTION</div>\n        <div style=\"color: #cccccc;\">\n            <b>«Office Hacker»</b> is a cybersecurity work simulator. \n            You play as a new employee of the company <b>«SIBERIA-SOFT»</b>, who must complete \n            daily tasks, develop skills and advance on the career ladder.\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 215, 0, 0.1); border-left: 4px solid #ffd700; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">🌟</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ffd700; margin-bottom: 5px;\">FEATURES</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00ff00;\">Development of cybersecurity skills</span><br>\n            • <span style=\"color: #00ff00;\">Dynamic task system</span><br>\n            • <span style=\"color: #00ff00;\">Interactive environment</span><br>\n            • <span style=\"color: #00ff00;\">Character characteristics system</span><br>\n            • <span style=\"color: #00ff00;\">Ability to save progress</span>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(0, 255, 0, 0.1); border-left: 4px solid #00ff00; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">👥</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #00ff00; margin-bottom: 5px;\">DEVELOPERS</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00bfff;\">Programming:</span> Sad_Smile<br>\n            • <span style=\"color: #00bfff;\">Design:</span> Sad_Smile<br>\n            • <span style=\"color: #00bfff;\">Testing:</span> Sad_Smile\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 0, 0, 0.1); border-left: 4px solid #ff5555; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">📞</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ff5555; margin-bottom: 5px;\">CONTACTS</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00ffff;\">Email:</span> \n              <a href=\"mailto:sapportsadsmile@gmail.com\" \n                 style=\"color: #00bfff; text-decoration: none;\">\n                 sapportsadsmile@gmail.com</a><br>\n            • <span style=\"color: #00ffff;\">Website:</span> \n              <a href=\"https://sikorsky-support-center.netlify.app/\" \n                 style=\"color: #00bfff; text-decoration: none;\">\n                 https://sikorsky-support-center.netlify.app/</a><br>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 255, 0, 0.1); border-left: 4px solid #ffff00; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">📄</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ffff00; margin-bottom: 5px;\">LICENSE</div>\n        <div style=\"color: #cccccc;\">\n            This program is distributed under the \n            <span style=\"color: #ff8800; font-weight: bold;\">MIT</span> license.<br><br>\n            \n            <span style=\"font-size: 12px; color: #888888;\">\n            Allowed: commercial use, modification, distribution, private use.<br>\n            Required: attribution and license notice.<br>\n            Prohibited: liability and warranties.\n            </span>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin-top: 30px; padding: 15px; background: rgba(0, 0, 0, 0.3); border: 1px solid #333; border-radius: 5px; text-align: center;\">\n    <div style=\"color: #00bfff; font-size: 18px; font-weight: bold; margin-bottom: 5px;\">\n        SIKORSKY'S INCORPORATED\n    </div>\n    <div style=\"color: #888888; font-size: 12px;\">\n        © 2025 Sikorsky's Incorporated. All rights reserved.<br>\n        <span style=\"color: #666666;\">Siberia-Soft Division</span>\n    </div>\n</div>\n\n</div>"
+    },
+
+    "common": {
+        "error": "Error",
+        "confirm_exit": "Exit Confirmation",
+        "cancel": "Cancel",
+        "ok": "OK"
+    },
+    
+    "config": {
+        "loaded": "Configuration loaded",
+        "created": "Configuration created",
+        "updated": "Configuration updated",
+        "read_error": "Error reading configuration"
+    },
+    
+    "error": {
+        "language_setup": "Language setup error",
+        "config_load": "Configuration load error",
+        "new_game_start": "New game start error",
+        "game_load": "Game load error",
+        "game_save": "Game save error",
+        "config_save": "Configuration save error",
+        "audio_apply": "Audio settings apply error"
+    },
+    
+    "graphics": {
+        "applied": "Graphics settings applied"
+    },
+    
+    "audio": {
+        "applied": "Audio settings applied"
+    },
+
+    "test": {
+        "first_name": "Ivan",
+        "last_name": "Ivanov",
+        "player_name": "Ivan Ivanov",
+        "player": "Player",
+        "day": "Day",
+        "starting_shift": "Starting shift...",
+        "current_task": "Current task",
+        "task_progress": "Task progress",
+        "email_count": "Number of emails",
+        "unread_emails": "Unread emails",
+        "email_from": "Email from",
+        "read": "Read",
+        "important": "Important",
+        "mvd_found": "Found MVD email with",
+        "opening_email": "Opening email...",
+        "progress_after": "Progress after opening email",
+        "reading_mvd": "Reading MVD email...",
+        "email_read": "Email read",
+        "unread_after": "Unread after reading",
+        "tasks_completed": "Tasks completed",
+        "adding_email": "Adding test email...",
+        "test_system": "Test system",
+        "test_message": "Test message",
+        "test_content": "This is a test message for system verification.",
+        "email_added": "Added email with",
+        "total_emails": "Total emails",
+        "unread": "Unread",
+        "saving_game": "Saving game...",
+        "loading_game": "Loading game...",
+        "loaded_player": "Loaded player",
+        "loaded_emails": "Loaded emails",
+        "file_deleted": "Test file deleted",
+        "completed": "Testing completed"
+    },
+    
+    "styles": {
+        "loaded_success": "Styles loaded successfully from styles.py",
+        "load_error": "Error loading styles",
+        "loaded_from_file": "Styles loaded from styles.qss file",
+        "file_error": "Error loading styles from file"
+    },
+    
+    "fonts": {
+        "loaded": "Font loaded",
+        "load_error": "Error loading font",
+        "not_found": "Source Code Pro font not found. Using standard monospaced font."
+    },
+    
+    "dirs": {
+        "created": "Directory created/verified"
+    },
+    
+    "intro": {
+        "completed": "Intro completed, showing main window...",
+        "already_shown": "Intro already shown, skipping..."
+    },
+
+    "game_state": {
+        "skill_hacking": "Hacking",
+        "skill_social_engineering": "Social engineering",
+        "skill_programming": "Programming",
+        "skill_stealth": "Stealth",
+        "skill_analysis": "Analysis",
+        "skill_network_security": "Network security",
+        "initial_task": "Check your mail and read the urgent email from MVD",
+        "task_check_email": "Check your mail and read the urgent email from MVD",
+        "task_scan_network": "Scan the network for vulnerabilities",
+        "task_update_antivirus": "Update antivirus databases",
+        "task_check_security_logs": "Check security logs",
+        "task_configure_firewall": "Configure the firewall",
+        "task_analyze_traffic": "Analyze suspicious traffic",
+        "task_install_updates": "Install security updates",
+        "task_check_backups": "Check backups",
+        "task_setup_vpn": "Set up VPN connection",
+        "task_audit_users": "Conduct user audit",
+        "task_test_recovery": "Test recovery system",
+        "task_familiarize": "Familiarize yourself with the interface while waiting for your first task",
+        "difficulty_easy": "easy",
+        "difficulty_medium": "standard",
+        "difficulty_hard": "hard",
+        "difficulty_expert": "expert",
+        "task_template": "Complete {modifier} task: {task}",
+        "special_email_config": "ERROR email - sent after completing the first task in 60 minutes",
+        "skill_level_novice": "Novice",
+        "skill_level_apprentice": "Apprentice",
+        "skill_level_experienced": "Experienced",
+        "skill_level_expert": "Expert",
+        "skill_level_master": "Master",
+        "stress_low": "Low",
+        "stress_medium": "Medium",
+        "stress_high": "High",
+        "stress_critical": "Critical",
+        "energy_low": "Low",
+        "energy_medium": "Medium",
+        "energy_high": "High",
+        "energy_full": "Full",
+        "task_completed_notification": "Task '{task}' completed successfully. Reward: {money:.2f} ₽",
+        "save_success": "[SAVE] Game saved to {filename}",
+        "load_error": "[ERROR] Failed to load save: {error}",
+        "save_not_found": "[INFO] Save not found: {filename}",
+        "special_email_sent": "[GAME] Special email sent: {type}",
+        "special_email_config_added": "[GAME] Added email configuration: {type}",
+        "special_email_toggled": "[GAME] Email '{type}' {status}",
+        "enabled": "enabled",
+        "disabled": "disabled",
+        "statistics": {
+            "name": "Name",
+            "day": "Day",
+            "tasks_completed": "Tasks completed",
+            "reputation": "Reputation",
+            "balance": "Balance",
+            "shift_time": "Shift time",
+            "energy": "Energy",
+            "stress": "Stress",
+            "unread_emails": "Unread emails",
+            "game_date": "Game date",
+            "shift_progress": "Shift progress",
+            "skills": "Skills"
+        }
+    },
+
+    "status": {
+        "encrypting_channel": "Encrypting channel...",
+        "checking_access": "Checking access rights...",
+        "sync_with_hq": "Synchronizing with HQ...",
+        "loading_missions": "Loading missions...",
+        "connecting_to_global_network": "Connecting to global network...",
+        "checking_security_system": "Checking security system...",
+        "loading_configuration": "Loading configuration...",
+        "initializing_terminal": "Initializing terminal...",
+        "call_forwarding": "Call forwarding...",
+        "sending_admin": "Sending admin to email...",
+        "remembering_name": "Remembering my name...",
+        "loading_junk": "Loading useless junk...",
+        "updating_software": "Updating software...",
+        "leaving_feedback": "Will you leave a review?...",
+        "menu_idle": "Will you sit in the menu for a long time?...",
+        "virus_scan": "Scanning for viruses...",
+        "updating_database": "Updating databases...",
+        "backup": "Backing up...",
+        "memory_optimization": "Memory optimization...",
+        "calibrating_sensors": "Calibrating sensors...",
+        "visit_website": "Please visit my website..."
+    },
+
+    "office": {
+        "ivan": "Ivan Petrov",
+        "maria": "Maria Sidorova", 
+        "alexey": "Alexey Ivanov",
+        "olga": "Olga Nikolaeva",
+        "status_working": "Working",
+        "status_meeting": "In meeting",
+        "status_report": "Writing report",
+        "status_break": "On break",
+        "surveillance_camera": "SURVEILLANCE CAMERA #4",
+        "active": "ACTIVE",
+        "glitch": "GLITCH"
+    },
+    
+    "tasks": {
+        "check_mvd_email": "Check your mail and read the urgent email from MVD",
+        "scan_network": "Scan the network for vulnerabilities"
+    }
+}

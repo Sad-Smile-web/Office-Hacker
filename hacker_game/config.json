@@ -1,0 +1,36 @@
+{
+  "game": {
+    "difficulty": 2,
+    "autosave_interval": 300,
+    "enable_tutorial": true,
+    "language": "sp"
+  },
+  "graphics": {
+    "enable_effects": true,
+    "glitch_effects": false,
+    "window_width": 800,
+    "window_height": 600,
+    "display_mode": "fullscreen",
+    "vsync": false,
+    "effect_intensity": 0
+  },
+  "audio": {
+    "enabled": false,
+    "volume": 0,
+    "master_volume": 0,
+    "typing_sounds": false,
+    "background_music": false,
+    "effects_volume": 0,
+    "music_volume": 0,
+    "voice_effects": false,
+    "environment_sounds": false,
+    "dynamic_range": "normal"
+  },
+  "game_time": {
+    "time_speed": 0.1,
+    "real_time_seconds_per_game_minute": 10,
+    "auto_pause_in_menus": false,
+    "show_time_widget": false
+  },
+  "intro_shown": true
+}

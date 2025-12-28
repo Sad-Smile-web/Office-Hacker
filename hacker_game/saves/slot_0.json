@@ -1,0 +1,95 @@
+{
+  "first_name": "ыва",
+  "last_name": "ыва",
+  "day": 1,
+  "shift_started": true,
+  "tasks_completed": 0,
+  "reputation": 0,
+  "money": 500.0,
+  "skills": {
+    "Hacking": 1,
+    "Ingeniería social": 1,
+    "Programación": 1,
+    "Sigilo": 1,
+    "Análisis": 1,
+    "Seguridad de red": 1
+  },
+  "current_task": "Revisa tu correo y lee el mensaje urgente del MVD",
+  "current_task_progress": 0,
+  "task_difficulty": 1,
+  "shift_time": 0,
+  "energy": 100,
+  "stress": 0,
+  "completed_tasks_list": [],
+  "game_time": {
+    "current_hour": 9,
+    "current_minute": 0,
+    "day": 1,
+    "month": 1,
+    "year": 1984,
+    "is_paused": false,
+    "time_speed": 1.0,
+    "workday_start": 9,
+    "workday_end": 18
+  },
+  "special_emails_config": {
+    "error_message": {
+      "enabled": true,
+      "required_tasks": 1,
+      "required_time": 60,
+      "description": "Correo ERROR - se envía después de completar la primera tarea en 60 minutos"
+    }
+  },
+  "time_paused": false,
+  "email_system": {
+    "inbox": [
+      {
+        "id": 1,
+        "sender_key": "email.templates.system_welcome.sender",
+        "subject_key": "email.templates.system_welcome.subject",
+        "template_key": "email.templates.system_welcome.template",
+        "parameters": {
+          "player_name": "ыва ыва",
+          "day": 1,
+          "reputation": 0,
+          "money": 500.0
+        },
+        "date": "20:29",
+        "read": false,
+        "important": true,
+        "is_spam": false,
+        "spam_type": null
+      },
+      {
+        "id": 2,
+        "sender_key": "email.templates.system_notification.sender",
+        "subject_key": "email.system_notification.subject",
+        "template_key": "email.system_notification.content",
+        "parameters": {
+          "player_name": "ыва ыва",
+          "day": 1,
+          "reputation": 0,
+          "money": 500.0
+        },
+        "date": "20:29",
+        "read": false,
+        "important": false,
+        "is_spam": false,
+        "spam_type": null
+      }
+    ],
+    "sent": [],
+    "draft": [],
+    "next_email_id": 3,
+    "unread_emails": 2,
+    "emails_received_today": true,
+    "mvd_email_read": false,
+    "special_emails_sent": {
+      "error_message": false
+    },
+    "player_name": "ыва ыва",
+    "day": 1,
+    "reputation": 0,
+    "money": 500.0
+  }
+}
