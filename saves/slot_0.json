@@ -1,0 +1,84 @@
+{
+  "first_name": "фыв",
+  "last_name": "цуа",
+  "day": 1,
+  "shift_started": true,
+  "reputation": 0,
+  "money": 500.0,
+  "skills": {
+    "Hacking": 1,
+    "Social Engineering": 1,
+    "Programmierung": 1,
+    "Heimlichkeit": 1,
+    "Analyse": 1,
+    "Netzwerksicherheit": 1
+  },
+  "game_time": {
+    "current_hour": 9,
+    "current_minute": 13,
+    "day": 1,
+    "month": 1,
+    "year": 2140,
+    "is_paused": true,
+    "time_speed": 1.0,
+    "workday_start": 9,
+    "workday_end": 18
+  },
+  "time_paused": true,
+  "error_email_sent": false,
+  "mvd_mission_email_sent": false,
+  "welcome_email_sent": true,
+  "cutscene_shown": true,
+  "save_slot": 0,
+  "last_hour_checked": 9,
+  "spam_cooldown": {},
+  "spam_types_sent_today": [],
+  "special_emails_config": {
+    "error_message": {
+      "enabled": true,
+      "required_tasks": 1,
+      "required_time": 30,
+      "description": "ERROR-E-Mail - wird 60 Minuten nach Erfüllung der ersten Aufgabe gesendet"
+    },
+    "mvd_mission_1_intro": {
+      "enabled": true,
+      "required_tasks": 1,
+      "required_time": 30,
+      "description": "ERROR-E-Mail - wird 60 Minuten nach Erfüllung der ersten Aufgabe gesendet"
+    }
+  },
+  "shift_time": 13,
+  "energy": 100,
+  "stress": 0,
+  "email_system": {
+    "inbox": [
+      {
+        "id": 1,
+        "sender_key": "email.templates.system_welcome.sender",
+        "subject_key": "email.templates.system_welcome.subject",
+        "template_key": "email.templates.system_welcome.template",
+        "parameters": {
+          "player_name": "",
+          "day": 1,
+          "reputation": 0,
+          "money": 500.0
+        },
+        "date": "17:49",
+        "read": false,
+        "important": true,
+        "is_spam": false,
+        "spam_type": null
+      }
+    ],
+    "sent": [],
+    "draft": [],
+    "next_email_id": 2,
+    "unread_emails": 1,
+    "emails_received_today": false,
+    "mvd_email_read": false,
+    "player_name": "",
+    "day": 1,
+    "reputation": 0,
+    "money": 500.0
+  }
+}

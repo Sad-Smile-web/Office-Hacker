@@ -1,0 +1,116 @@
+{
+  "audio": {
+    "background_music": false,
+    "dynamic_range": "normal",
+    "effects_volume": 0,
+    "enabled": true,
+    "environment_sounds": false,
+    "master_volume": 80,
+    "music_volume": 0,
+    "typing_sounds": false,
+    "voice_effects": false,
+    "volume": 0
+  },
+  "controls": {
+    "fullscreen_hotkey": "F11",
+    "pause_hotkey": "P",
+    "quick_load_hotkey": "F9",
+    "quick_save_hotkey": "F5",
+    "toggle_time_hotkey": "Ctrl+T"
+  },
+  "debug": {
+    "dev_mode": false,
+    "infinite_money": false,
+    "log_level": "info",
+    "show_fps": false,
+    "skip_intro": false,
+    "unlock_all": false
+  },
+  "email": {
+    "auto_delete_old": false,
+    "max_emails": 100,
+    "spam_enabled": true,
+    "spam_frequency": 30,
+    "story_emails": true,
+    "urgent_notifications": true
+  },
+  "game": {
+    "autosave_interval": 300,
+    "difficulty": 2,
+    "enable_tutorial": true,
+    "language": "zh"
+  },
+  "game_time": {
+    "auto_pause_in_menus": true,
+    "paused": false,
+    "real_time_seconds_per_game_minute": 10,
+    "show_time_widget": false,
+    "start_year": 2140,
+    "time_speed": 1.0
+  },
+  "gameplay": {
+    "energy_system": true,
+    "lunch_end": 14,
+    "lunch_start": 13,
+    "random_events": true,
+    "skill_progression": true,
+    "stress_system": true,
+    "workday_end": 18,
+    "workday_start": 9
+  },
+  "graphics": {
+    "display_mode": "fullscreen",
+    "effect_intensity": 0,
+    "enable_effects": false,
+    "glitch_effects": false,
+    "resolution": "1920x1080",
+    "vsync": false,
+    "window_height": 600,
+    "window_width": 800
+  },
+  "interface": {
+    "animations": true,
+    "font_family": "Source Code Pro",
+    "font_size": 14,
+    "theme": "dark",
+    "tooltips": true
+  },
+  "intro_shown": true,
+  "misc": {
+    "first_run": true,
+    "intro_shown": false,
+    "last_played": null,
+    "total_play_time": 0,
+    "version": "0.6.0"
+  },
+  "performance": {
+    "glow_effects": true,
+    "max_fps": 60,
+    "particle_effects": true,
+    "reflections": false,
+    "scan_lines": true,
+    "update_interval": 16
+  },
+  "saves": {
+    "autosave_enabled": true,
+    "autosave_frequency": 5,
+    "last_save_slot": 0,
+    "max_save_slots": 4
+  },
+  "terminal": {
+    "autocomplete": true,
+    "command_history": true,
+    "glitch_effects": true,
+    "matrix_effect": false,
+    "scanning_lines": true,
+    "typewriter_sound": true
+  },
+  "window_state": {
+    "height": 1080,
+    "maximized": false,
+    "remember_position": true,
+    "width": 1920,
+    "x_position": 0,
+    "y_position": 0
+  }
+}

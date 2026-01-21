@@ -1,0 +1,641 @@
+{
+    "app": {
+        "name": "SIBERIA-SOFTWARE",
+        "title": "SIBERIA-SOFTWARE - CYBERSICHERHEITSSIMULATOR",
+        "office_hacker": "SIBERIA-SOFTWARE",
+        "startup_complete": "🚀 Hauptfenster initialisiert",
+        "language_set": "Sprache eingestellt: {language}",
+        "widgets_initialized": "Widgets initialisiert",
+        "timers_setup": "Timer eingerichtet",
+        "shortcuts_setup": "Tastenkombinationen eingerichtet",
+        "language_changed_to": "Sprache geändert zu: {language}",
+        "icon_loaded": "Anwendungssymbol geladen",
+        "icon_error": "Fehler beim Laden des Symbols",
+        "closed": "Anwendung beendet."
+    },
+
+    "browser": {
+        "title": "SIBERIA-Browser",
+        "back": "Zurück",
+        "forward": "Vorwärts",
+        "reload": "Aktualisieren",
+        "go": "Gehe zu",
+        "url_placeholder": "URL eingeben (app.cyb://...)",
+        "loading": "Lade {url}...",
+        "loaded": "Geladen: {url}",
+        "ready": "Bereit",
+        "no_page_to_reload": "Keine Seite zum Aktualisieren",
+        "no_forward": "Vorwärts-Verlauf nicht verfügbar",
+
+        "error": {
+            "title": "Browser-Fehler",
+            "invalid_url": "Ungültige URL: {url}",
+            "invalid_url_format": "Ungültiges URL-Format",
+            "load_failed": "Fehler beim Laden der Seite: {error}"
+        },
+
+        "categories": {
+            "marketplace": "Online-Shop",
+            "entertainment": "Unterhaltung",
+            "career": "Karriere",
+            "finance": "Finanzen",
+            "security": "Sicherheit",
+            "social": "Soziale Netzwerke"
+        },
+
+        "security_warning": {
+            "title": "⚠ WICHTIG",
+            "message": "Dies ist ein Demonstrationsbrowser innerhalb des Spiels. Alle Websites sind fiktiv und für Schulungen zur Cybersicherheit erstellt.",
+            "tips": [
+                "Geben Sie keine echten Daten auf fiktiven Websites ein",
+                "Denken Sie daran, dass dies ein Schulungssimulator ist",
+                "Echte Websites fragen niemals per E-Mail nach dem CVV-Code"
+            ]
+        }
+    },
+
+    "menu": {
+        "title": "HAUPTMENÜ",
+        "new_game": "🚀 NEUE SCHICHT STARTEN",
+        "load_game": "📂 SPIELSTAND LADEN",
+        "settings": "⚙️ EINSTELLUNGEN",
+        "help": "❓ HILFE",
+        "about": "ℹ️ ÜBER",
+        "exit": "🚪 BEENDEN",
+        "office": "SIBERIA-SOFTWARE",
+        "connecting": "Verbinde mit System...",
+        "opican": "Sie sind ein neuer Mitarbeiter der Firma 'SIBERIA-SOFT'.\nIhre Aufgabe ist es, Ihren Ruf wiederherzustellen\nund Ihre Cybersicherheitsfähigkeiten zu entwickeln.\n\nMerkmale:\n• Dynamisches Aufgaben-System\n• Interaktive Umgebung\n• Ruf- und Karrieresystem\n•WICHTIG! DAS SPIEL LEHRT SIE NICHT DAS ECHTE HACKING!",
+        "screen_shown": "Menübildschirm angezeigt"
+    },
+
+    "game": {
+        "employee": "Mitarbeiter",
+        "employee_status": "👤 MITARBEITERSTATUS",
+        "skills": "🎯 FÄHIGKEITEN",
+        "mail": "📧 E-Mail",
+        "main_menu": "Hauptmenü",
+        "progress": "Fortschritt: {progress}%",
+        "balance": "💰 Kontostand: {money}",
+        "reputation": "⭐ Ruf: {reputation}",
+        "day": "📅 Tag: {day}",
+        "current_task": "📝 Aktuelle Aufgabe",
+        "system": "System",
+        "data_updated_for": "Daten aktualisiert für",
+        "access_mail_system": "Zugriff auf das E-Mail-System",
+        "mvd_email_read": "E-Mail des Innenministeriums gelesen",
+        "security_system_title": "SICHERHEITSSYSTEM",
+        "surveillance_system": "ÜBERWACHUNGSSYSTEM",
+        "security_log": "Sicherheitsprotokoll",
+        "mail_client": "E-MAIL-CLIENT",
+        "camera1": "Kamera #1: 3. Stock Flur",
+        "camera2": "Kamera #2: IT-Abteilung",
+        "camera3": "Kamera #3: Serverraum",
+        "microphones": "Mikrofone aktiv",
+        "motion_sensors": "Bewegungssensoren aktiv",
+        "status_all_operational": "Alle Systeme funktionsfähig",
+        "recent_events": "Letzte Ereignisse",
+        "shift_started": "Schichtbeginn",
+        "security_check": "Sicherheitsüberprüfung",
+        "daily_meeting": "Tägliche Besprechung",
+        "network_activity": "Netzwerkaktivität",
+        "shift": "Schicht",
+        "welcome": "Willkommen, {name}!",
+        "welcome_back": "Willkommen zurück, {name}!",
+        "new_shift_started": "Neue Schicht gestartet!",
+        "new_game_started_for": "Neues Spiel gestartet für",
+        "user_canceled_new_game": "Benutzer hat das Starten eines neuen Spiels abgebrochen",
+        "loaded_for": "Spiel geladen für",
+        "loaded_successfully": "Spiel erfolgreich geladen!",
+        "saved_successfully": "Spiel erfolgreich gespeichert!",
+        "autosave_performed": "Autosave durchgeführt",
+        "screen_shown": "Spielbildschirm angezeigt",
+        "time_paused": "Zeit pausiert",
+        "time_resumed": "Zeit fortgesetzt",
+        "audio_disabled": "Ton deaktiviert",
+        "audio_enabled": "Ton aktiviert",
+        "exit_confirm_title": "Beenden bestätigen",
+        "exit_confirm": "Möchten Sie das Spiel wirklich beenden?",
+        "exit_to_menu_confirm": "Möchten Sie wirklich zum Hauptmenü zurückkehren?",
+        "new_game_confirm_title": "Neues Spiel",
+        "new_game_confirm": "Möchten Sie wirklich ein neues Spiel starten? Der aktuelle Fortschritt geht verloren.",
+        "new_game_error": "Fehler beim Erstellen eines neuen Spiels",
+        "save_error": "Fehler beim Speichern des Spiels",
+        "load_error": "Fehler beim Laden des Spiels",
+        "no_save_title": "Keine Spielstände gefunden",
+        "no_save_found": "Keine Spielstände gefunden. Starten Sie ein neues Spiel.",
+        "input_name_title": "Mitarbeiterregistrierung",
+        "input_name_instruction": "Geben Sie Ihren Vor- und Nachnamen für die Registrierung im System des Innenministeriums ein",
+        "input_first_name": "Vorname:",
+        "input_last_name": "Nachname:",
+        "input_name_hint": "Nur Buchstaben und Bindestriche verwenden. Beide Felder sind Pflichtfelder.",
+        "input_error_title": "Eingabefehler",
+        "input_name_required": "Beide Felder müssen ausgefüllt werden: Vor- und Nachname",
+        "input_name_invalid": "Ungültige Zeichen im Namen. Verwenden Sie nur Buchstaben.",
+        "welcome_email_read": "[SPIEL] Willkommens-E-Mail gelesen um {time}. E-Mails werden in 10 Minuten eintreffen.",
+
+        "security_event": {
+            "user_activity": "Benutzeraktivität #{id}",
+            "loyalty_check": "Loyalitätsprüfung",
+            "network_scan": "Netzwerkscan",
+            "data_integrity": "Datenintegritätsprüfung",
+            "traffic_analysis": "Datenverkehrsanalyse",
+            "monitoring_active": "Überwachung aktiv",
+            "access_logs": "Zugriffsprotokolle prüfen",
+            "motion_test": "Bewegungssensortest"
+        },
+
+        "error": {
+            "game_widget_update": "Fehler beim Aktualisieren des GameWidget"
+        },
+
+        "statistics": {
+            "name": "Name",
+            "day": "Tag",
+            "tasks_completed": "Aufgaben erledigt",
+            "reputation": "Ruf",
+            "balance": "Kontostand",
+            "shift_time": "Schichtzeit",
+            "energy": "Energie",
+            "stress": "Stress",
+            "unread_emails": "Ungelesene E-Mails",
+            "game_date": "Spieldatum",
+            "shift_progress": "Schichtfortschritt",
+            "skills": "Fähigkeiten"
+        }
+    },
+
+    "email": {
+        "spam": {
+            "advertisement": {
+                "megamarket": {
+                    "sender": "Megamarkt",
+                    "subject": "50% Rabatt auf alles!",
+                    "template": "Von: Megamarkt\nAn: Sehr geehrter Kunde\nBetreff: 50% Rabatt auf alles!\n\nSehr geehrter Kunde!\n\nNur heute und nur für Sie 50% Rabatt auf alle Produkte in unserem Shop!\nVerpassen Sie nicht die Gelegenheit, alles, was Sie schon lange wollten, zum halben Preis zu kaufen.\n\nDas Angebot gilt bis Tagesende. Beeilen Sie sich! <a href=\"app.cyb://market.sale/fresh-products\" style=\"color:#00ffff;\">app.cyb://market.sale/fresh-products</a>\n\nDies ist eine Werbenachricht."
+                },
+                "technomir": {
+                    "sender": "TechnoWelt",
+                    "subject": "Neues Smartphone für 9.999 ₽!",
+                    "template": "Von: TechnoWelt\nAn: Potenzieller Kunde\nBetreff: Neues Smartphone für 9.999 ₽!\n\nWir haben die Vorbestellung für das neue Smartphone XPhone ZX gestartet!\nTop-Funktionen zu einem unglaublichen Preis.\n\n6,7-Zoll OLED-Display\n12 GB Arbeitsspeicher\n108-MP-Kamera\n5000-mAh-Akku\n\nFür nur 9.999 ₽ statt 39.999 ₽!\nKaufen Sie noch vor Ende der Woche. <a href=\"app.cyb://market.sale/electronics.store\" style=\"color:#00ffff;\">app.cyb://market.sale/electronics.store</a>\n\nDies ist eine Werbenachricht."
+                },
+                "online_cinema": {
+                    "sender": "Online-Kino",
+                    "subject": "Jahresabo für 1 Rubel!",
+                    "template": "Von: Kino Online\nAn: Filmfan\nBetreff: Jahresabo für 1 Rubel!\n\nMöchten Sie alle Filme und Serien ohne Einschränkungen sehen?\nErhalten Sie ein Jahresabo für unser Kino für nur 1 Rubel!\n\nÜber 50.000 Filme und Serien\nNeue Kinostarts\nExklusive Inhalte\n\nAngebot zeitlich begrenzt. Aktivieren Sie über den Link: <a href=\"app.cyb://film.distribution.sale/exclusive.content\" style=\"color:#00ffff;\">app.cyb://film.distribution.sale/exclusive.content</a>\n\nDies ist eine Werbenachricht."
+                },
+                "fitness_center": {
+                    "sender": "Fitness-Center",
+                    "subject": "Kostenloser Monat Training!",
+                    "template": "Von: Fitness Pro\nAn: Gesundheitsbewusster\nBetreff: Kostenloser Monat Training!\n\nEntdecken Sie eine neue Fitness-Welt! \nDer erste Trainingsmonat in unserem Premium-Center ist absolut kostenlos.\n\nModerne Geräte\nProfessionelle Trainer\nPool und Sauna\n\nVereinbaren Sie eine kostenlose Besichtigung: 87-800-565-65-67-89\n\nDies ist eine Werbenachricht."
+                }
+            },
+            "scam": {
+                "fast_loan": {
+                    "sender": "Bank für Schnellkredite",
+                    "subject": "Kredit zu 0%!",
+                    "template": "Von: Bank für Schnellkredite\nAn: Sehr geehrter Kunde\nBetreff: Kredit zu 0%!\n\nTräumen Sie von einem neuen Auto oder einer Wohnung? \nUnsere Bank bietet einzigartige Konditionen - Kredit zu 0% Zinsen!\n\nOhne Einkommensnachweise, ohne Sicherheiten. Entscheidung in 5 Minuten.\nMaximaler Betrag: 50.000 ₽.\n\nRufen Sie jetzt an: 87-800-555-65-34-34\n\nDies ist eine Werbenachricht."
+                },
+                "cybersecurity": {
+                    "sender": "Cybersicherheit Pro",
+                    "subject": "Ihr Computer ist infiziert!",
+                    "template": "Von: Cybersicherheit Pro\nAn: Computerbesitzer\nBetreff: Ihr Computer ist infiziert!\n\nUnsere Systeme haben erkannt, dass Ihr Computer mit einem Virus infiziert ist.\nDer Virus kann Ihre Passwörter, Bankdaten und persönliche Informationen stehlen.\n\nInstallieren Sie dringend unser Programm zur Systembereinigung!\nDownload über den Link: <a href=\"app.cyb://computer/computer.wizard\" style=\"color:#00ffff;\">app.cyb://computer/computer.wizard</a>\n\nDies ist eine Werbenachricht."
+                },
+                "lottery": {
+                    "sender": "Staatslotterie",
+                    "subject": "Sie haben 1.000.000 ₽ gewonnen!",
+                    "template": "Von: Staatliche Lotterie\nAn: Glücklicher Gewinner\nBetreff: Sie haben 1.000.000 ₽ gewonnen!\n\nHerzlichen Glückwunsch! Ihr Los Nr. {ticket_number} hat in unserer Ziehung gewonnen!\nSie haben 1.000.000 ₽ gewonnen!\n\nSenden Sie zur Preisabholung Ihre Ausweisdaten und Ihre Bankkartennummer an: lottery$banki.cyb\n\nHolen Sie sich Ihren Gewinn innerhalb von 24 Stunden ab!"
+                },
+                "investments": {
+                    "sender": "Investitionen 300%",
+                    "subject": "Verdienen Sie 300% in einem Monat!",
+                    "template": "Von: Krypto-Investitionen\nAn: Investor\nBetreff: Verdienen Sie 300% in einem Monat!\n\nEinzigartige Gelegenheit, in ein neues Kryptoprojekt zu investieren!\nUnsere Plattform garantiert 300% Gewinn im ersten Monat.\n\nMindesteinlage: 10.000 ₽\nMaximaler Gewinn: unbegrenzt\n\nRegistrieren Sie sich über den Link: app.cyb://investor/deposits/profit\n\nDies ist eine Werbenachricht."
+                }
+            },
+            "notification": {
+                "social_network": {
+                    "sender": "Soziales Netzwerk SIBERIA.communication",
+                    "subject": "Neue Nachrichten von Freunden",
+                    "template": "Von: ConnectSocial\nAn: {player_name}\nBetreff: Neue Nachrichten von Freunden\n\nHallo {player_name}!\n\nSie haben 5 neue Nachrichten und 3 Freundschaftsanfragen.\nBesuchen Sie das soziale Netzwerk, um wichtige Ereignisse nicht zu verpassen.\n\nZum sozialen Netzwerk: <a href=\"app.cyb://SIBERIA.communication/messages\" style=\"color:#00ffff;\">app.cyb://SIBERIA.communication/messages</a>."
+                },
+                "postal_service": {
+                    "sender": "Postdienst",
+                    "subject": "Sie haben ein Paket",
+                    "template": "Von: Russische Post\nAn: Empfänger\nBetreff: Sie haben ein Paket\n\nEin Paket aus dem Ausland ist für Sie eingetroffen.\nZur Abholung müssen Sie die Zollgebühr von 1500 ₽ bezahlen.\n\nBezahlen Sie über den Link: app.cyb://pay12376/234ujhsdf/sdfioy23y\nAndernfalls wird das Paket an den Absender zurückgeschickt."
+                },
+                "payment_system": {
+                    "sender": "Zahlungssystem",
+                    "subject": "Verdächtige Aktivität",
+                    "template": "Von: Zahlungssicherheit\nAn: Benutzer\nBetreff: Verdächtige Aktivität\n\nVerdächtige Aktivität in Ihrem Konto wurde erkannt.\nMöglicherweise hat jemand versucht, auf Ihre Mittel zuzugreifen.\n\nBestätigen Sie zum Schutz Ihres Kontos Ihre Daten:\n- Kartennummer\n- Gültigkeitsdatum\n- CVV-Code\n- SMS-Code\n\nGehen Sie zum Link: app.cyb://dsfkjh/skdjh."
+                }
+            },
+            "personal": {
+                "dating": {
+                    "sender": "Dating in der Nähe",
+                    "subject": "Neue Nachrichten von Frauen",
+                    "template": "Von: Dating in der Nähe\nAn: {player_name}\nBetreff: Neue Nachrichten von Frauen\n\nHallo {player_name}!\n\nIn den letzten 24 Stunden haben 5 Frauen Ihnen Nachrichten auf der Dating-Website hinterlassen.\nUm sie zu lesen, müssen Sie den Premium-Zugang bezahlen: 999 ₽/Monat.\n\nGehen Sie zum Link für die Zahlung: app.cyb://dating.nearby/pay15673\n\nDies ist eine Werbenachricht."
+                },
+                "astrology": {
+                    "sender": "Astrologieportal",
+                    "subject": "Ihr Horoskop für heute",
+                    "template": "Von: Astrologie des 21. Jahrhunderts\nAn: {player_name}\nBetreff: Ihr Horoskop für heute\n\n{player_name}, heute ist ein wichtiger Tag für Sie!\n\nDie Sterne sagen eine unerwartete Begegnung voraus, die Ihr Leben verändern wird.\nAber seien Sie vorsichtig - finanzielle Verluste sind möglich.\n\nErhalten Sie das vollständige Horoskop mit detaillierten Vorhersagen:\napp.cyb://horoscope/horoscope?name={player_name}\n\nDies ist eine Werbenachricht."
+                },
+                "career": {
+                    "sender": "Karriereberater",
+                    "subject": "Neue Stelle für Sie",
+                    "template": "Von: Karriere Pro\nAn: {player_name}\nBetreff: Neue Stelle für Sie\n\nSehr geehrter {player_name}, wir haben die perfekte Stelle für Sie gefunden!\n\nPosition: Cybersicherheit in einem internationalen Unternehmen\nGehalt: ab 300.000 ₽\nHomeoffice möglich\n\nAnforderungen:\n- Mindestens 1 Jahr Berufserfahrung\n- Kenntnisse in Netzwerktechnologien\n- Bereitschaft zu flexiblen Arbeitszeiten\n\nBewerben Sie sich: app.cyb://career.consultant/job.openings\n\nDies ist eine Werbenachricht."
+                }
+            },
+        "generator": {
+            "template_not_found": "[SPAM] Vorlage nicht gefunden",
+            "custom_template_added": "[SPAM] Neue Vorlage vom Typ '{template_type}' hinzugefügt: {template_subject}",
+            "history_cleared": "[SPAM] Spam-E-Mail-Verlauf gelöscht",
+            "probability_warning": "[SPAM] Achtung: Summe der Wahrscheinlichkeiten {total} ist nicht gleich 1,0",
+            "probabilities_updated": "[SPAM] Spam-Wahrscheinlichkeiten aktualisiert: {probabilities}",
+            "testing": "Spam-Generator-Test:",
+            "total_templates": "Vorlagen insgesamt: {count}",
+            "spam_generated": "\nSpam #{number}:",
+            "from": "Von: {sender}",
+            "subject": "Betreff: {subject}",
+            "type": "Typ: {spam_type}",
+            "content_preview": "Inhalt:\n{content}...",
+            "statistics": "\nStatistik: {stats}"
+        }
+    },
+        "errors": {
+            "template_not_found": "Vorlage '{template}' nicht gefunden",
+            "unknown_folder": "Unbekannter Ordner: {folder}",
+            "email_type_not_found": "[FEHLER] E-Mail-Typ '{email_type}' nicht in Vorlagen gefunden",
+            "already_sent": "[INFO] E-Mail '{email_type}' wurde heute bereits gesendet"
+        },
+        "templates": {
+            "system_welcome": {
+                "sender": "Innenministerium",
+                "subject": "Willkommen!",
+                "template": "Von: Innenministerium-ZUK\nAn: {player_name}\nBetreff: Willkommen!\n\nSehr geehrter {player_name}!\n\nWir heißen Sie in der ehrenvollen Position der Operativen Ermittlungsabteilung willkommen!\n\nIhre Erfolge im Studium haben uns beeindruckt, und wir möchten Ihnen diese Position anbieten. \nWir hoffen auf Ihre Verantwortung und qualitativ hochwertige Arbeit.\n\nDies sind Ihre aktuellen Werte:\nAktueller Arbeitstag: {day}\nIhr aktueller Ruf: {reputation}\nIhr Kontostand: {money:,.2f} ₽\n\nVon Ihnen wird eine verantwortungsvolle Haltung zu Ihren Pflichten erwartet, um die Arbeit erfolgreich zu erledigen.\nWir sind zuversichtlich, dass Sie bestehen und unsere Erwartungen erfüllen werden.\n\nIn Kürze erhalten Sie eine Liste aktueller Aufgaben. \nIn der ersten Phase empfehlen wir Ihnen, sich mit Ihrem Arbeitsplatz und dem Team vertraut zu machen.\n\nÜberwachung ist unsere Funktion. Unsere Kenntnis ist Ihre Pflicht.\nPROJEKT «PANOPTIKUM». WIR SEHEN ALLES.\n\nMit freundlichen Grüßen,\nPersonalmanagementzentrum des Innenministeriums"
+            },
+            "error_message": {
+                "sender": "FEHLER",
+                "subject": "FEHLER",
+                "template": "Von: Incursor\nAn: FEHLER\nBetreff: FEHLER\n\nFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLER\nFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLERFEHLER\nFEHLERFEHLERFEHLERFEHLER\n\n"
+            },
+            "system_notification": {
+                "sender": "System",
+                "subject": "Benachrichtigung",
+                "template": "Von: {sender}\nAn: {player_name}\nBetreff: {subject}\n\n{message}\n\n[Dies ist eine automatische Systemnachricht]"
+            },
+            "mvd_mission_1_intro": {
+                "sender": "Innenministerium",
+                "subject": "Erste Aufgabe",
+                "template": "Von: Innenministerium-OPU\nAn: {player_name}\nBetreff: Erste Aufgabe\n\nMitarbeiter {player_name}!\n\nIhre Probezeit beginnt. Die erste Aufgabe ist einfach, aber wichtig.\nSie müssen sich mit Ihrem Arbeitsplatz und dem Überwachungssystem vertraut machen.\n\nStudieren Sie alle Elemente der Benutzeroberfläche, insbesondere das Terminal und das Überwachungssystem.\nGeben Sie den Befehl 'help' im Terminal ein, um eine Liste verfügbarer Befehle zu erhalten.\n\nDiese Aufgabe muss nicht dringend erledigt werden, aber ihre Fertigstellung ist erforderlich,\num Zugang zu den Systemen des Innenministeriums zu erhalten.\n\nÜberwachung ist unsere Funktion. Unsere Kenntnis ist Ihre Pflicht.\n\nMit freundlichen Grüßen,\nAbteilung für Sonderaufträge des Innenministeriums"
+            }
+        },
+        "system_notification": {
+            "subject": "Systembenachrichtigung",
+            "content": "Willkommen im Überwachungssystem des Innenministeriums.\nAlle Ihre Aktionen werden aufgezeichnet und analysiert.\nBefolgen Sie die Sicherheitsregeln und halten Sie die Loyalität aufrecht.\nVergessen Sie nicht, E-Mails mit der Schaltfläche «GELESEN» zu markieren!\n(Nach dem Lesen können Sie diese E-Mail löschen)",
+            "automated": "[Dies ist eine automatische Systemnachricht]"
+        },
+        "difficulties": {
+            "easy": "Leicht",
+            "medium": "Mittel",
+            "hard": "Schwer",
+            "expert": "Experte"
+        },
+        "deadlines": {
+            "until_shift_end": "Bis Schichtende",
+            "two_hours": "2 Stunden",
+            "one_hour": "1 Stunde",
+            "thirty_minutes": "30 Minuten"
+        },
+        "special_email_sent": "[E-MAIL] Spezielle E-Mail gesendet: {email_type}",
+        "template_added": "[E-MAIL] Neue Vorlage hinzugefügt: {template_name}",
+
+        "back_to_surveillance": "← Zurück zur Überwachung",
+        "inbox_messages": "Eingangsnachrichten",
+        "view_message": "Nachricht anzeigen",
+        "mark_as_read": "Als gelesen markieren",
+        "delete": "Löschen",
+        "stats": "📧 E-Mails: {total} | ✉ Ungelesen: {unread}",
+        "mvd": "Innenministerium"
+    },
+
+    "settings": {
+        "title": "⚙️ SYSTEMEINSTELLUNGEN",
+        "screen_shown": "Einstellungsbildschirm angezeigt",
+
+        "language_group": "Sprache und Oberfläche",
+        "language": "Oberflächensprache:",
+
+        "graphics": "Grafik",
+        "audio": "Audio",
+        "game_time": "Spielzeit",
+
+        "display_mode": "Anzeigemodus:",
+        "visual_effects": "Visuelle Effekte",
+        "glitch_effects": "Glitch-Effekte",
+        "vsync": "VSync (vertikale Synchronisation)",
+        "effect_intensity": "Effektintensität:",
+        "resolution": "Fensterauflösung:",
+
+    "display_modes": {
+        "fullscreen": "Vollbild",
+        "windowed": "Fenster",
+        "borderless": "Randlos"
+    },
+
+        "enable_audio": "Ton aktivieren",
+        "master_volume": "Gesamtlautstärke:",
+        "effects_volume": "Effektlautstärke:",
+        "music_volume": "Musiklautstärke:",
+        "typing_sounds": "Tippgeräusche",
+        "background_music": "Hintergrundmusik",
+        "voice_effects": "Stimmeffekte",
+        "environment_sounds": "Umgebungsgeräusche",
+        "dynamic_range": "Dynamikbereich:",
+
+        "time_speed": "Zeitgeschwindigkeit:",
+        "auto_pause": "Automatische Pause im Menü",
+        "show_time_widget": "Zeit-Widget anzeigen",
+
+        "apply": "EINSTELLUNGEN ANWENDEN",
+        "reset": "AUF STANDARD ZURÜCKSETZEN",
+        "test_sound": "TON TESTEN",
+        "back": "← ZURÜCK ZUM MENÜ"
+    },
+
+    "help": {
+        "helping": "HILFE",
+        "tab_basics": "Grundlagen",
+        "tab_terminal": "Terminal",
+        "tab_controls": "Steuerung",
+        "tab_skills": "Fähigkeiten",
+        "back_button": "🔙 ZURÜCK ZUM MENÜ",
+        "screen_shown": "Hilfebildschirm angezeigt",
+
+        "basics_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #00bfff;\">🎮 SPIELGRUNDLAGEN</h2><p><b>«SIBERIA-SOFTWARE»</b> ist ein Simulator für Arbeit im Bereich Cybersicherheit des Unternehmens <b>«SIBERIA-SOFT»</b>.</p><h3 style=\"color: #00ff88;\">SPIELZIEL:</h3><ul><li>Erfüllen Sie tägliche Aufgaben, um die Karriereleiter aufzusteigen</li><li>Entwickeln Sie Cybersicherheitsfähigkeiten</li><li>Verdienen Sie Geld (Rubel) und verbessern Sie Ihren Ruf</li><li>Vermeiden Sie die Entdeckung durch das Sicherheitssystem</li></ul><h3 style=\"color: #00ff88;\">OBERFLÄCHE:</h3><p>Die Spieloberfläche besteht aus drei Hauptbereichen:</p><ul><li><span style=\"color: #00bfff;\">Linker Bereich</span> - Informationen zum Mitarbeiter, Kontostand, Ruf, aktuelle Aufgabe und Fähigkeiten</li><li><span style=\"color: #00bfff;\">Mittlerer Bereich</span> - Terminal zur Ausführung von Befehlen</li><li><span style=\"color: #00bfff;\">Rechter Bereich</span> - Überwachungskamera und Sicherheitsprotokoll</li></ul><h3 style=\"color: #00ff88;\">SPIELSTART:</h3><ol><li>Starten Sie eine neue Schicht über das Hauptmenü</li><li>Geben Sie Ihren Vor- und Nachnamen bei der Registrierung ein</li><li>Erfüllen Sie die erste Aufgabe \"Schauen Sie in die \"E-MAIL\"\"</li><li>Verwenden Sie das Terminal zur Aufgabenerfüllung</li></ol></div>",
+
+        "terminal_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #00ff00;\">⌨️ TERMINALBEFEHLE</h2><h3 style=\"color: #00ff88;\">GRUNDBEFEHLE:</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #002200;\"><th style=\"color: #00ff00; text-align: left;\">Befehl</th><th style=\"color: #00ff00; text-align: left;\">Beschreibung</th><th style=\"color: #00ff00; text-align: left;\">Beispiel</th></tr><tr><td><code style=\"color: #00ffff;\">help</code></td><td>Liste aller Befehle anzeigen</td><td><code>help</code></td></tr><tr><td><code style=\"color: #00ffff;\">scan</code></td><td>Netzwerk auf Geräte scannen</td><td><code>scan</code></td></tr><tr><td><code style=\"color: #00ffff;\">connect [IP]</code></td><td>Mit Gerät über IP-Adresse verbinden</td><td><code>connect 192.168.1.1</code></td></tr><tr><td><code style=\"color: #00ffff;\">hack [Ziel]</code></td><td>Angegebenes Ziel hacken</td><td><code>hack server1</code></td></tr><tr><td><code style=\"color: #00ffff;\">tasks</code></td><td>Aktuelle Aufgaben anzeigen</td><td><code>tasks</code></td></tr><tr><td><code style=\"color: #00ffff;\">clear</code></td><td>Terminalbildschirm löschen</td><td><code>clear</code></td></tr><tr><td><code style=\"color: #00ffff;\">dir</code></td><td>Dateien im aktuellen Verzeichnis anzeigen</td><td><code>dir</code></td></tr><tr><td><code style=\"color: #00ffff;\">ipconfig</code></td><td>Netzwerkeinstellungen anzeigen</td><td><code>ipconfig</code></td></tr><tr><td><code style=\"color: #00ffff;\">whoami</code></td><td>Informationen zum aktuellen Benutzer</td><td><code>whoami</code></td></tr></table><h3 style=\"color: #00ff88;\">NUTZUNGSTIPPS:</h3><ul><li>Verwenden Sie <span style=\"color: #00ffff;\">Tab</span> zur Befehlsautovervollständigung</li><li>Pfeiltasten <span style=\"color: #00ffff;\">↑</span> und <span style=\"color: #00ffff;\">↓</span> zur Navigation im Befehlsverlauf</li><li>Alle Befehle sind case-sensitive</li><li>Für Hilfe zu einem bestimmten Befehl geben Sie <code>Befehl --help</code> ein</li></ul></div>",
+
+        "controls_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #ffff00;\">🎮 STEUERUNG UND TASTENKOMBINATIONEN</h2><h3 style=\"color: #ffaa00;\">TASTENKOMBINATIONEN:</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #332200;\"><th style=\"color: #ffff00; text-align: left;\">Taste</th><th style=\"color: #ffff00; text-align: left;\">Aktion</th><th style=\"color: #ffff00; text-align: left;\">Beschreibung</th></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">F1</kbd></td><td>Hilfe</td><td>Dieses Hilfe-Fenster öffnen</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">ESC</kbd></td><td>Menü</td><td>Zum Hauptmenü zurückkehren</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Strg + S</kbd></td><td>Speichern</td><td>Schnellspeichern des Spiels</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Strg + L</kbd></td><td>Laden</td><td>Schnellladen des Spiels</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Strg + Q</kbd></td><td>Beenden</td><td>Spiel beenden</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Tab</kbd></td><td>Autovervollständigung</td><td>Befehlsautovervollständigung im Terminal</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">↑ / ↓</kbd></td><td>Verlauf</td><td>Navigation im Befehlsverlauf</td></tr></table><h3 style=\"color: #ffaa00;\">OBERFLÄCHE:</h3><ul><li><b>Linke Maustaste</b> - Auswahl von Oberflächenelementen</li><li><b>Rechte Maustaste</b> - Kontextmenü (wo verfügbar)</li><li><b>Mausrad</b> - Scrollen in Listen und Texten</li><li><b>Enter</b> - Eingabe im Terminal bestätigen</li></ul><h3 style=\"color: #ffaa00;\">STEUERUNGSEINSTELLUNGEN:</h3><p>Alle Tastenkombinationen können in den Spieleinstellungen neu zugewiesen werden.</p></div>",
+
+        "skills_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #ff55ff;\">🎯 FÄHIGKEITSSYSTEM</h2><p>Fähigkeiten bestimmen Ihre Effektivität in verschiedenen Arbeitsaspekten. Fähigkeitslevel von 1 bis 10.</p><h3 style=\"color: #ff88ff;\">FÄHIGKEITSBESCHREIBUNGEN:</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #330033;\"><th style=\"color: #ff55ff; text-align: left;\">Fähigkeit</th><th style=\"color: #ff55ff; text-align: left;\">Beschreibung</th><th style=\"color: #ff55ff; text-align: left;\">Wie verbessern</th></tr><tr><td><span style=\"color: #ff5555; font-weight: bold;\">Hacking</span></td><td>Fähigkeit, Systeme zu hacken, Schutz zu umgehen</td><td>Erfüllen von Hacking-Aufgaben, Terminalnutzung</td></tr><tr><td><span style=\"color: #55ff55; font-weight: bold;\">Social Engineering</span></td><td>Fähigkeit, Mitarbeiter zu manipulieren, um Zugang zu erhalten</td><td>Interaktion mit NPCs, Erfüllen sozialer Aufgaben</td></tr><tr><td><span style=\"color: #5555ff; font-weight: bold;\">Programmierung</span></td><td>Erstellen von Skripten, Tools und Exploits</td><td>Code im Terminal schreiben, Programmieraufgaben lösen</td></tr><tr><td><span style=\"color: #ffff55; font-weight: bold;\">Heimlichkeit</span></td><td>Fähigkeit, Entdeckung durch Sicherheitssystem zu vermeiden</td><td>Aufgaben unentdeckt erfüllen, versteckte Befehle nutzen</td></tr><tr><td><span style=\"color: #55ffff; font-weight: bold;\">Analyse</span></td><td>Fähigkeit, Daten zu analysieren und Schwachstellen zu finden</td><td>Protokolle analysieren, Netzwerkpakete untersuchen</td></tr><tr><td><span style=\"color: #ffaa55; font-weight: bold;\">Netzwerksicherheit</span></td><td>Kenntnis von Netzwerkprotokollen und Schutztechnologien</td><td>Netzwerkgeräte konfigurieren, Systeme schützen</td></tr></table><h3 style=\"color: #ff88ff;\">FÄHIGKEITSLEVEL:</h3><ul><li><span style=\"color: #ff5555;\">1-3: Anfänger</span> - Grundkenntnisse</li><li><span style=\"color: #ffff55;\">4-6: Erfahren</span> - Gutes Verständnis</li><li><span style=\"color: #55ff55;\">7-8: Experte</span> - Professionelles Niveau</li><li><span style=\"color: #55ffff;\">9-10: Meister</span> - Höchste Meisterschaft</li></ul><h3 style=\"color: #ff88ff;\">TIPP:</h3><ul><li>Entwickeln Sie alle Fähigkeiten ausgewogen</li><li>Komplexe Aufgaben geben mehr Erfahrung</li><li>Einige Aufgaben erfordern Mindestfähigkeitslevel</li><li>Hohe Fähigkeitslevel eröffnen neue Möglichkeiten</li></ul></div>"
+    },
+
+    "about": {
+        "title": "SIBERIA-SOFTWARE - Cybersicherheitssimulator",
+        "version": "Version: <b>0.1.6</b>",
+        "back_button": "🔙 ZURÜCK ZUM MENÜ",
+        "screen_shown": "Bildschirm 'Über' angezeigt",
+
+        "html_content": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6;\">\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(0, 191, 255, 0.1); border-left: 4px solid #00bfff; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">🎮</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #00bfff; margin-bottom: 5px;\">BESCHREIBUNG</div>\n        <div style=\"color: #cccccc;\">\n            <b>«SIBERIA-SOFTWARE»</b> ist ein Simulator für Arbeit im Bereich Cybersicherheit. \n            Sie spielen einen neuen Mitarbeiter des Unternehmens <b>«SIBERIA-SOFT»</b>, der tägliche \n            Aufgaben erfüllen, Fähigkeiten entwickeln und die Karriereleiter aufsteigen muss.\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 215, 0, 0.1); border-left: 4px solid #ffd700; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">🌟</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ffd700; margin-bottom: 5px;\">MERKMALE</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00ff00;\">Entwicklung von Cybersicherheitsfähigkeiten</span><br>\n            • <span style=\"color: #00ff00;\">Dynamisches Aufgabensystem</span><br>\n            • <span style=\"color: #00ff00;\">Interaktive Umgebung</span><br>\n            • <span style=\"color: #00ff00;\">Charaktereigenschaftensystem</span><br>\n            • <span style=\"color: #00ff00;\">Möglichkeit zum Speichern des Fortschritts</span>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(0, 255, 0, 0.1); border-left: 4px solid #00ff00; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">👥</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #00ff00; margin-bottom: 5px;\">ENTWICKLER</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00bfff;\">Programmierung:</span> Sad_Smile<br>\n            • <span style=\"color: #00bfff;\">Design:</span> Sad_Smile<br>\n            • <span style=\"color: #00bfff;\">Testen:</span> Sad_Smile\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 0, 0, 0.1); border-left: 4px solid #ff5555; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">📞</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ff5555; margin-bottom: 5px;\">KONTAKTE</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00ffff;\">E-Mail:</span> \n              <a href=\"mailto:sapportsadsmile@gmail.com\" \n                 style=\"color: #00bfff; text-decoration: none;\">\n                 sapportsadsmile@gmail.com</a><br>\n            • <span style=\"color: #00ffff;\">Website:</span> \n              <a href=\"https://sikorsky-support-center.netlify.app/\" \n                 style=\"color: #00bfff; text-decoration: none;\">\n                 https://sikorsky-support-center.netlify.app/</a><br>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 255, 0, 0.1); border-left: 4px solid #ffff00; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">📄</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ffff00; margin-bottom: 5px;\">LIZENZ</div>\n        <div style=\"color: #cccccc;\">\n            Dieses Programm wird unter den Bedingungen der \n            <span style=\"color: #ff8800; font-weight: bold;\">MIT</span>-Lizenz verbreitet.<br><br>\n            \n            <span style=\"font-size: 12px; color: #888888;\">\n            Erlaubt: Kommerzielle Nutzung, Modifikation, Verbreitung, private Nutzung.<br>\n            Erforderlich: Nennung des Urhebers und der Lizenz.<br>\n            Verboten: Haftung und Garantien.\n            </span>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin-top: 30px; padding: 15px; background: rgba(0, 0, 0, 0.3); border: 1px solid #333; border-radius: 5px; text-align: center;\">\n    <div style=\"color: #00bfff; font-size: 18px; font-weight: bold; margin-bottom: 5px;\">\n        SIKORSKY'S INCORPORATED\n    </div>\n    <div style=\"color: #888888; font-size: 12px;\">\n        © 2025-2026 Sikorsky's Incorporated. Alle Rechte vorbehalten.<br>\n        <span style=\"color: #666666;\">Siberia-Soft Division</span>\n    </div>\n</div>\n\n</div>"
+    },
+
+    "common": {
+        "error": "Fehler",
+        "confirm_exit": "Beenden bestätigen",
+        "cancel": "Abbrechen",
+        "ok": "OK"
+    },
+
+    "config": {
+        "loaded": "Konfiguration geladen",
+        "created": "Konfiguration erstellt",
+        "updated": "Konfiguration aktualisiert",
+        "read_error": "Fehler beim Lesen der Konfiguration"
+    },
+
+    "error": {
+        "language_setup": "Fehler beim Einrichten der Sprache",
+        "config_load": "Fehler beim Laden der Konfiguration",
+        "new_game_start": "Fehler beim Starten eines neuen Spiels",
+        "game_load": "Fehler beim Laden des Spiels",
+        "game_save": "Fehler beim Speichern des Spiels",
+        "config_save": "Fehler beim Speichern der Konfiguration",
+        "audio_apply": "Fehler beim Anwenden der Audioeinstellungen"
+    },
+
+    "graphics": {
+        "applied": "Grafikeinstellungen übernommen"
+    },
+
+    "audio": {
+        "applied": "Audioeinstellungen übernommen"
+    },
+
+    "test": {
+        "first_name": "Iwan",
+        "last_name": "Iwanow",
+        "player_name": "Iwan Iwanow",
+        "player": "Spieler",
+        "day": "Tag",
+        "starting_shift": "Schicht beginnt...",
+        "current_task": "Aktuelle Aufgabe",
+        "task_progress": "Aufgabenfortschritt",
+        "email_count": "Anzahl E-Mails",
+        "unread_emails": "Ungelesene E-Mails",
+        "email_from": "E-Mail von",
+        "read": "Gelesen",
+        "important": "Wichtig",
+        "mvd_found": "E-Mail des Innenministeriums gefunden mit",
+        "opening_email": "Öffne E-Mail-Postfach...",
+        "progress_after": "Fortschritt nach Öffnen des Postfachs",
+        "reading_mvd": "Lese E-Mail des Innenministeriums...",
+        "email_read": "E-Mail gelesen",
+        "unread_after": "Ungelesene E-Mails nach dem Lesen",
+        "tasks_completed": "Erledigte Aufgaben",
+        "adding_email": "Füge Test-E-Mail hinzu...",
+        "test_system": "Testsystem",
+        "test_message": "Testnachricht",
+        "test_content": "Dies ist eine Testnachricht zur Überprüfung des Systems.",
+        "email_added": "E-Mail hinzugefügt mit",
+        "total_emails": "E-Mails insgesamt",
+        "unread": "Ungelesen",
+        "saving_game": "Spiel speichern...",
+        "loading_game": "Spiel laden...",
+        "loaded_player": "Geladener Spieler",
+        "loaded_emails": "Geladene E-Mails",
+        "file_deleted": "Testdatei gelöscht",
+        "completed": "Test abgeschlossen"
+    },
+
+    "styles": {
+        "loaded_success": "Stile erfolgreich aus styles.py geladen",
+        "load_error": "Fehler beim Laden der Stile",
+        "loaded_from_file": "Stile aus Datei styles.qss geladen",
+        "file_error": "Fehler beim Laden der Stile aus Datei"
+    },
+
+    "fonts": {
+        "loaded": "Schriftart geladen",
+        "load_error": "Fehler beim Laden der Schriftart",
+        "not_found": "Schriftart Source Code Pro nicht gefunden. Standard-Monospace-Schriftart wird verwendet."
+    },
+
+    "dirs": {
+        "created": "Verzeichnis erstellt/überprüft"
+    },
+
+    "intro": {
+        "completed": "Intro abgeschlossen, zeige Hauptfenster...",
+        "already_shown": "Intro wurde bereits gezeigt, überspringe..."
+    },
+
+    "game_state": {
+        "skill_hacking": "Hacking",
+        "skill_social_engineering": "Social Engineering",
+        "skill_programming": "Programmierung",
+        "skill_stealth": "Heimlichkeit",
+        "skill_analysis": "Analyse",
+        "skill_network_security": "Netzwerksicherheit",
+        "initial_task": "Überprüfen Sie die E-Mail und lesen Sie die dringende E-Mail des Innenministeriums",
+        "task_check_email": "Überprüfen Sie die E-Mail und lesen Sie die dringende E-Mail des Innenministeriums",
+        "task_scan_network": "Netzwerk auf Schwachstellen scannen",
+        "task_update_antivirus": "Antivirendatenbanken aktualisieren",
+        "task_check_security_logs": "Sicherheitsprotokolle prüfen",
+        "task_configure_firewall": "Firewall konfigurieren",
+        "task_analyze_traffic": "Verdächtigen Datenverkehr analysieren",
+        "task_install_updates": "Sicherheitsupdates installieren",
+        "task_check_backups": "Sicherungskopien prüfen",
+        "task_setup_vpn": "VPN-Verbindung einrichten",
+        "task_audit_users": "Benutzer-Audit durchführen",
+        "task_test_recovery": "Wiederherstellungssystem testen",
+        "task_familiarize": "Machen Sie sich mit der Oberfläche vertraut, während Sie auf Ihre erste Aufgabe warten",
+        "difficulty_easy": "leichte",
+        "difficulty_medium": "standard",
+        "difficulty_hard": "schwere",
+        "difficulty_expert": "Experten-",
+        "task_template": "Erfüllen Sie die {modifier} Aufgabe: {task}",
+        "special_email_config": "ERROR-E-Mail - wird 60 Minuten nach Erfüllung der ersten Aufgabe gesendet",
+        "skill_level_novice": "Anfänger",
+        "skill_level_apprentice": "Lehrling",
+        "skill_level_experienced": "Erfahren",
+        "skill_level_expert": "Experte",
+        "skill_level_master": "Meister",
+        "stress_low": "Niedrig",
+        "stress_medium": "Mittel",
+        "stress_high": "Hoch",
+        "stress_critical": "Kritisch",
+        "energy_low": "Niedrig",
+        "energy_medium": "Mittel",
+        "energy_high": "Hoch",
+        "energy_full": "Voll",
+        "task_completed_notification": "Aufgabe '{task}' erfolgreich erfüllt. Belohnung: {money:.2f} ₽",
+        "save_success": "[SPEICHERN] Spiel gespeichert in {filename}",
+        "load_error": "[FEHLER] Speicherstand konnte nicht geladen werden: {error}",
+        "save_not_found": "[INFO] Speicherstand nicht gefunden: {filename}",
+        "special_email_sent": "[SPIEL] Spezielle E-Mail gesendet: {type}",
+        "special_email_config_added": "[SPIEL] Konfiguration für E-Mail hinzugefügt: {type}",
+        "special_email_toggled": "[SPIEL] E-Mail '{type}' {status}",
+        "enabled": "aktiviert",
+        "disabled": "deaktiviert",
+        "statistics": {
+            "name": "Name",
+            "day": "Tag",
+            "tasks_completed": "Aufgaben erledigt",
+            "reputation": "Ruf",
+            "balance": "Kontostand",
+            "shift_time": "Schichtzeit",
+            "energy": "Energie",
+            "stress": "Stress",
+            "unread_emails": "Ungelesene E-Mails",
+            "game_date": "Spieldatum",
+            "shift_progress": "Schichtfortschritt",
+            "skills": "Fähigkeiten"
+        }
+    },
+
+    "status": {
+        "encrypting_channel": "Verschlüssele Kanal...",
+        "checking_access": "Überprüfe Zugriffsrechte...",
+        "sync_with_hq": "Synchronisiere mit HQ...",
+        "loading_missions": "Lade Missionen...",
+        "connecting_to_global_network": "Verbinde mit globalem Netzwerk...",
+        "checking_security_system": "Überprüfe Sicherheitssystem...",
+        "loading_configuration": "Lade Konfiguration...",
+        "initializing_terminal": "Initialisiere Terminal...",
+        "call_forwarding": "Rufumleitung...",
+        "sending_admin": "Schicke Sysadmin aufs Eis...",
+        "remembering_name": "Erinnere mich an meinen Namen...",
+        "loading_junk": "Lade nutzlosen Müll...",
+        "updating_software": "Aktualisiere Software...",
+        "leaving_feedback": "Schreibst du eine Bewertung?...",
+        "menu_idle": "Bleibst du lange im Menü?...",
+        "virus_scan": "Scanne auf Viren...",
+        "updating_database": "Aktualisiere Datenbanken...",
+        "backup": "Sicherungskopie erstellen...",
+        "memory_optimization": "Optimiere Speicher...",
+        "calibrating_sensors": "Kalibriere Sensoren...",
+        "visit_website": "Bitte besuche meine Website..."
+    },
+
+    "office": {
+        "ivan": "Iwan Petrow",
+        "maria": "Maria Sidorowa",
+        "alexey": "Alexej Iwanow",
+        "olga": "Olga Nikolajewa",
+        "status_working": "Arbeitet",
+        "status_meeting": "In Besprechung",
+        "status_report": "Schreibt Bericht",
+        "status_break": "In Pause",
+        "surveillance_camera": "ÜBERWACHUNGSKAMERA #4",
+        "active": "AKTIV",
+        "glitch": "STÖRUNG"
+    },
+
+    "tasks": {
+        "check_mvd_email": "Überprüfen Sie die E-Mail und lesen Sie die E-Mail des Innenministeriums",
+        "scan_network": "Netzwerk auf Schwachstellen scannen"
+    },
+
+    "cutscene": {
+        "press_to_continue": "Drücken Sie Enter, um fortzufahren...",
+        "press_to_finish": "Drücken Sie Enter, um abzuschließen...",
+        "skip": "Überspringen",
+        "part1": "Mein Name ist {player_name}. Schon als Kind zog mich das Universum des Internets in seinen Bann. Aufgrund einer Verwandtschaftsbeziehung zu einem vorbestraften Verwandten wollte meine Karriere nicht recht in Gang kommen: Überall wurde ich abgelehnt. Aber eines Abends, als ich nach Hause zurückkehrte, bemerkte ich am Türblatt einen merkwürdigen Zettel mit dem Logo „Innenministerium – Sibirien Soft“. In der Notiz wurde ich ins Innenministerium zur niedrigsten Position im Bereich Überwachung und Aufsicht eingeladen – in die „Operative Ermittlungsabteilung“. Vor etwa drei Jahren hatte ich dort eine Arbeitsanfrage gestellt, und nun endlich kam eine Antwort. Ich war wahnsinnig froh selbst über diese Position: Endlich musste ich nicht mehr für ein paar Groschen von Aushilfsjob zu Aushilfsjob rennen, jeden Tag in Angst leben, mein Kühlschrank würde nicht mehr nur mit Instantnudeln vollgestopft sein.",
+        "part2": "Was die familiäre Verbindung angeht, mein Onkel war ein Mensch nicht ganz lupenreiner Vergangenheit, der es schaffte, eine Menge unseriöser Dinge anzustellen, bevor er spurlos verschwand.",
+        "part3": "Verschwinden ist in unserem Land generell nichts Seltenes. Man könnte denken, diese Geschichte ähnelt dem Buch „1984“ von George Orwell, das ich als Kind mochte, aber das ist keineswegs so. In diesem Land ist alles viel geheimnisvoller und verworrener. Hier gibt es mehr Wächter, mehr Ohren und mehr Augen. Derzeit hat die Corporation SIBERIA-SOFTWARE die Führung in der Anzahl installierter Kameras im ganzen Land übernommen. Was genau ist diese Corporation? Sie ersetzt uns den Präsidenten, sie ist besessen von Kontrolle unter dem Deckmantel der Gewährleistung von „Sicherheit“ für uns. Ich bestreite nicht, dass Diebstähle und Verbrechen um ein Vielfaches seltener geworden sind, die Kriminalität im ganzen Land ist auf 5% gesunken, aber leider sind Todesfälle und Morde dadurch nicht weniger geworden, sondern im Gegenteil um ein Vielfaches gestiegen. All das hängt mit der erneuten Erlaubnis zur Vollstreckung der Todesstrafe im Land zusammen. Man könnte sich die logische Frage stellen: Warum stürzen wir ihn nicht oder wählen einen anderen Anführer? Alles ist ziemlich einfach: SIBERIA-SOFTWARE ist eine riesige Corporation, die die Sense des Todes in Händen hält und damit alle Unliebsamen niedermäht. Es gibt einfach niemanden, der stürzen könnte, und die Polizei schützt diese Corporation einfach deshalb, weil ihnen fast alles zum „Wohle“ der Bevölkerung und des Landes erlaubt ist, Hauptsache, sie widersprechen nicht der Macht.",
+        "final_phrase": "Willkommen in der Corporation SIBERIA-SOFTWARE."
+    },
+
+    "skillsmn": {
+        "title": "⚡ CYBERFÄHIGKEITEN DES MITARBEITERS ⚡",
+        "back_button": "ZURÜCK",
+        "no_skills": "Fähigkeiten nicht geladen...",
+        "stats_format": "📊 Statistik: {total} Fähigkeiten | Durchschnittslevel: {avg:.1f}/10 | Fortschritt: {progress:.0f}% | Max: {max_name} ({max_level}/10)",
+        "tips": "💡 Tipps:\n• Bewegen Sie den Cursor über eine Fähigkeit für Details\n• Level steigen durch Aufgabenerfüllung\n• Hohe Fähigkeiten ermöglichen Zugang zu komplexen Aufgaben",
+
+        "hacking": "Hacking",
+        "hacking_short": "HACKING",
+        "hacking_desc": "Hacken von Systemen, Umgehen von Schutz, Finden von Schwachstellen",
+
+        "social": "Social Engineering",
+        "social_short": "SOC.ENG",
+        "social_desc": "Manipulation von Menschen zur Informationsbeschaffung",
+
+        "programming": "Programmierung",
+        "programming_short": "PROGRAMME",
+        "programming_desc": "Code-, Skripterstellung und Automatisierung",
+
+        "stealth": "Heimlichkeit",
+        "stealth_short": "HEIMLICHKEIT",
+        "stealth_desc": "Spuren verwischen, Anonymität im Netz",
+
+        "analysis": "Analyse",
+        "analysis_short": "ANALYSE",
+        "analysis_desc": "Datenanalyse, Erkennung von Mustern",
+
+        "network": "Netzwerksicherheit",
+        "network_short": "NETZWERK",
+        "network_desc": "Netzwerkschutz, Eindringlingserkennung",
+
+        "level_novice": "A",
+        "level_apprentice": "L",
+        "level_experienced": "E",
+        "level_expert": "X",
+        "level_master": "M",
+
+        "level_novice_full": "Anfänger",
+        "level_apprentice_full": "Lehrling",
+        "level_experienced_full": "Erfahren",
+        "level_expert_full": "Experte",
+        "level_master_full": "Meister"
+    }
+}

@@ -1,0 +1,641 @@
+{
+    "app": {
+        "name": "SIBERIA-SOFTWARE",
+        "title": "SIBERIA-SOFTWARE - 网络安全模拟器",
+        "office_hacker": "SIBERIA-SOFTWARE",
+        "startup_complete": "🚀 主窗口初始化完成",
+        "language_set": "语言已设置为：{language}",
+        "widgets_initialized": "小部件已初始化",
+        "timers_setup": "计时器已设置",
+        "shortcuts_setup": "快捷键已设置",
+        "language_changed_to": "语言已更改为：{language}",
+        "icon_loaded": "应用程序图标已加载",
+        "icon_error": "加载图标错误",
+        "closed": "应用程序已关闭。"
+    },
+
+    "browser": {
+        "title": "SIBERIA 浏览器",
+        "back": "后退",
+        "forward": "前进",
+        "reload": "重新加载",
+        "go": "转到",
+        "url_placeholder": "输入 URL (app.cyb://...)",
+        "loading": "正在加载 {url}...",
+        "loaded": "已加载：{url}",
+        "ready": "准备就绪",
+        "no_page_to_reload": "没有页面可重新加载",
+        "no_forward": "前进历史记录不可用",
+
+        "error": {
+            "title": "浏览器错误",
+            "invalid_url": "无效 URL：{url}",
+            "invalid_url_format": "URL 格式无效",
+            "load_failed": "加载页面失败：{error}"
+        },
+
+        "categories": {
+            "marketplace": "在线商店",
+            "entertainment": "娱乐",
+            "career": "职业生涯",
+            "finance": "财务",
+            "security": "安全",
+            "social": "社交网络"
+        },
+
+        "security_warning": {
+            "title": "⚠ 警告",
+            "message": "这是游戏内的演示浏览器。所有网站均为虚构，仅用于网络安全教育。",
+            "tips": [
+                "不要在虚构网站上输入真实数据",
+                "请记住，这是一个教育模拟器",
+                "真实网站绝不会通过电子邮件索要 CVV 代码"
+            ]
+        }
+    },
+
+    "menu": {
+        "title": "主菜单",
+        "new_game": "🚀 开始新的轮班",
+        "load_game": "📂 加载存档",
+        "settings": "⚙️ 设置",
+        "help": "❓ 帮助",
+        "about": "ℹ️ 关于程序",
+        "exit": "🚪 退出",
+        "office": "SIBERIA-SOFTWARE",
+        "connecting": "正在连接到系统...",
+        "opican": "你是 \"西伯利亚软件\" 公司的新员工。\n你的任务是洗刷自己的声誉\n并发展你的网络安全技能。\n\n特点：\n• 动态任务系统\n• 交互式环境\n• 声誉与职业生涯系统\n• 注意！游戏不会教你真实的黑客技术！",
+        "screen_shown": "菜单屏幕已显示"
+    },
+
+    "game": {
+        "employee": "员工",
+        "employee_status": "👤 员工状态",
+        "skills": "🎯 技能",
+        "mail": "📧 邮件",
+        "main_menu": "主菜单",
+        "progress": "进度：{progress}%",
+        "balance": "💰 余额：{money}",
+        "reputation": "⭐ 声誉：{reputation}",
+        "day": "📅 天数：{day}",
+        "current_task": "📝 当前任务",
+        "system": "系统",
+        "data_updated_for": "数据已更新给",
+        "access_mail_system": "访问邮件系统",
+        "mvd_email_read": "已阅读内务部信件",
+        "security_system_title": "安全系统",
+        "surveillance_system": "监视系统",
+        "security_log": "安全日志",
+        "mail_client": "邮件客户端",
+        "camera1": "摄像头 #1：3 楼大厅",
+        "camera2": "摄像头 #2：IT 部门",
+        "camera3": "摄像头 #3：服务器室",
+        "microphones": "麦克风已激活",
+        "motion_sensors": "运动传感器已激活",
+        "status_all_operational": "所有系统运行正常",
+        "recent_events": "最近事件",
+        "shift_started": "轮班开始",
+        "security_check": "安全检查",
+        "daily_meeting": "每日会议",
+        "network_activity": "网络活动",
+        "shift": "轮班",
+        "welcome": "欢迎，{name}！",
+        "welcome_back": "欢迎回来，{name}！",
+        "new_shift_started": "新轮班已开始！",
+        "new_game_started_for": "新游戏已开始给",
+        "user_canceled_new_game": "用户已取消创建新游戏",
+        "loaded_for": "游戏已加载给",
+        "loaded_successfully": "游戏加载成功！",
+        "saved_successfully": "游戏保存成功！",
+        "autosave_performed": "已执行自动保存",
+        "screen_shown": "游戏屏幕已显示",
+        "time_paused": "时间已暂停",
+        "time_resumed": "时间已恢复",
+        "audio_disabled": "音频已禁用",
+        "audio_enabled": "音频已启用",
+        "exit_confirm_title": "确认退出",
+        "exit_confirm": "您确定要退出游戏吗？",
+        "exit_to_menu_confirm": "您确定要返回到主菜单吗？",
+        "new_game_confirm_title": "新游戏",
+        "new_game_confirm": "您确定要开始新游戏吗？当前进度将丢失。",
+        "new_game_error": "创建新游戏时出错",
+        "save_error": "保存游戏时出错",
+        "load_error": "加载游戏时出错",
+        "no_save_title": "未找到存档",
+        "no_save_found": "未找到存档。请开始新游戏。",
+        "input_name_title": "员工注册",
+        "input_name_instruction": "请输入您的姓名和姓氏以在内务部系统中注册",
+        "input_first_name": "名字：",
+        "input_last_name": "姓氏：",
+        "input_name_hint": "仅使用字母和连字符。两个字段均为必填项。",
+        "input_error_title": "输入错误",
+        "input_name_required": "必须填写两个字段：名字和姓氏",
+        "input_name_invalid": "姓名中包含无效字符。请仅使用字母。",
+        "welcome_email_read": "[游戏] 欢迎邮件已于 {time} 阅读。邮件将在 10 分钟后送达。",
+
+        "security_event": {
+            "user_activity": "用户活动 #{id}",
+            "loyalty_check": "忠诚度检查",
+            "network_scan": "网络扫描",
+            "data_integrity": "数据完整性检查",
+            "traffic_analysis": "流量分析",
+            "monitoring_active": "监控已激活",
+            "access_logs": "访问日志检查",
+            "motion_test": "运动传感器测试"
+        },
+
+        "error": {
+            "game_widget_update": "更新 GameWidget 时出错"
+        },
+
+        "statistics": {
+            "name": "姓名",
+            "day": "天数",
+            "tasks_completed": "完成任务数",
+            "reputation": "声誉",
+            "balance": "余额",
+            "shift_time": "轮班时间",
+            "energy": "精力",
+            "stress": "压力",
+            "unread_emails": "未读邮件数",
+            "game_date": "游戏日期",
+            "shift_progress": "轮班进度",
+            "skills": "技能"
+        }
+    },
+
+    "email": {
+        "spam": {
+            "advertisement": {
+                "megamarket": {
+                    "sender": "超级市场",
+                    "subject": "所有商品 50% 折扣！",
+                    "template": "发件人：超级市场\n收件人：尊敬的顾客\n主题：所有商品 50% 折扣！\n\n尊敬的顾客！\n\n仅限今天，仅限您，我们商店所有商品 5 折优惠！\n不要错过以半价购买您心仪已久商品的机会。\n\n促销活动持续到今天结束。赶快行动！<a href=\"app.cyb://market.sale/fresh-products\" style=\"color:#00ffff;\">app.cyb://market.sale/fresh-products</a>\n\n此为广告信息。"
+                },
+                "technomir": {
+                    "sender": "科技世界",
+                    "subject": "新款智能手机仅售 9,999 ₽！",
+                    "template": "发件人：科技世界\n收件人：潜在客户\n主题：新款智能手机仅售 9,999 ₽！\n\n我们已启动新款 XPhone ZX 智能手机的预售！\n旗舰规格，难以置信的价格。\n\n6.7 英寸 OLED 屏幕\n12 GB 运行内存\n108 MP 摄像头\n5000 毫安时电池\n\n原价 39,999 ₽，现仅售 9,999 ₽！\n在本周末前购买。<a href=\"app.cyb://market.sale/electronics.store\" style=\"color:#00ffff;\">app.cyb://market.sale/electronics.store</a>\n\n此为广告信息。"
+                },
+                "online_cinema": {
+                    "sender": "在线电影院",
+                    "subject": "年度订阅仅需 1 卢布！",
+                    "template": "发件人：在线电影\n收件人：电影爱好者\n主题：年度订阅仅需 1 卢布！\n\n想无限制观看所有电影和剧集吗？\n仅需 1 卢布即可获得我们电影院的年度订阅！\n\n超过 50,000 部电影和剧集\n院线新片\n独家内容\n\n优惠数量有限。通过链接激活：<a href=\"app.cyb://film.distribution.sale/exclusive.content\" style=\"color:#00ffff;\">app.cyb://film.distribution.sale/exclusive.content</a>\n\n此为广告信息。"
+                },
+                "fitness_center": {
+                    "sender": "健身中心",
+                    "subject": "免费一个月锻炼！",
+                    "template": "发件人：健身专家\n收件人：关注健康的人\n主题：免费一个月锻炼！\n\n开启全新的健身世界！\n在我们高级中心的第一个月锻炼完全免费。\n\n现代化设备\n专业教练\n游泳池和桑拿房\n\n预约免费参观：87-800-565-65-67-89\n\n此为广告信息。"
+                }
+            },
+            "scam": {
+                "fast_loan": {
+                    "sender": "快速信贷银行",
+                    "subject": "0% 利率贷款！",
+                    "template": "发件人：快速信贷银行\n收件人：尊敬的客户\n主题：0% 利率贷款！\n\n梦想新车或新公寓吗？\n我们银行提供独特条件——0% 年利率贷款！\n\n无需收入证明，无需抵押。5 分钟内出结果。\n最高金额：50,000 ₽。\n\n立即致电：87-800-555-65-34-34\n\n此为广告信息。"
+                },
+                "cybersecurity": {
+                    "sender": "网络安全专业版",
+                    "subject": "您的计算机已感染！",
+                    "template": "发件人：网络安全专业版\n收件人：计算机所有者\n主题：您的计算机已感染！\n\n我们的系统检测到您的计算机感染了病毒。\n病毒可能窃取您的密码、银行数据和个人信息。\n\n立即安装我们的系统清理程序！\n通过链接下载：<a href=\"app.cyb://computer/computer.wizard\" style=\"color:#00ffff;\">app.cyb://computer/computer.wizard</a>\n\n此为广告信息。"
+                },
+                "lottery": {
+                    "sender": "国家彩票",
+                    "subject": "您赢得了 1,000,000 ₽！",
+                    "template": "发件人：国家彩票\n收件人：幸运中奖者\n主题：您赢得了 1,000,000 ₽！\n\n恭喜！您的彩票编号 {ticket_number} 在我们的抽奖中中奖！\n您赢得了 1,000,000 ₽！\n\n请将您的护照数据和银行卡号发送至邮箱领取奖金：lottery$banki.cyb\n\n请在 24 小时内领取奖金！"
+                },
+                "investments": {
+                    "sender": "投资 300%",
+                    "subject": "一个月赚取 300%！",
+                    "template": "发件人：加密投资\n收件人：投资者\n主题：一个月赚取 300%！\n\n投资新加密货币项目的独特机会！\n我们的平台保证第一个月获得 300% 利润。\n\n最低投资额：10,000 ₽\n最高利润：无限制\n\n通过链接注册：app.cyb://investor/deposits/profit\n\n此为广告信息。"
+                }
+            },
+            "notification": {
+                "social_network": {
+                    "sender": "社交网络 SIBERIA.communication",
+                    "subject": "朋友的新消息",
+                    "template": "发件人：ConnectSocial\n收件人：{player_name}\n主题：朋友的新消息\n\n你好，{player_name}！\n\n你有 5 条新消息和 3 个好友请求。\n请登录社交网络，不要错过重要动态。\n\n前往社交网络：<a href=\"app.cyb://SIBERIA.communication/messages\" style=\"color:#00ffff;\">app.cyb://SIBERIA.communication/messages</a>。"
+                },
+                "postal_service": {
+                    "sender": "邮政服务",
+                    "subject": "您有一个包裹",
+                    "template": "发件人：俄罗斯邮政\n收件人：收件人\n主题：您有一个包裹\n\n您有一个来自国外的包裹已到达。\n需要支付海关费用：1500 ₽ 才能领取。\n\n通过链接支付：app.cyb://pay12376/234ujhsdf/sdfioy23y\n否则包裹将退回给寄件人。"
+                },
+                "payment_system": {
+                    "sender": "支付系统",
+                    "subject": "可疑活动",
+                    "template": "发件人：支付安全\n收件人：用户\n主题：可疑活动\n\n检测到您的账户存在可疑活动。\n可能有人试图访问您的资金。\n\n为保护账户，请确认您的数据：\n- 卡号\n- 有效期\n- CVV 码\n- 短信验证码\n\n通过链接前往：app.cyb://dsfkjh/skdjh。"
+                }
+            },
+            "personal": {
+                "dating": {
+                    "sender": "附近约会",
+                    "subject": "女孩们的新消息",
+                    "template": "发件人：附近约会\n收件人：{player_name}\n主题：女孩们的新消息\n\n你好，{player_name}！\n\n过去 24 小时内，有 5 位女孩在约会网站给你留言了。\n要阅读它们，您需要支付高级访问权限：999 ₽/月。\n\n请通过链接支付：app.cyb://dating.nearby/pay15673\n\n此为广告信息。"
+                },
+                "astrology": {
+                    "sender": "占星门户",
+                    "subject": "您今天的星座运势",
+                    "template": "发件人：21 世纪占星术\n收件人：{player_name}\n主题：您今天的星座运势\n\n{player_name}，今天对你来说是重要的一天！\n\n星星预示着一场意外的相遇，它将改变你的生活。\n但要小心——可能会有财务损失。\n\n获取带有详细预测的完整星座运势：\napp.cyb://horoscope/horoscope?name={player_name}\n\n此为广告信息。"
+                },
+                "career": {
+                    "sender": "职业顾问",
+                    "subject": "为您推荐的新职位",
+                    "template": "发件人：职业生涯专业版\n收件人：{player_name}\n主题：为您推荐的新职位\n\n尊敬的 {player_name}，我们为您找到了理想的职位！\n\n职位：跨国公司网络安全\n薪资：300,000 ₽ 起\n远程工作\n\n要求：\n- 1 年以上工作经验\n- 了解网络技术\n- 愿意接受不定时工作制\n\n申请职位：app.cyb://career.consultant/job.openings\n\n此为广告信息。"
+                }
+            },
+        "generator": {
+            "template_not_found": "[垃圾邮件] 未找到模板",
+            "custom_template_added": "[垃圾邮件] 已添加新模板类型 '{template_type}'：{template_subject}",
+            "history_cleared": "[垃圾邮件] 垃圾邮件历史记录已清除",
+            "probability_warning": "[垃圾邮件] 警告：概率总和 {total} 不等于 1.0",
+            "probabilities_updated": "[垃圾邮件] 垃圾邮件概率已更新：{probabilities}",
+            "testing": "测试垃圾邮件生成器：",
+            "total_templates": "模板总数：{count}",
+            "spam_generated": "\n垃圾邮件 #{number}：",
+            "from": "发件人：{sender}",
+            "subject": "主题：{subject}",
+            "type": "类型：{spam_type}",
+            "content_preview": "内容：\n{content}...",
+            "statistics": "\n统计信息：{stats}"
+        }
+    },
+        "errors": {
+            "template_not_found": "未找到模板 '{template}'",
+            "unknown_folder": "未知文件夹：{folder}",
+            "email_type_not_found": "[错误] 未在模板中找到邮件类型 '{email_type}'",
+            "already_sent": "[信息] 邮件 '{email_type}' 今天已发送"
+        },
+        "templates": {
+            "system_welcome": {
+                "sender": "内务部",
+                "subject": "欢迎！",
+                "template": "发件人：内务部-人力资源中心\n收件人：{player_name}\n主题：欢迎！\n\n尊敬的 {player_name}！\n\n欢迎您担任行动搜查部的光荣职位！\n\n您在学业上的成就给我们留下了深刻印象，我们想向您提供这个职位。\n我们期待您的责任心和高质量的工作。\n\n这是您的当前指标：\n当前工作天数：{day}\n您当前的声誉：{reputation}\n您的余额：{money:,.2f} ₽\n\n我们期望您认真履行职责以成功完成工作。\n我们相信您能够胜任并满足我们的期望。\n\n您将很快收到当前任务清单。\n在第一阶段，建议您熟悉工作环境和团队。\n\n监视——是我们的职能。我们的知情权——是您的义务。\n“全景监狱”计划。我们无所不见。\n\n此致，\n内务部人力资源中心"
+            },
+            "error_message": {
+                "sender": "错误",
+                "subject": "错误",
+                "template": "发件人：入侵者\n收件人：错误\n主题：错误\n\n错误错误错误错误错误错误错误错误错误错误错误错误错误\n错误错误错误错误错误错误错误错误错误错误错误错误错误\n错误错误错误错误\n\n"
+            },
+            "system_notification": {
+                "sender": "系统",
+                "subject": "通知",
+                "template": "发件人：{sender}\n收件人：{player_name}\n主题：{subject}\n\n{message}\n\n[此为系统自动消息]"
+            },
+            "mvd_mission_1_intro": {
+                "sender": "内务部",
+                "subject": "第一个任务",
+                "template": "发件人：内务部-行动搜查部\n收件人：{player_name}\n主题：第一个任务\n\n员工 {player_name}！\n\n您的试用期开始了。第一个任务很简单，但很重要。\n您需要熟悉工作环境和监控系统。\n\n学习所有界面元素，特别是终端和监视系统。\n在终端中输入 'help' 命令以获取可用命令列表。\n\n此任务不需要紧急完成，但必须完成\n才能获得对内部系统数据的访问权限。\n\n监视——是我们的职能。我们的知情权——是您的义务。\n\n此致，\n内务部特殊任务部"
+            }
+        },
+        "system_notification": {
+            "subject": "系统通知",
+            "content": "欢迎使用内务部监控系统。\n您的所有行为都会被记录和分析。\n请遵守安全规则并保持忠诚。\n别忘了用“已读”按钮标记邮件！\n（阅读后您可以删除此邮件）",
+            "automated": "[此为系统自动消息]"
+        },
+        "difficulties": {
+            "easy": "简单",
+            "medium": "中等",
+            "hard": "困难",
+            "expert": "专家"
+        },
+        "deadlines": {
+            "until_shift_end": "直到轮班结束",
+            "two_hours": "2 小时",
+            "one_hour": "1 小时",
+            "thirty_minutes": "30 分钟"
+        },
+        "special_email_sent": "[邮件] 已发送特殊邮件：{email_type}",
+        "template_added": "[邮件] 已添加新模板：{template_name}",
+
+        "back_to_surveillance": "← 返回监视",
+        "inbox_messages": "收件箱消息",
+        "view_message": "查看邮件",
+        "mark_as_read": "标记为已读",
+        "delete": "删除",
+        "stats": "📧 邮件数：{total} | ✉ 未读：{unread}",
+        "mvd": "内务部"
+    },
+
+    "settings": {
+        "title": "⚙️ 系统设置",
+        "screen_shown": "设置屏幕已显示",
+
+        "language_group": "语言和界面",
+        "language": "界面语言：",
+
+        "graphics": "图形",
+        "audio": "音频",
+        "game_time": "游戏时间",
+
+        "display_mode": "显示模式：",
+        "visual_effects": "视觉效果",
+        "glitch_effects": "故障效果",
+        "vsync": "垂直同步",
+        "effect_intensity": "效果强度：",
+        "resolution": "窗口分辨率：",
+
+    "display_modes": {
+        "fullscreen": "全屏",
+        "windowed": "窗口化",
+        "borderless": "无边框"
+    },
+
+        "enable_audio": "启用声音",
+        "master_volume": "主音量：",
+        "effects_volume": "效果音量：",
+        "music_volume": "音乐音量：",
+        "typing_sounds": "打字音效",
+        "background_music": "背景音乐",
+        "voice_effects": "语音效果",
+        "environment_sounds": "环境音效",
+        "dynamic_range": "动态范围：",
+
+        "time_speed": "时间速度：",
+        "auto_pause": "在菜单中自动暂停",
+        "show_time_widget": "显示时间小部件",
+
+        "apply": "应用设置",
+        "reset": "重置为默认",
+        "test_sound": "测试声音",
+        "back": "← 返回菜单"
+    },
+
+    "help": {
+        "helping": "帮助",
+        "tab_basics": "基础",
+        "tab_terminal": "终端",
+        "tab_controls": "控制",
+        "tab_skills": "技能",
+        "back_button": "🔙 返回菜单",
+        "screen_shown": "帮助屏幕已显示",
+
+        "basics_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #00bfff;\">🎮 游戏基础</h2><p><b>«SIBERIA-SOFTWARE»</b> 是一款模拟在 <b>«西伯利亚软件»</b> 公司网络安全领域工作的模拟器。</p><h3 style=\"color: #00ff88;\">游戏目标：</h3><ul><li>完成日常任务以在职业生涯中晋升</li><li>发展网络安全技能</li><li>赚钱（卢布）并提高声誉</li><li>避免被安全系统发现</li></ul><h3 style=\"color: #00ff88;\">界面：</h3><p>游戏界面由三个主要面板组成：</p><ul><li><span style=\"color: #00bfff;\">左侧面板</span> - 员工信息、余额、声誉、当前任务和技能</li><li><span style=\"color: #00bfff;\">中央面板</span> - 用于执行命令的终端</li><li><span style=\"color: #00bfff;\">右侧面板</span> - 监控摄像头和安全系统日志</li></ul><h3 style=\"color: #00ff88;\">游戏开始：</h3><ol><li>通过主菜单开始新的轮班</li><li>在注册时输入您的姓名和姓氏</li><li>完成第一个任务 \"查看\"邮件\"\"</li><li>使用终端执行任务</li></ol></div>",
+
+        "terminal_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #00ff00;\">⌨️ 终端命令</h2><h3 style=\"color: #00ff88;\">基本命令：</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #002200;\"><th style=\"color: #00ff00; text-align: left;\">命令</th><th style=\"color: #00ff00; text-align: left;\">描述</th><th style=\"color: #00ff00; text-align: left;\">示例</th></tr><tr><td><code style=\"color: #00ffff;\">help</code></td><td>显示所有命令列表</td><td><code>help</code></td></tr><tr><td><code style=\"color: #00ffff;\">scan</code></td><td>扫描网络以查找设备</td><td><code>scan</code></td></tr><tr><td><code style=\"color: #00ffff;\">connect [IP]</code></td><td>通过 IP 地址连接到设备</td><td><code>connect 192.168.1.1</code></td></tr><tr><td><code style=\"color: #00ffff;\">hack [目标]</code></td><td>入侵指定目标</td><td><code>hack server1</code></td></tr><tr><td><code style=\"color: #00ffff;\">tasks</code></td><td>显示当前任务</td><td><code>tasks</code></td></tr><tr><td><code style=\"color: #00ffff;\">clear</code></td><td>清除终端屏幕</td><td><code>clear</code></td></tr><tr><td><code style=\"color: #00ffff;\">dir</code></td><td>显示当前目录中的文件</td><td><code>dir</code></td></tr><tr><td><code style=\"color: #00ffff;\">ipconfig</code></td><td>显示网络设置</td><td><code>ipconfig</code></td></tr><tr><td><code style=\"color: #00ffff;\">whoami</code></td><td>当前用户信息</td><td><code>whoami</code></td></tr></table><h3 style=\"color: #00ff88;\">使用提示：</h3><ul><li>使用 <span style=\"color: #00ffff;\">Tab</span> 进行命令自动补全</li><li>使用箭头 <span style=\"color: #00ffff;\">↑</span> 和 <span style=\"color: #00ffff;\">↓</span> 浏览命令历史记录</li><li>所有命令区分大小写</li><li>输入 <code>命令 --help</code> 获取特定命令的帮助</li></ul></div>",
+
+        "controls_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #ffff00;\">🎮 控制和快捷键</h2><h3 style=\"color: #ffaa00;\">快捷键：</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #332200;\"><th style=\"color: #ffff00; text-align: left;\">按键</th><th style=\"color: #ffff00; text-align: left;\">动作</th><th style=\"color: #ffff00; text-align: left;\">描述</th></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">F1</kbd></td><td>帮助</td><td>打开此帮助窗口</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">ESC</kbd></td><td>菜单</td><td>返回主菜单</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Ctrl + S</kbd></td><td>保存</td><td>快速保存游戏</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Ctrl + L</kbd></td><td>加载</td><td>快速加载游戏</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Ctrl + Q</kbd></td><td>退出</td><td>退出游戏</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Tab</kbd></td><td>自动补全</td><td>终端中命令自动补全</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">↑ / ↓</kbd></td><td>历史记录</td><td>浏览命令历史记录</td></tr></table><h3 style=\"color: #ffaa00;\">界面：</h3><ul><li><b>鼠标左键</b> - 选择界面元素</li><li><b>鼠标右键</b> - 上下文菜单（在可用时）</li><li><b>鼠标滚轮</b> - 滚动列表和文本</li><li><b>Enter</b> - 在终端中确认输入</li></ul><h3 style=\"color: #ffaa00;\">控制设置：</h3><p>所有快捷键都可以在游戏设置中重新分配。</p></div>",
+
+        "skills_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #ff55ff;\">🎯 技能系统</h2><p>技能决定您在各个工作方面的效率。技能等级从 1 到 10。</p><h3 style=\"color: #ff88ff;\">技能描述：</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #330033;\"><th style=\"color: #ff55ff; text-align: left;\">技能</th><th style=\"color: #ff55ff; text-align: left;\">描述</th><th style=\"color: #ff55ff; text-align: left;\">如何提升</th></tr><tr><td><span style=\"color: #ff5555; font-weight: bold;\">入侵</span></td><td>入侵系统、绕过防御的能力</td><td>完成入侵任务，使用终端</td></tr><tr><td><span style=\"color: #55ff55; font-weight: bold;\">社会工程学</span></td><td>操纵员工以获取访问权限的能力</td><td>与 NPC 互动，完成社交任务</td></tr><tr><td><span style=\"color: #5555ff; font-weight: bold;\">编程</span></td><td>创建脚本、实用程序和漏洞利用程序</td><td>在终端中编写代码，解决编程任务</td></tr><tr><td><span style=\"color: #ffff55; font-weight: bold;\">潜行</span></td><td>避免被安全系统发现的能力</td><td>在不被发现的情况下完成任务，使用隐藏命令</td></tr><tr><td><span style=\"color: #55ffff; font-weight: bold;\">分析</span></td><td>分析数据和发现漏洞的能力</td><td>分析日志，研究网络数据包</td></tr><tr><td><span style=\"color: #ffaa55; font-weight: bold;\">网络安全</span></td><td>了解网络协议和防护技术</td><td>配置网络设备，保护系统</td></tr></table><h3 style=\"color: #ff88ff;\">技能等级：</h3><ul><li><span style=\"color: #ff5555;\">1-3：新手</span> - 基础知识</li><li><span style=\"color: #ffff55;\">4-6：熟练</span> - 良好的理解</li><li><span style=\"color: #55ff55;\">7-8：专家</span> - 专业水平</li><li><span style=\"color: #55ffff;\">9-10：大师</span> - 最高水平的掌握</li></ul><h3 style=\"color: #ff88ff;\">提示：</h3><ul><li>均衡发展所有技能</li><li>复杂任务提供更多经验</li><li>某些任务要求最低技能等级</li><li>高技能等级开启新机会</li></ul></div>"
+    },
+
+    "about": {
+        "title": "SIBERIA-SOFTWARE - 网络安全模拟器",
+        "version": "版本：<b>0.1.6</b>",
+        "back_button": "🔙 返回菜单",
+        "screen_shown": "'关于程序' 屏幕已显示",
+
+        "html_content": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6;\">\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(0, 191, 255, 0.1); border-left: 4px solid #00bfff; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">🎮</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #00bfff; margin-bottom: 5px;\">描述</div>\n        <div style=\"color: #cccccc;\">\n            <b>«SIBERIA-SOFTWARE»</b> 是一款网络安全工作模拟器。\n            您扮演 <b>«西伯利亚软件»</b> 公司的新员工，必须\n            完成日常任务，发展技能并在职业生涯中晋升。\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 215, 0, 0.1); border-left: 4px solid #ffd700; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">🌟</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ffd700; margin-bottom: 5px;\">特点</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00ff00;\">发展网络安全技能</span><br>\n            • <span style=\"color: #00ff00;\">动态任务系统</span><br>\n            • <span style=\"color: #00ff00;\">交互式环境</span><br>\n            • <span style=\"color: #00ff00;\">角色属性系统</span><br>\n            • <span style=\"color: #00ff00;\">进度保存功能</span>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(0, 255, 0, 0.1); border-left: 4px solid #00ff00; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">👥</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #00ff00; margin-bottom: 5px;\">开发人员</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00bfff;\">编程：</span> Sad_Smile<br>\n            • <span style=\"color: #00bfff;\">设计：</span> Sad_Smile<br>\n            • <span style=\"color: #00bfff;\">测试：</span> Sad_Smile\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 0, 0, 0.1); border-left: 4px solid #ff5555; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">📞</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ff5555; margin-bottom: 5px;\">联系方式</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00ffff;\">电子邮件：</span> \n              <a href=\"mailto:sapportsadsmile@gmail.com\" \n                 style=\"color: #00bfff; text-decoration: none;\">\n                 sapportsadsmile@gmail.com</a><br>\n            • <span style=\"color: #00ffff;\">网站：</span> \n              <a href=\"https://sikorsky-support-center.netlify.app/\" \n                 style=\"color: #00bfff; text-decoration: none;\">\n                 https://sikorsky-support-center.netlify.app/</a><br>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 255, 0, 0.1); border-left: 4px solid #ffff00; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">📄</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ffff00; margin-bottom: 5px;\">许可证</div>\n        <div style=\"color: #cccccc;\">\n            本程序根据 \n            <span style=\"color: #ff8800; font-weight: bold;\">MIT</span> 许可证分发。<br><br>\n            \n            <span style=\"font-size: 12px; color: #888888;\">\n            允许：商业使用、修改、分发、私人使用。<br>\n            要求：注明作者和许可证。<br>\n            禁止：责任和保证。\n            </span>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin-top: 30px; padding: 15px; background: rgba(0, 0, 0, 0.3); border: 1px solid #333; border-radius: 5px; text-align: center;\">\n    <div style=\"color: #00bfff; font-size: 18px; font-weight: bold; margin-bottom: 5px;\">\n        SIKORSKY'S INCORPORATED\n    </div>\n    <div style=\"color: #888888; font-size: 12px;\">\n        © 2025-2026 Sikorsky's Incorporated. 保留所有权利。<br>\n        <span style=\"color: #666666;\">Siberia-Soft Division</span>\n    </div>\n</div>\n\n</div>"
+    },
+
+    "common": {
+        "error": "错误",
+        "confirm_exit": "确认退出",
+        "cancel": "取消",
+        "ok": "确定"
+    },
+
+    "config": {
+        "loaded": "配置已加载",
+        "created": "配置已创建",
+        "updated": "配置已更新",
+        "read_error": "读取配置错误"
+    },
+
+    "error": {
+        "language_setup": "语言设置错误",
+        "config_load": "加载配置错误",
+        "new_game_start": "开始新游戏错误",
+        "game_load": "加载游戏错误",
+        "game_save": "保存游戏错误",
+        "config_save": "保存配置错误",
+        "audio_apply": "应用音频设置错误"
+    },
+
+    "graphics": {
+        "applied": "图形设置已应用"
+    },
+
+    "audio": {
+        "applied": "音频设置已应用"
+    },
+
+    "test": {
+        "first_name": "伊万",
+        "last_name": "伊万诺夫",
+        "player_name": "伊万·伊万诺夫",
+        "player": "玩家",
+        "day": "天数",
+        "starting_shift": "开始轮班...",
+        "current_task": "当前任务",
+        "task_progress": "任务进度",
+        "email_count": "邮件数量",
+        "unread_emails": "未读邮件数",
+        "email_from": "来自的邮件",
+        "read": "已读",
+        "important": "重要",
+        "mvd_found": "找到来自内务部的邮件，内容为",
+        "opening_email": "正在打开邮件...",
+        "progress_after": "打开邮件后的进度",
+        "reading_mvd": "正在阅读内务部邮件...",
+        "email_read": "邮件已读",
+        "unread_after": "阅读后的未读邮件数",
+        "tasks_completed": "已完成任务数",
+        "adding_email": "正在添加测试邮件...",
+        "test_system": "测试系统",
+        "test_message": "测试消息",
+        "test_content": "这是用于测试系统的测试消息。",
+        "email_added": "已添加邮件，发件人为",
+        "total_emails": "邮件总数",
+        "unread": "未读",
+        "saving_game": "正在保存游戏...",
+        "loading_game": "正在加载游戏...",
+        "loaded_player": "已加载的玩家",
+        "loaded_emails": "已加载的邮件数",
+        "file_deleted": "测试文件已删除",
+        "completed": "测试完成"
+    },
+
+    "styles": {
+        "loaded_success": "样式已成功从 styles.py 加载",
+        "load_error": "加载样式错误",
+        "loaded_from_file": "样式已从文件 styles.qss 加载",
+        "file_error": "从文件加载样式错误"
+    },
+
+    "fonts": {
+        "loaded": "字体已加载",
+        "load_error": "加载字体错误",
+        "not_found": "未找到 Source Code Pro 字体。使用标准等宽字体。"
+    },
+
+    "dirs": {
+        "created": "目录已创建/检查"
+    },
+
+    "intro": {
+        "completed": "开场已完成，正在显示主窗口...",
+        "already_shown": "开场已显示，正在跳过..."
+    },
+
+    "game_state": {
+        "skill_hacking": "入侵",
+        "skill_social_engineering": "社会工程学",
+        "skill_programming": "编程",
+        "skill_stealth": "潜行",
+        "skill_analysis": "分析",
+        "skill_network_security": "网络安全",
+        "initial_task": "检查邮件并阅读内务部的紧急邮件",
+        "task_check_email": "检查邮件并阅读内务部的紧急邮件",
+        "task_scan_network": "扫描网络漏洞",
+        "task_update_antivirus": "更新防病毒数据库",
+        "task_check_security_logs": "检查安全日志",
+        "task_configure_firewall": "配置防火墙",
+        "task_analyze_traffic": "分析可疑流量",
+        "task_install_updates": "安装安全更新",
+        "task_check_backups": "检查备份",
+        "task_setup_vpn": "配置 VPN 连接",
+        "task_audit_users": "进行用户审计",
+        "task_test_recovery": "测试恢复系统",
+        "task_familiarize": "熟悉界面，同时等待您的第一个任务",
+        "difficulty_easy": "简单",
+        "difficulty_medium": "标准",
+        "difficulty_hard": "困难",
+        "difficulty_expert": "专家",
+        "task_template": "执行 {modifier} 任务：{task}",
+        "special_email_config": "错误邮件 - 在第一个任务完成后 60 分钟发送",
+        "skill_level_novice": "新手",
+        "skill_level_apprentice": "学徒",
+        "skill_level_experienced": "熟练",
+        "skill_level_expert": "专家",
+        "skill_level_master": "大师",
+        "stress_low": "低",
+        "stress_medium": "中",
+        "stress_high": "高",
+        "stress_critical": "严重",
+        "energy_low": "低",
+        "energy_medium": "中",
+        "energy_high": "高",
+        "energy_full": "满",
+        "task_completed_notification": "任务 '{task}' 成功完成。奖励：{money:.2f} ₽",
+        "save_success": "[保存] 游戏已保存至 {filename}",
+        "load_error": "[错误] 无法加载存档：{error}",
+        "save_not_found": "[信息] 未找到存档：{filename}",
+        "special_email_sent": "[游戏] 已发送特殊邮件：{type}",
+        "special_email_config_added": "[游戏] 已添加邮件配置：{type}",
+        "special_email_toggled": "[游戏] 邮件 '{type}' {status}",
+        "enabled": "已启用",
+        "disabled": "已禁用",
+        "statistics": {
+            "name": "姓名",
+            "day": "天数",
+            "tasks_completed": "完成任务数",
+            "reputation": "声誉",
+            "balance": "余额",
+            "shift_time": "轮班时间",
+            "energy": "精力",
+            "stress": "压力",
+            "unread_emails": "未读邮件数",
+            "game_date": "游戏日期",
+            "shift_progress": "轮班进度",
+            "skills": "技能"
+        }
+    },
+
+    "status": {
+        "encrypting_channel": "正在加密通道...",
+        "checking_access": "正在检查访问权限...",
+        "sync_with_hq": "正在与总部同步...",
+        "loading_missions": "正在加载任务...",
+        "connecting_to_global_network": "正在连接到全球网络...",
+        "checking_security_system": "正在检查安全系统...",
+        "loading_configuration": "正在加载配置...",
+        "initializing_terminal": "正在初始化终端...",
+        "call_forwarding": "正在转接呼叫...",
+        "sending_admin": "正在让系统管理员去查邮件...",
+        "remembering_name": "正在回想自己的名字...",
+        "loading_junk": "正在加载无用垃圾...",
+        "updating_software": "正在更新软件...",
+        "leaving_feedback": "你会写评论吗？...",
+        "menu_idle": "你会在菜单里坐很久吗？...",
+        "virus_scan": "正在扫描病毒...",
+        "updating_database": "正在更新数据库...",
+        "backup": "正在备份...",
+        "memory_optimization": "正在优化内存...",
+        "calibrating_sensors": "正在校准传感器...",
+        "visit_website": "请访问我的网站..."
+    },
+
+    "office": {
+        "ivan": "伊万·彼得罗夫",
+        "maria": "玛丽亚·西多罗娃",
+        "alexey": "阿列克谢·伊万诺夫",
+        "olga": "奥尔加·尼古拉耶娃",
+        "status_working": "工作中",
+        "status_meeting": "会议中",
+        "status_report": "撰写报告中",
+        "status_break": "休息中",
+        "surveillance_camera": "监控摄像头 #4",
+        "active": "已激活",
+        "glitch": "故障"
+    },
+
+    "tasks": {
+        "check_mvd_email": "检查邮件并阅读内务部的邮件",
+        "scan_network": "扫描网络漏洞"
+    },
+
+    "cutscene": {
+        "press_to_continue": "按 Enter 键继续...",
+        "press_to_finish": "按 Enter 键完成...",
+        "skip": "跳过",
+        "part1": "我叫 {player_name}。从小我就被互联网的世界所吸引。由于与被定罪亲属的关系，我的职业生涯并不顺利：到处都遭到拒绝。但是有一天，晚上回到家，我在门边发现了一张带有 \"内务部 - 西伯利亚软件\" 标志的奇怪纸条。便条上邀请我到内务部担任监控和监督领域的最低职位——\"行动搜查部\"。大约三年前我向那里提交了工作申请，现在终于收到了回复。我甚至对这个职位感到非常高兴：终于，我不必为了微薄的薪水四处打零工，不必每天生活在恐惧中，我的冰箱里不会再塞满速食面了。",
+        "part2": "至于家谱关系，我的叔叔有着不那么清白的过去，他在神秘失踪之前做了一堆不光彩的事情。",
+        "part3": "总的来说，失踪在我们国家并不少见。人们可能会认为这个故事类似于乔治·奥威尔的《1984》，这是我小时候喜欢的书，但事实并非如此。在这个国家，一切都更加神秘和复杂。这里有更多的看守，更多的耳朵和眼睛。目前，SIBERIA-SOFTWARE 公司在全国安装的摄像头数量上处于领先地位。那么，这到底是一家什么样的公司？它取代了我们的总统，它以 \"安全\" 为名沉迷于控制。我不否认，盗窃和犯罪数量大幅减少，全国的犯罪率下降到了 5%，但不幸的是，死亡和谋杀并没有因此减少，反而增加了数倍。这一切都与该国再次允许执行死刑有关。人们可能会问一个合乎逻辑的问题：为什么我们不推翻它或选择另一位领导者？一切都很简单：SIBERIA-SOFTWARE 是一家庞大的公司，它掌握着死亡之镰，并用它砍掉所有不受欢迎的人。根本没有人来推翻，而警察保护这家公司，仅仅是因为他们几乎可以为所欲为，以 \"为了\" 人民和国家的利益，最重要的是他们不与权力机构对抗。",
+        "final_phrase": "欢迎来到 SIBERIA-SOFTWARE 公司。"
+    },
+
+    "skillsmn": {
+        "title": "⚡ 员工的网络技能 ⚡",
+        "back_button": "返回",
+        "no_skills": "技能未加载...",
+        "stats_format": "📊 统计信息：{total} 项技能 | 平均等级：{avg:.1f}/10 | 进度：{progress:.0f}% | 最高：{max_name} ({max_level}/10)",
+        "tips": "💡 提示：\n• 将鼠标悬停在技能上以查看详细信息\n• 通过完成任务提高等级\n• 高技能开启复杂任务的访问权限",
+
+        "hacking": "入侵",
+        "hacking_short": "入侵",
+        "hacking_desc": "入侵系统，绕过防御，查找漏洞",
+
+        "social": "社会工程学",
+        "social_short": "社会工程",
+        "social_desc": "操纵人们以获取信息",
+
+        "programming": "编程",
+        "programming_short": "编程",
+        "programming_desc": "创建代码、脚本和自动化",
+
+        "stealth": "潜行",
+        "stealth_short": "潜行",
+        "stealth_desc": "隐藏痕迹，网络匿名",
+
+        "analysis": "分析",
+        "analysis_short": "分析",
+        "analysis_desc": "数据分析，发现规律",
+
+        "network": "网络安全",
+        "network_short": "网络",
+        "network_desc": "网络防护，入侵检测",
+
+        "level_novice": "新",
+        "level_apprentice": "学",
+        "level_experienced": "熟",
+        "level_expert": "专",
+        "level_master": "大",
+
+        "level_novice_full": "新手",
+        "level_apprentice_full": "学徒",
+        "level_experienced_full": "熟练",
+        "level_expert_full": "专家",
+        "level_master_full": "大师"
+    }
+}

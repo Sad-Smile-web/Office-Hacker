@@ -1,0 +1,641 @@
+{
+    "app": {
+        "name": "SIBERIA-SOFTWARE",
+        "title": "SIBERIA-SOFTWARE - SIMULATOR SECURITATIS CYBERNETICAE",
+        "office_hacker": "SIBERIA-SOFTWARE",
+        "startup_complete": "🚀 Fenestra principalis initializata est",
+        "language_set": "Lingua constituta: {language}",
+        "widgets_initialized": "Elementa visualia initializata sunt",
+        "timers_setup": "Horologia constituta sunt",
+        "shortcuts_setup": "Claves compendiariae constitutae sunt",
+        "language_changed_to": "Lingua mutata in: {language}",
+        "icon_loaded": "Icon applicationis onerata est",
+        "icon_error": "Error onerandi iconis",
+        "closed": "Applicatio terminata."
+    },
+
+    "browser": {
+        "title": "Navigator SIBERIA",
+        "back": "Retro",
+        "forward": "Porro",
+        "reload": "Reonerare",
+        "go": "Ire",
+        "url_placeholder": "Insere URL (app.cyb://...)",
+        "loading": "Oneratur {url}...",
+        "loaded": "Oneratum: {url}",
+        "ready": "Paratus",
+        "no_page_to_reload": "Nulla pagina reoneranda",
+        "no_forward": "Historia porro non praesto est",
+
+        "error": {
+            "title": "Error Navigatoris",
+            "invalid_url": "URL non validus: {url}",
+            "invalid_url_format": "Formatum URL non validum",
+            "load_failed": "Error onerandi paginae: {error}"
+        },
+
+        "categories": {
+            "marketplace": "Forum Internetale",
+            "entertainment": "Oblectationes",
+            "career": "Cursus honorum",
+            "finance": "Res nummariae",
+            "security": "Securitas",
+            "social": "Retia socialia"
+        },
+
+        "security_warning": {
+            "title": "⚠ ATTENTIO",
+            "message": "Hic est demonstrator navigatoris intra ludum. Omnia situs ficti sunt et ad discendam securitatem cyberneticam creata.",
+            "tips": [
+                "Ne veras notas in sitibus fictis inseras",
+                "Memento hoc esse simulationem scholarem",
+                "Situs veri numquam petunt signum CVV per epistulam electronicam"
+            ]
+        }
+    },
+
+    "menu": {
+        "title": "MENU PRINCIPALE",
+        "new_game": "🚀 NOVAM VICEM INCIRE",
+        "load_game": "📂 SERVATUM ONERARE",
+        "settings": "⚙️ INSTITUTIONES",
+        "help": "❓ AUXILIUM",
+        "about": "ℹ️ DE PROGRAMMATE",
+        "exit": "🚪 EXITUS",
+        "office": "SIBERIA-SOFTWARE",
+        "connecting": "Coniungitur cum systemate...",
+        "opican": "Tu es novus operarius societatis 'SIBERIA-SOFT'.\nTuum munus est famam restituere\net artes securitatis cyberneticae augere.\n\nNotae:\n• Systema missionum dynamicum\n• Ambitus interactivus\n• Systema famae et cursus honorum\n•ATTENTIO! LUDUS NON DOCEBIT TE VERUM INTRUSIONEM!",
+        "screen_shown": "Ostentum menu monstratum est"
+    },
+
+    "game": {
+        "employee": "Operarius",
+        "employee_status": "👤 STATUS OPERARII",
+        "skills": "🎯 ARTES",
+        "mail": "📧 Epistulae",
+        "main_menu": "Menu principale",
+        "progress": "Progressus: {progress}%",
+        "balance": "💰 Stipendium: {money}",
+        "reputation": "⭐ Fama: {reputation}",
+        "day": "📅 Dies: {day}",
+        "current_task": "📝 Munus praesens",
+        "system": "Systema",
+        "data_updated_for": "Data renovata pro",
+        "access_mail_system": "Accessus ad systema epistularum",
+        "mvd_email_read": "Epistula a MVRI lecta est",
+        "security_system_title": "SYSTEMA SECURITATIS",
+        "surveillance_system": "SYSTEMA OBSERVATIONIS",
+        "security_log": "Acta securitatis",
+        "mail_client": "CLIENS EPISTULARUM",
+        "camera1": "Camera #1: Aula tertii contignationis",
+        "camera2": "Camera #2: Sectio IT",
+        "camera3": "Camera #3: Servientes",
+        "microphones": "Microphona activa sunt",
+        "motion_sensors": "Sensores motus activi sunt",
+        "status_all_operational": "Omnia systema operantur",
+        "recent_events": "Eventus recentes",
+        "shift_started": "Initium vicis",
+        "security_check": "Probatio securitatis",
+        "daily_meeting": "Consessus cotidianus",
+        "network_activity": "Actio retis",
+        "shift": "Vicis",
+        "welcome": "Salve, {name}!",
+        "welcome_back": "Redisti, {name}!",
+        "new_shift_started": "Nova vicis incepta!",
+        "new_game_started_for": "Novus ludus inceptus pro",
+        "user_canceled_new_game": "Utor novum ludum creare recusavit",
+        "loaded_for": "Ludus oneratus pro",
+        "loaded_successfully": "Ludus feliciter oneratus!",
+        "saved_successfully": "Ludus feliciter servatus!",
+        "autosave_performed": "Autoservatio effecta est",
+        "screen_shown": "Ostentum lusorium monstratum est",
+        "time_paused": "Tempus intermissum est",
+        "time_resumed": "Tempus resumptum est",
+        "audio_disabled": "Sonus deactivatus est",
+        "audio_enabled": "Sonus activatus est",
+        "exit_confirm_title": "Confirmatio exitus",
+        "exit_confirm": "Visne vere exire e ludo?",
+        "exit_to_menu_confirm": "Visne vere in menu principale exire?",
+        "new_game_confirm_title": "Novus ludus",
+        "new_game_confirm": "Visne vere novum ludum incipere? Progressus praesens perdetur.",
+        "new_game_error": "Error creandi novi ludi",
+        "save_error": "Error servandi ludum",
+        "load_error": "Error onerandi ludum",
+        "no_save_title": "Servata non inventa",
+        "no_save_found": "Nulla servata inventa sunt. Incipe novum ludum.",
+        "input_name_title": "Inscriptio operarii",
+        "input_name_instruction": "Insere nomen et cognomen tuum ad inscribendum in systemate MVRI",
+        "input_first_name": "Nomen:",
+        "input_last_name": "Cognomen:",
+        "input_name_hint": "Utere solum litteris et lineolis. Utrumque campum necesse est.",
+        "input_error_title": "Error insertionis",
+        "input_name_required": "Necesse est utrumque campum implere: nomen et cognomen",
+        "input_name_invalid": "Characteres non validi in nomine. Utere solum litteris.",
+        "welcome_email_read": "[LUDUS] Epistula salutationis lecta in {time}. Epistulae venient per 10 minuta.",
+
+        "security_event": {
+            "user_activity": "Actio utentis #{id}",
+            "loyalty_check": "Probatio fidei",
+            "network_scan": "Scrutatio retis",
+            "data_integrity": "Probatio integritatis datorum",
+            "traffic_analysis": "Analysis transmissionis",
+            "monitoring_active": "Observatio activa est",
+            "access_logs": "Probatio actorum accessus",
+            "motion_test": "Test sensorum motus"
+        },
+
+        "error": {
+            "game_widget_update": "Error renovandi GameWidget"
+        },
+
+        "statistics": {
+            "name": "Nomen",
+            "day": "Dies",
+            "tasks_completed": "Munia perfecta",
+            "reputation": "Fama",
+            "balance": "Stipendium",
+            "shift_time": "Tempus vicis",
+            "energy": "Energia",
+            "stress": "Pressio",
+            "unread_emails": "Epistulae non lectae",
+            "game_date": "Dies lusorius",
+            "shift_progress": "Progressus vicis",
+            "skills": "Artes"
+        }
+    },
+
+    "email": {
+        "spam": {
+            "advertisement": {
+                "megamarket": {
+                    "sender": "MegaMercatus",
+                    "subject": "Pretii diminutio 50% in omnia!",
+                    "template": "A: MegaMercatus\nAd: Carissime emptor\nSubiectum: Pretii diminutio 50% in omnia!\n\nCarissime emptor!\n\nSolum hodie et solum tibi pretii diminutio 50% in omnes res in nostro mercatu!\nNe omittas occasionem emendi omnia quae diu voluisti, dimidio pretio.\n\nPromotio valet usque ad finem diei. Festina! <a href=\"app.cyb://market.sale/fresh-products\" style=\"color:#00ffff;\">app.cyb://market.sale/fresh-products</a>\n\nHoc est nuntium promotionis."
+                },
+                "technomir": {
+                    "sender": "TechnoMundus",
+                    "subject": "Novus telephonus mobilis pro 9 999 ₽!",
+                    "template": "A: TechnoMundus\nAd: Cliens potentialis\nSubiectum: Novus telephonus mobilis pro 9 999 ₽!\n\nPraeeptionem novi telephoni mobilis XPhone ZX incepimus!\nNotae principis per incredibile pretium.\n\nMonitor OLED 6.7 pollicum\nMemoria operativa 12 GB\nCamera 108 MP\nPile 5000 mAh\n\nTantum pro 9 999 ₽ loco 39 999 ₽!\nEmere festinate usque ad finem hebdomadis. <a href=\"app.cyb://market.sale/electronics.store\" style=\"color:#00ffff;\">app.cyb://market.sale/electronics.store</a>\n\nHoc est nuntium promotionis."
+                },
+                "online_cinema": {
+                    "sender": "Cinema Interretiale",
+                    "subject": "Abonimentum annuum pro 1 rublo!",
+                    "template": "A: Cinema Online\nAd: Amator cinematographiae\nSubiectum: Abonimentum annuum pro 1 rublo!\n\nVisne omnes pelliculas et series sine restrictionibus spectare?\nAccipe abonimentum annuum in nostro cinematographo solum pro 1 rublo!\n\nPlus quam 50 000 pelliculae et series\nNovitates cinematographicae\nContentus exclusivus\n\nOfferta limitata. Activa per nexus: <a href=\"app.cyb://film.distribution.sale/exclusive.content\" style=\"color:#00ffff;\">app.cyb://film.distribution.sale/exclusive.content</a>\n\nHoc est nuntium promotionis."
+                },
+                "fitness_center": {
+                    "sender": "Centrum Fitness",
+                    "subject": "Mensis exercitationum gratuitus!",
+                    "template": "A: Fitness Pro\nAd: Qui de valetudine curat\nSubiectum: Mensis exercitationum gratuitus!\n\nAperi novum mundum fitness! \nPrimus mensis exercitationum in nostro centro praemium prorsus gratuitus est.\n\nInstrumentum modernum\nExercitatores professionales\nPiscina et sudatorium\n\nInscribe te ad excursionem gratuitam: 87-800-565-65-67-89\n\nHoc est nuntium promotionis."
+                }
+            },
+            "scam": {
+                "fast_loan": {
+                    "sender": "Argentaria Mutui Celeris",
+                    "subject": "Mutuum sub 0%!",
+                    "template": "A: Argentaria Mutui Celeris\nAd: Carissime cliens\nSubiectum: Mutuum sub 0%!\n\nSomniasne de nova raeda vel habitatione? \nNostra argentaria condiciones unicas offert - mutuum sub 0% per annum!\n\nSine testimoniis de reditibus, sine pignore. Decisio intra 5 minuta.\nSumma maxima: 50 000 ₽.\n\nTelephona iam nunc: 87-800-555-65-34-34\n\nHoc est nuntium promotionis."
+                },
+                "cybersecurity": {
+                    "sender": "Securitas Cybernetica Pro",
+                    "subject": "Computatrum tuum infectum est!",
+                    "template": "A: Securitas Cybernetica Pro\nAd: Possessor computatri\nSubiectum: Computatrum tuum infectum est!\n\nSystemata nostra invenerunt computatrum tuum virus infectum esse.\nVirus potest furari signa tua, data argentaria et informationem personalem.\n\nStatim installe nostrum programmata ad purgandum systema!\nDemitte per nexus: <a href=\"app.cyb://computer/computer.wizard\" style=\"color:#00ffff;\">app.cyb://computer/computer.wizard</a>\n\nHoc est nuntium promotionis."
+                },
+                "lottery": {
+                    "sender": "Loterria Publica",
+                    "subject": "Vicisti 1 000 000 ₽!",
+                    "template": "A: Loterria Publica\nAd: Felix victor\nSubiectum: Vicisti 1 000 000 ₽!\n\nGratulamur! Tessera tua №{ticket_number} victor in nostro sorte facta est!\nVicisti 1 000 000 ₽!\n\nAd praemium accipiendum, mitte data tua identitatis et numerum chartae argentariae ad electronicam epistulam: lottery$banki.cyb\n\nFestina ad praemium accipiendum intra 24 horas!"
+                },
+                "investments": {
+                    "sender": "Collocationes 300%",
+                    "subject": "Lucrare 300% per mensem!",
+                    "template": "A: Collocationes Cryptographicae\nAd: Collocator\nSubiectum: Lucrare 300% per mensem!\n\nOccasio unica collocandi in novum projectum cryptographicum!\nNostra suggestio lucrum 300% pro primo mense promittit.\n\nCollocatio minima: 10 000 ₽\nLucrum maximum: infinitum\n\nInscribe per nexus: app.cyb://investor/deposits/profit\n\nHoc est nuntium promotionis."
+                }
+            },
+            "notification": {
+                "social_network": {
+                    "sender": "Rete Sociale SIBERIA.communication",
+                    "subject": "Nuntii novi ab amicis",
+                    "template": "A: ConnectSocial\nAd: {player_name}\nSubiectum: Nuntii novi ab amicis\n\nSalve, {player_name}!\n\nHabes 5 nuntios novos et 3 petitiones amicitiae.\nIngredere in rete sociale ut eventus magni momenti non omittas.\n\nIre in rete sociale: <a href=\"app.cyb://SIBERIA.communication/messages\" style=\"color:#00ffff;\">app.cyb://SIBERIA.communication/messages</a>."
+                },
+                "postal_service": {
+                    "sender": "Servitium Postal",
+                    "subject": "Habes fasciculum",
+                    "template": "A: Post Russiae\nAd: Recipiens\nSubiectum: Habes fasciculum\n\nFasciculum tibi e trans finibus venit.\nAd recipiendum necesse est vectigal portorii solvere: 1500 ₽.\n\nSolve per nexus: app.cyb://pay12376/234ujhsdf/sdfioy23y\nAut fasciculus remittetur mittenti."
+                },
+                "payment_system": {
+                    "sender": "Systema Solutionis",
+                    "subject": "Actio suspiciosa",
+                    "template": "A: Securitas Solutionum\nAd: Utens\nSubiectum: Actio suspiciosa\n\nActio suspiciosa in tuo ratione inventa est.\nFortasse aliquis accessum ad tua pecunia temptavit.\n\nAd rationem tuam defendendam, confirma data tua:\n- Numerus chartae\n- Tempus valitudinis\n- Signum CVV\n- Signum e SMS\n\nI per nexus: app.cyb://dsfkjh/skdjh."
+                }
+            },
+            "personal": {
+                "dating": {
+                    "sender": "Notitiae Prope",
+                    "subject": "Nuntii novi a puellis",
+                    "template": "A: Notitiae Prope\nAd: {player_name}\nSubiectum: Nuntii novi a puellis\n\nSalve, {player_name}!\n\nPer 24 horas 5 puellae tibi nuntios in sito notitiarum reliquerunt.\nUt eos legas, necesse est accessum praemium solvere: 999 ₽/mense.\n\nI per nexus ad solvendum: app.cyb://dating.nearby/pay15673\n\nHoc est nuntium promotionis."
+                },
+                "astrology": {
+                    "sender": "Portale Astrologicum",
+                    "subject": "Horoscopum tuum pro hodie",
+                    "template": "A: Astrologia 21 saeculi\nAd: {player_name}\nSubiectum: Horoscopum tuum pro hodie\n\n{player_name}, hodie tibi dies magni momenti est!\n\nStellae conventum inopinatum praedicunt, quae vitam tuam mutabit.\nSed esto cautus - damna nummaria possibilia sunt.\n\nAccipe horoscopum plenum cum praedictionibus minutis:\napp.cyb://horoscope/horoscope?name={player_name}\n\nHoc est nuntium promotionis."
+                },
+                "career": {
+                    "sender": "Consiliarius Cursus Honorum",
+                    "subject": "Novum munus pro te",
+                    "template": "A: Cursus Honorum Pro\nAd: {player_name}\nSubiectum: Novum munus pro te\n\nCarissime {player_name}, munus perfectum tibi invenimus!\n\nPositio: Securitas cybernetica in societate internationali\nMerces: ab 300 000 ₽\nOpus remotum\n\nRequisitiones:\n- Experientia laboris ab 1 anno\n- Scientia technologiarum retis\n- Paratio ad horarium non normatum\n\nResponde: app.cyb://career.consultant/job.openings\n\nHoc est nuntium promotionis."
+                }
+            },
+        "generator": {
+            "template_not_found": "[SPAM] Formula non inventa",
+            "custom_template_added": "[SPAM] Nova formula typi '{template_type}' addita: {template_subject}",
+            "history_cleared": "[SPAM] Historia epistularum spam purgata",
+            "probability_warning": "[SPAM] Attentio: summa probabilitatum {total} non aequat 1.0",
+            "probabilities_updated": "[SPAM] Probabilitates spam renovatae: {probabilities}",
+            "testing": "Test generatoris spam:",
+            "total_templates": "Omnes formulae: {count}",
+            "spam_generated": "\nSpam #{number}:",
+            "from": "A: {sender}",
+            "subject": "Subiectum: {subject}",
+            "type": "Typus: {spam_type}",
+            "content_preview": "Continentia:\n{content}...",
+            "statistics": "\nStatistica: {stats}"
+        }
+    },
+        "errors": {
+            "template_not_found": "Formula '{template}' non inventa",
+            "unknown_folder": "Fasciculus ignotus: {folder}",
+            "email_type_not_found": "[ERROR] Typus epistulae '{email_type}' non inventus in formulis",
+            "already_sent": "[INFO] Epistula '{email_type}' iam hodie missa est"
+        },
+        "templates": {
+            "system_welcome": {
+                "sender": "MVRI",
+                "subject": "Salve!",
+                "template": "A: MVRI-Centralis Gubernatio Personarum\nAd: {player_name}\nSubiectum: Salve!\n\nCarissime {player_name}!\n\nTe salutamus in honorabili munere Administrationis Operationum et Investigationum!\n\nSuccessus tui in studio nos permoverunt, et hanc positionem tibi offerre velimus. \nSperamus responsalitatem et laborem qualitatis tuae.\n\nHaec sunt indicia tua:\nDies praesens laboris: {day}\nFama tua praesens: {reputation}\nStipendium tuum: {money:,.2f} ₽\n\nExpectatur responsalis adfectus ad officia pro felici perfectione laboris.\nConfidimus te effecturum et expectationes nostras iustificaturum.\n\nProxime acceptionem missionum currentium accipies. \nIn primo gradu, suggerimus tecum notum facere locum laboris et collegas.\n\nObservatio — nostra functio est. Nostra conscientia — tuum officium.\nPROJECTUM «PANOPTICUM». OMNIA VIDEMUS.\n\nCum observantia,\nCentralis Gubernatio Personarum MVRI"
+            },
+            "error_message": {
+                "sender": "ERROR",
+                "subject": "ERROR",
+                "template": "A: Incursor\nAd: ERROR\nSubiectum: ERROR\n\nERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERROR\nERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERRORERROR\nERRORERRORERRORERROR\n\n"
+            },
+            "system_notification": {
+                "sender": "Systema",
+                "subject": "Notification",
+                "template": "A: {sender}\nAd: {player_name}\nSubiectum: {subject}\n\n{message}\n\n[Hoc est nuntium automaticum systematis]"
+            },
+            "mvd_mission_1_intro": {
+                "sender": "MVRI",
+                "subject": "Prima missio",
+                "template": "A: MVRI-Administratio Operationum Specialium\nAd: {player_name}\nSubiectum: Prima missio\n\nOperarie {player_name}!\n\nTempus probationis tuum incipit. Prima missio simplex, sed magni momenti est.\nNecesse est tibi notum facere cum loco laboris et systemate observationis.\n\nDisce omnia elementa interfaciei, praesertim terminalem et systema observationis.\nInsere mandatum 'auxilium' in terminale ad accipiendam indicem mandatorum praesto.\n\nHaec missio non exigit perfectionem urgentem, sed eius completio necessaria est\nad obtinendum accessum ad systemata MVRI.\n\nObservatio — nostra functio est. Nostra conscientia — tuum officium.\n\nCum observantia,\nSectio pro Missionibus Specialibus MVRI"
+            }
+        },
+        "system_notification": {
+            "subject": "Notificatio systematis",
+            "content": "Salve in systemate observationis MVRI.\nOmnes actiones tuae scribuntur et analysantur.\nObserva regulas securitatis et fidelitatem conserva.\nNe obliviscaris epistulas notare cum 'LECTUM'!\n(Post lectionem potes hanc epistulam delere)",
+            "automated": "[Hoc est nuntium automaticum systematis]"
+        },
+        "difficulties": {
+            "easy": "Facilis",
+            "medium": "Media",
+            "hard": "Difficilis",
+            "expert": "Expertus"
+        },
+        "deadlines": {
+            "until_shift_end": "Usque ad finem vicis",
+            "two_hours": "2 horae",
+            "one_hour": "1 hora",
+            "thirty_minutes": "30 minuta"
+        },
+        "special_email_sent": "[EPISTULAE] Epistula specialis missa: {email_type}",
+        "template_added": "[EPISTULAE] Nova formula addita: {template_name}",
+
+        "back_to_surveillance": "← Retro ad observationem",
+        "inbox_messages": "Nuntii intrantes",
+        "view_message": "Videre epistulam",
+        "mark_as_read": "Nota ut lectum",
+        "delete": "Delere",
+        "stats": "📧 Epistulae: {total} | ✉ Non lectae: {unread}",
+        "mvd": "MVRI"
+    },
+
+    "settings": {
+        "title": "⚙️ INSTITUTIONES SYSTEMATIS",
+        "screen_shown": "Ostentum institutionum monstratum est",
+
+        "language_group": "Lingua et interfacies",
+        "language": "Lingua interfaciei:",
+
+        "graphics": "Graphica",
+        "audio": "Audio",
+        "game_time": "Tempus lusorium",
+
+        "display_mode": "Modus ostensionis:",
+        "visual_effects": "Effectus visuales",
+        "glitch_effects": "Effectus glitch",
+        "vsync": "VSync (synchronizatio verticalis)",
+        "effect_intensity": "Intensitas effectuum:",
+        "resolution": "Resolutio fenestrae:",
+
+    "display_modes": {
+        "fullscreen": "Plenus monitor",
+        "windowed": "Fenestratus",
+        "borderless": "Sine margine"
+    },
+
+        "enable_audio": "Activa sonum",
+        "master_volume": "Volumen principale:",
+        "effects_volume": "Volumen effectuum:",
+        "music_volume": "Volumen musicae:",
+        "typing_sounds": "Soni typandi",
+        "background_music": "Musica in fundo",
+        "voice_effects": "Effectus vocis",
+        "environment_sounds": "Soni circumiacentis",
+        "dynamic_range": "Intervalla dynamica:",
+
+        "time_speed": "Velocitas temporis:",
+        "auto_pause": "Automatica intermissio in menu",
+        "show_time_widget": "Monstra elementum temporis",
+
+        "apply": "APPLICA INSTITUTIONES",
+        "reset": "RESETTA AD DEFAULT",
+        "test_sound": "TEST SONI",
+        "back": "← RETRO IN MENU"
+    },
+
+    "help": {
+        "helping": "AUXILIUM",
+        "tab_basics": "Fundamenta",
+        "tab_terminal": "Terminale",
+        "tab_controls": "Gubernatio",
+        "tab_skills": "Artes",
+        "back_button": "🔙 RETRO IN MENU",
+        "screen_shown": "Ostentum auxilii monstratum est",
+
+        "basics_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #00bfff;\">🎮 FUNDAMENTA LUDI</h2><p><b>«SIBERIA-SOFTWARE»</b> — est simulator laboris in spatio securitatis cyberneticae societatis <b>«SIBERIA-SOFT»</b>.</p><h3 style=\"color: #00ff88;\">SCOPUS LUDI:</h3><ul><li>Perfice missiones cotidianas ad ascendendum per scalam cursus honorum</li><li>Excolle artes securitatis cyberneticae</li><li>Lucra pecuniam (rublos) et auge famam</li><li>Vita detectionem per systema securitatis</li></ul><h3 style=\"color: #00ff88;\">INTERFACIES:</h3><p>Interfacies lusoria ex tribus panelis principalibus constat:</p><ul><li><span style=\"color: #00bfff;\">Panel sinistra</span> - informatio de operario, stipendium, fama, munus praesens et artes</li><li><span style=\"color: #00bfff;\">Panel centralis</span> - terminale ad mandata perficienda</li><li><span style=\"color: #00bfff;\">Panel dextra</span> - camera observationis et acta systematis securitatis</li></ul><h3 style=\"color: #00ff88;\">INITIUM LUDI:</h3><ol><li>Incipe novam vicem per menu principale</li><li>Insere nomen et cognomen tuum in inscriptione</li><li>Perfice primam missionem \"Aspice in \"EPISTULAE\"\"</li><li>Utere terminali ad missiones perficiendas</li></ol></div>",
+
+        "terminal_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #00ff00;\">⌨️ MANDATA TERMINALIS</h2><h3 style=\"color: #00ff88;\">MANDATA PRINCIPALIA:</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #002200;\"><th style=\"color: #00ff00; text-align: left;\">Mandatum</th><th style=\"color: #00ff00; text-align: left;\">Descriptio</th><th style=\"color: #00ff00; text-align: left;\">Exemplum</th></tr><tr><td><code style=\"color: #00ffff;\">auxilium</code></td><td>Monstra indicem omnium mandatorum</td><td><code>auxilium</code></td></tr><tr><td><code style=\"color: #00ffff;\">scruta</code></td><td>Scruta rete ad praesentiam instrumentorum</td><td><code>scruta</code></td></tr><tr><td><code style=\"color: #00ffff;\">coniunge [IP]</code></td><td>Coniungere instrumento per IP-address</td><td><code>coniunge 192.168.1.1</code></td></tr><tr><td><code style=\"color: #00ffff;\">frange [scopus]</code></td><td>Frangere scopum indicatum</td><td><code>frange serviens1</code></td></tr><tr><td><code style=\"color: #00ffff;\">missiones</code></td><td>Monstra missiones currentes</td><td><code>missiones</code></td></tr><tr><td><code style=\"color: #00ffff;\">munda</code></td><td>Mundare ostentum terminalis</td><td><code>munda</code></td></tr><tr><td><code style=\"color: #00ffff;\">dir</code></td><td>Monstra fasciculos in catalogo currenti</td><td><code>dir</code></td></tr><tr><td><code style=\"color: #00ffff;\">ipconfig</code></td><td>Monstra institutiones retis</td><td><code>ipconfig</code></td></tr><tr><td><code style=\"color: #00ffff;\">quis sum</code></td><td>Informatio de utente currente</td><td><code>quis sum</code></td></tr></table><h3 style=\"color: #00ff88;\">CONSILIA DE USU:</h3><ul><li>Utere <span style=\"color: #00ffff;\">Tab</span> ad auto-completionem mandatorum</li><li>Sagittae <span style=\"color: #00ffff;\">↑</span> et <span style=\"color: #00ffff;\">↓</span> ad navigandum per historiam mandatorum</li><li>Omnia mandata sensitiva sunt ad maiuscula/minuscula</li><li>Ad obtinendum auxilium de mandato specifico, insere <code>mandatum --auxilium</code></li></ul></div>",
+
+        "controls_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #ffff00;\">🎮 GUBERNATIO ET CLAVES CELERES</h2><h3 style=\"color: #ffaa00;\">CLAVES CELERES:</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #332200;\"><th style=\"color: #ffff00; text-align: left;\">Clavis</th><th style=\"color: #ffff00; text-align: left;\">Actio</th><th style=\"color: #ffff00; text-align: left;\">Descriptio</th></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">F1</kbd></td><td>Auxilium</td><td>Aperire hoc fenestrum auxilii</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">ESC</kbd></td><td>Menu</td><td>Redire in menu principale</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Ctrl + S</kbd></td><td>Servare</td><td>Celer servatio ludi</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Ctrl + L</kbd></td><td>Onerare</td><td>Celer oneratio ludi</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Ctrl + Q</kbd></td><td>Exitus</td><td>Exire e ludo</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">Tab</kbd></td><td>Autocompletio</td><td>Autocompletio mandatorum in terminali</td></tr><tr><td><kbd style=\"background: #444; padding: 3px 6px; border-radius: 3px;\">↑ / ↓</kbd></td><td>Historia</td><td>Navigatio per historiam mandatorum</td></tr></table><h3 style=\"color: #ffaa00;\">INTERFACIES:</h3><ul><li><b>Button mus sinistra</b> - selectio elementorum interfaciei</li><li><b>Button mus dextra</b> - menu contextuale (ubi praesto)</li><li><b>Rotula mus</b> - scrolling indicum et textus</li><li><b>Enter</b> - confirmatio insertionis in terminali</li></ul><h3 style=\"color: #ffaa00;\">INSTITUTIONES GUBERNATIONIS:</h3><p>Omnes claves celeres possunt reassignari in institutionibus ludi.</p></div>",
+
+        "skills_tab": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6; color: #cccccc;\"><h2 style=\"color: #ff55ff;\">🎯 SYSTEMA ARTIS</h2><p>Artes efficacitatem tuam in variis aspectibus laboris determinant. Gradus artis ab 1 ad 10.</p><h3 style=\"color: #ff88ff;\">DESCRIPTIO ARTIS:</h3><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\"><tr style=\"background-color: #330033;\"><th style=\"color: #ff55ff; text-align: left;\">Ars</th><th style=\"color: #ff55ff; text-align: left;\">Descriptio</th><th style=\"color: #ff55ff; text-align: left;\">Quomodo augere</th></tr><tr><td><span style=\"color: #ff5555; font-weight: bold;\">Fractio</span></td><td>Capacitas frangendi systemata, evitandi defensionem</td><td>Perfecito missionum fractionis, usus terminalis</td></tr><tr><td><span style=\"color: #55ff55; font-weight: bold;\">Ingeniaria socialis</span></td><td>Ars manipulandi operarios ad obtinendum accessum</td><td>Interactio cum NPCs, perfecito missionum socialium</td></tr><tr><td><span style=\"color: #5555ff; font-weight: bold;\">Programmatura</span></td><td>Creatio scriptorum, utilitatum et explicatorum</td><td>Scribens codicem in terminali, solvens problemata programmatoria</td></tr><tr><td><span style=\"color: #ffff55; font-weight: bold;\">Latentia</span></td><td>Ars evitandi detectionem per systema securitatis</td><td>Perfecito missionum sine detectione, usus mandatorum latentium</td></tr><tr><td><span style=\"color: #55ffff; font-weight: bold;\">Analysis</span></td><td>Capacitas analysandi data et inveniendi vulnerabilitates</td><td>Analysis actorum, investigatio fasciculorum retis</td></tr><tr><td><span style=\"color: #ffaa55; font-weight: bold;\">Securitas retis</span></td><td>Scientia protocollorum retis et technologiarum defensionis</td><td>Institutiones instrumentorum retis, defensio systematum</td></tr></table><h3 style=\"color: #ff88ff;\">GRADUS ARTIS:</h3><ul><li><span style=\"color: #ff5555;\">1-3: Tiro</span> - Cognitiones fundamentalis</li><li><span style=\"color: #ffff55;\">4-6: Experitus</span> - Bonum intellectum</li><li><span style=\"color: #55ff55;\">7-8: Peritus</span> - Gradus professionalis</li><li><span style=\"color: #55ffff;\">9-10: Magister</span> - Summus gradus peritiae</li></ul><h3 style=\"color: #ff88ff;\">CONSILIA:</h3><ul><li>Excole omnes artes aequabiliter</li><li>Missiones difficiliores plus experientiae dant</li><li>Aliquae missiones requirunt minimum gradum artis</li><li>Gradus altus artis novas opportunitates aperit</li></ul></div>"
+    },
+
+    "about": {
+        "title": "SIBERIA-SOFTWARE - Simulator securitatis cyberneticae",
+        "version": "Versio: <b>0.1.6</b>",
+        "back_button": "🔙 RETRO IN MENU",
+        "screen_shown": "Ostentum 'De programmate' monstratum est",
+
+        "html_content": "<div style=\"font-family: 'Arial', sans-serif; line-height: 1.6;\">\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(0, 191, 255, 0.1); border-left: 4px solid #00bfff; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">🎮</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #00bfff; margin-bottom: 5px;\">DESCRIPTIO</div>\n        <div style=\"color: #cccccc;\">\n            <b>«SIBERIA-SOFTWARE»</b> — est simulator laboris in spatio securitatis cyberneticae. \n            Tu lusis pro novo operario societatis <b>«SIBERIA-SOFT»</b>, qui debet perficere \n            missiones cotidianas, excolere artes et ascendere per scalam cursus honorum.\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 215, 0, 0.1); border-left: 4px solid #ffd700; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">🌟</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ffd700; margin-bottom: 5px;\">NOTAE</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00ff00;\">Excolere artes securitatis cyberneticae</span><br>\n            • <span style=\"color: #00ff00;\">Systema missionum dynamicum</span><br>\n            • <span style=\"color: #00ff00;\">Ambitus interactivus</span><br>\n            • <span style=\"color: #00ff00;\">Systema proprietatum personae</span><br>\n            • <span style=\"color: #00ff00;\">Possibilitas servandi progressum</span>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(0, 255, 0, 0.1); border-left: 4px solid #00ff00; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">👥</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #00ff00; margin-bottom: 5px;\">CREATORES</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00bfff;\">Programmatura:</span> Sad_Smile<br>\n            • <span style=\"color: #00bfff;\">Design:</span> Sad_Smile<br>\n            • <span style=\"color: #00bfff;\">Testatio:</span> Sad_Smile\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 0, 0, 0.1); border-left: 4px solid #ff5555; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">📞</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ff5555; margin-bottom: 5px;\">CONTACTUS</div>\n        <div style=\"color: #cccccc;\">\n            • <span style=\"color: #00ffff;\">Electronic epistula:</span> \n              <a href=\"mailto:sapportsadsmile@gmail.com\" \n                 style=\"color: #00bfff; text-decoration: none;\">\n                 sapportsadsmile@gmail.com</a><br>\n            • <span style=\"color: #00ffff;\">Situs:</span> \n              <a href=\"https://sikorsky-support-center.netlify.app/\" \n                 style=\"color: #00bfff; text-decoration: none;\">\n                 https://sikorsky-support-center.netlify.app/</a><br>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin: 20px 0; padding: 15px; background: rgba(255, 255, 0, 0.1); border-left: 4px solid #ffff00; border-radius: 3px;\">\n<table cellpadding=\"5\">\n<tr>\n    <td style=\"vertical-align: top; padding-right: 10px;\">📄</td>\n    <td>\n        <div style=\"font-size: 16px; font-weight: bold; color: #ffff00; margin-bottom: 5px;\">LICENTIA</div>\n        <div style=\"color: #cccccc;\">\n            Hoc programma sub condicionibus licentiae \n            <span style=\"color: #ff8800; font-weight: bold;\">MIT</span> distribuitur.<br><br>\n            \n            <span style=\"font-size: 12px; color: #888888;\">\n            Permittitur: usus commercialis, modificatio, distributio, usus privatus.<br>\n            Requiritur: attributio auctoris et licentiae.<br>\n            Prohibitum: responsalitas et cautiones.\n            </span>\n        </div>\n    </td>\n</tr>\n</table>\n</div>\n\n<div style=\"margin-top: 30px; padding: 15px; background: rgba(0, 0, 0, 0.3); border: 1px solid #333; border-radius: 5px; text-align: center;\">\n    <div style=\"color: #00bfff; font-size: 18px; font-weight: bold; margin-bottom: 5px;\">\n        SIKORSKY'S INCORPORATED\n    </div>\n    <div style=\"color: #888888; font-size: 12px;\">\n        © 2025-2026 Sikorsky's Incorporated. Omnia iura reservata.<br>\n        <span style=\"color: #666666;\">Siberia-Soft Divisio</span>\n    </div>\n</div>\n\n</div>"
+    },
+
+    "common": {
+        "error": "Error",
+        "confirm_exit": "Confirmatio exitus",
+        "cancel": "Cancella",
+        "ok": "Accipe"
+    },
+
+    "config": {
+        "loaded": "Configuratio onerata",
+        "created": "Configuratio creata",
+        "updated": "Configuratio renovata",
+        "read_error": "Error legendi configurationem"
+    },
+
+    "error": {
+        "language_setup": "Error instituendi linguam",
+        "config_load": "Error onerandi configurationem",
+        "new_game_start": "Error incipere novum ludum",
+        "game_load": "Error onerandi ludum",
+        "game_save": "Error servandi ludum",
+        "config_save": "Error servandi configurationem",
+        "audio_apply": "Error applicandi institutiones audio"
+    },
+
+    "graphics": {
+        "applied": "Institutiones graphicae applicatae"
+    },
+
+    "audio": {
+        "applied": "Institutiones audio applicatae"
+    },
+
+    "test": {
+        "first_name": "Iohannes",
+        "last_name": "Ivanov",
+        "player_name": "Iohannes Ivanov",
+        "player": "Lusor",
+        "day": "Dies",
+        "starting_shift": "Incipimus vicem...",
+        "current_task": "Munus praesens",
+        "task_progress": "Progressus missionis",
+        "email_count": "Numerus epistularum",
+        "unread_emails": "Epistulae non lectae",
+        "email_from": "Epistula a",
+        "read": "Lectum",
+        "important": "Magni momenti",
+        "mvd_found": "Epistula a MVRI inventa cum",
+        "opening_email": "Aperimus epistulas...",
+        "progress_after": "Progressus post aperiendo epistulas",
+        "reading_mvd": "Legimus epistulam a MVRI...",
+        "email_read": "Epistula lecta est",
+        "unread_after": "Epistulae non lectae post lectionem",
+        "tasks_completed": "Missiones perfectae",
+        "adding_email": "Addimus epistulam test...",
+        "test_system": "Systema test",
+        "test_message": "Nuntium test",
+        "test_content": "Hoc est nuntium test ad probandum systema.",
+        "email_added": "Epistula addita cum",
+        "total_emails": "Omnes epistulae",
+        "unread": "Non lectae",
+        "saving_game": "Servatio ludi...",
+        "loading_game": "Oneratio ludi...",
+        "loaded_player": "Lusor oneratus",
+        "loaded_emails": "Epistulae oneratae",
+        "file_deleted": "Fasciculus test deletus",
+        "completed": "Testatio completa"
+    },
+
+    "styles": {
+        "loaded_success": "Styli feliciter onerati ex styles.py",
+        "load_error": "Error onerandi stylos",
+        "loaded_from_file": "Styli onerati ex fasciculo styles.qss",
+        "file_error": "Error onerandi stylos ex fasciculo"
+    },
+
+    "fonts": {
+        "loaded": "Font oneratus",
+        "load_error": "Error onerandi fontem",
+        "not_found": "Font Source Code Pro non inventus. Uti fontem monospatia standard."
+    },
+
+    "dirs": {
+        "created": "Directoria creata/verificata"
+    },
+
+    "intro": {
+        "completed": "Intro completum, monstrantes fenestram principalem...",
+        "already_shown": "Intro iam monstratum, omittimus..."
+    },
+
+    "game_state": {
+        "skill_hacking": "Fractio",
+        "skill_social_engineering": "Ingeniaria socialis",
+        "skill_programming": "Programmatura",
+        "skill_stealth": "Latentia",
+        "skill_analysis": "Analysis",
+        "skill_network_security": "Securitas retis",
+        "initial_task": "Verifica epistulas et lege epistulam urgentem a MVRI",
+        "task_check_email": "Verifica epistulas et lege epistulam urgentem a MVRI",
+        "task_scan_network": "Scrutare rete ad vulnerabilitates",
+        "task_update_antivirus": "Renova bases antivirales",
+        "task_check_security_logs": "Verifica acta securitatis",
+        "task_configure_firewall": "Instituere murum igneum",
+        "task_analyze_traffic": "Analysare transmissionem suspiciosam",
+        "task_install_updates": "Installa renovationes securitatis",
+        "task_check_backups": "Verifica copias subsidiarias",
+        "task_setup_vpn": "Instituere connexionem VPN",
+        "task_audit_users": "Perage auditum utentium",
+        "task_test_recovery": "Testa systema recuperationis",
+        "task_familiarize": "Cum interfacie notus fias, dum primam missionem tuam expectas",
+        "difficulty_easy": "facilem",
+        "difficulty_medium": "standardem",
+        "difficulty_hard": "difficilem",
+        "difficulty_expert": "expertam",
+        "task_template": "Perfice {modifier} missionem: {task}",
+        "special_email_config": "Epistula ERROR - mittitur post perfectionem primae missionis per 60 minuta",
+        "skill_level_novice": "Tiro",
+        "skill_level_apprentice": "Discipulus",
+        "skill_level_experienced": "Experitus",
+        "skill_level_expert": "Peritus",
+        "skill_level_master": "Magister",
+        "stress_low": "Humilis",
+        "stress_medium": "Medius",
+        "stress_high": "Altus",
+        "stress_critical": "Criticus",
+        "energy_low": "Humilis",
+        "energy_medium": "Medius",
+        "energy_high": "Altus",
+        "energy_full": "Plenus",
+        "task_completed_notification": "Missio '{task}' feliciter perfecta. Praemium: {money:.2f} ₽",
+        "save_success": "[SERVATIO] Ludus servatus in {filename}",
+        "load_error": "[ERROR] Non potuit onerare servatum: {error}",
+        "save_not_found": "[INFO] Servatum non inventum: {filename}",
+        "special_email_sent": "[LUDUS] Epistula specialis missa: {type}",
+        "special_email_config_added": "[LUDUS] Configuratio epistulae addita: {type}",
+        "special_email_toggled": "[LUDUS] Epistula '{type}' {status}",
+        "enabled": "activata",
+        "disabled": "deactivata",
+        "statistics": {
+            "name": "Nomen",
+            "day": "Dies",
+            "tasks_completed": "Munia perfecta",
+            "reputation": "Fama",
+            "balance": "Stipendium",
+            "shift_time": "Tempus vicis",
+            "energy": "Energia",
+            "stress": "Pressio",
+            "unread_emails": "Epistulae non lectae",
+            "game_date": "Dies lusorius",
+            "shift_progress": "Progressus vicis",
+            "skills": "Artes"
+        }
+    },
+
+    "status": {
+        "encrypting_channel": "Cifrans canalis...",
+        "checking_access": "Probatio iuris accessus...",
+        "sync_with_hq": "Synchronizatio cum HQ...",
+        "loading_missions": "Oneratio missionum...",
+        "connecting_to_global_network": "Coniunctio ad rete globale...",
+        "checking_security_system": "Probatio systematis securitatis...",
+        "loading_configuration": "Oneratio configurationis...",
+        "initializing_terminal": "Initializatio terminalis...",
+        "call_forwarding": "Redirigentia vocationum...",
+        "sending_admin": "Mittentes sysadmin in folium...",
+        "remembering_name": "Recordantes nomen suum...",
+        "loading_junk": "Oneratio rerum inutilium...",
+        "updating_software": "Renovatio software...",
+        "leaving_feedback": "Scribesne opiniones?...",
+        "menu_idle": "Diutius sedebis in menu?...",
+        "virus_scan": "Scrutatio ad virus...",
+        "updating_database": "Renovatio basium datorum...",
+        "backup": "Copia subsidiaria...",
+        "memory_optimization": "Optimizatio memoriae...",
+        "calibrating_sensors": "Calibratio sensorum...",
+        "visit_website": "Rogo visita meum situm..."
+    },
+
+    "office": {
+        "ivan": "Iohannes Petrov",
+        "maria": "Maria Sidorova",
+        "alexey": "Alexius Ivanov",
+        "olga": "Olga Nikolaeva",
+        "status_working": "Laborat",
+        "status_meeting": "In consessu",
+        "status_report": "Scribit relationem",
+        "status_break": "In intermissione",
+        "surveillance_camera": "CAMERA OBSERVATIONIS #4",
+        "active": "ACTIVA",
+        "glitch": "ERROR"
+    },
+
+    "tasks": {
+        "check_mvd_email": "Verifica epistulas et lege epistulam a MVRI",
+        "scan_network": "Scrutare rete ad vulnerabilitates"
+    },
+
+    "cutscene": {
+        "press_to_continue": "Preme Enter ad continuandum...",
+        "press_to_finish": "Preme Enter ad finiendum...",
+        "skip": "Omittere",
+        "part1": "Me vocant {player_name}. A puero me universitas interretii attrahebat. Propter connexionem cum propinquo judicato, cursus honorum meus non successit: ubique recusabant. Sed una vice, regressus domum sero, animadverti ad ostium chartam miram cum logo «MVRI – Siberia Soft». In charta me invitabant in Ministerium Internorum ad infimum munus in spatio observationis et supervisionis — in «Administrationem Operationum et Investigationum». Fere tres annos ante ibi petitionem de laboro misi, et ecce tandem responsum venit. Insane gaudebam etiam hunc munus: tandem non debebo currere per labores temporarios pro paucis, vivere in timore cotidie, mea cella frigidaria non erit plena pasta instantanea.",
+        "part2": "Quod ad nexus propinquitatis pertinet, patruus meus homo non purissimi praeteriti fuit, qui multa improba facere potuit antequam sine vestigio evanuit.",
+        "part3": "Re vera, disparitiones in nostra terra — non rara. Potest cogitari hanc historiam similiorem esse libro «1984» Georgii Orwell, quae mihi puerulo placuit, sed haudquaquam ita est. In hac terra omnia multo mysteriosiora et perplexiora sunt. Hic plus custodes, plus aures et plus oculi. Hodie corporatio SIBERIA-SOFTWARE in primos evasit pro numero camera per totam terram. Quid igitur est haec corporatio? Praesidem nobis substituit, quae in regimine obside sub specie providendae \"securitatis\" pro nobis. Non disputo, furta et crimina ordine diminuta sunt, criminalitas per totam terram ad 5% descendit, sed, pro dolor, mortes et homicidia ex hoc non diminuta sunt, sed contra multiplicata. Hoc omne coniungitur cum permissione iterum mortis poenam in terra exercendae. Potest quaerere: cur non eum evertimus vel alium ducem eligimus? Omnia satis simplex: SIBERIA-SOFTWARE — ingens corporatio, quae falcem mortis manu tenet et eam omnes inopportunos secat. Evertendi simpliciter nulli sunt, et vigiles hanc corporationem tuentur quia eis fere omnia permittuntur pro \"bono\" incolarum et terrae, praecipuum est ut non contradicant potestati.",
+        "final_phrase": "Salve in corporationem SIBERIA-SOFTWARE."
+    },
+
+    "skillsmn": {
+        "title": "⚡ ARTES CYBERNETICAE OPERARII ⚡",
+        "back_button": "RETRO",
+        "no_skills": "Artes non oneratae...",
+        "stats_format": "📊 Statistica: {total} artes | Gradus medius: {avg:.1f}/10 | Progressus: {progress:.0f}% | Max: {max_name} ({max_level}/10)",
+        "tips": "💡 Consilia:\n• Pone cursorem supra artem ad videnda singula\n• Gradus augentur perficiendo missiones\n• Artes altae accessum ad missiones difficiles aperiunt",
+
+        "hacking": "Fractio",
+        "hacking_short": "FRACTIO",
+        "hacking_desc": "Fractio systematum, circumventio defensionis, quaestio vulnerabilitatum",
+
+        "social": "Ingeniaria socialis",
+        "social_short": "ING. SOC.",
+        "social_desc": "Manipulatio hominum ad obtinendam informationem",
+
+        "programming": "Programmatura",
+        "programming_short": "PROGRAMM.",
+        "programming_desc": "Creatio codicis, scriptorum et automationis",
+
+        "stealth": "Latentia",
+        "stealth_short": "LATENTIA",
+        "stealth_desc": "Celatio vestigiorum, anonymitas in rete",
+
+        "analysis": "Analysis",
+        "analysis_short": "ANALYSIS",
+        "analysis_desc": "Analysis datorum, identificatio regularitatum",
+
+        "network": "Securitas retis",
+        "network_short": "RETE",
+        "network_desc": "Defensio retis, detectio intrusionum",
+
+        "level_novice": "T",
+        "level_apprentice": "D",
+        "level_experienced": "E",
+        "level_expert": "P",
+        "level_master": "M",
+
+        "level_novice_full": "Tiro",
+        "level_apprentice_full": "Discipulus",
+        "level_experienced_full": "Experitus",
+        "level_expert_full": "Peritus",
+        "level_master_full": "Magister"
+    }
+}
